@@ -9,8 +9,6 @@ $shadow-dark: rgba(40, 40, 40, 0.5);
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
 
-// structure, navigation, animation, general usage
-
 .fade {
     transition: opacity 800ms, transform 800ms;
 }
@@ -208,7 +206,7 @@ section {
                 margin: 24px 0;
                 background-color: $white;
                 box-shadow: 2px -2px 4px $shadow-light, -2px 2px 4px $shadow-dark;
-                transition: box-shadow 400ms;
+                transition: box-shadow 400ms, color 400ms;
             }
 
             .active {
@@ -248,8 +246,6 @@ section {
         box-shadow: none;
     }
 }
-
-// home
 
 .initial-fading-wrapper {
     width: 100vw;
@@ -462,55 +458,72 @@ hr {
     box-shadow: 2px -2px 4px $shadow-light, -2px 2px 4px $shadow-dark;
 }
 
-// explore
+.prompt-container {
+    margin-top: 75px;
+    padding-left: 20px;
 
-.search-options-wrapper {
-    display: block;
-    width: 100vw;
-    min-height: 100vh;
-    
-    .search-options-container {
-        width: 100vw;
-        padding: 88px 0;
-        transform: translateY(calc(max(50vh - 50%, 0px)));
-        text-align: center;
-
-        .search-option-container {
-            display: inline-block;
-            width: calc(min(420px, 100vw - 40px));
-            height: 300px;
-            margin: 20px;
-            border-radius: 20px;
-            background-color: $light;
-            opacity: 0;
-            animation-name: static-fade-in;
-            animation-duration: 800ms;
-            animation-fill-mode: forwards;
-            filter: drop-shadow(0 0 0 $shadow);
-            transition: filter 400ms, background-color 400ms;
-
-            .icon-container {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                height: 185px;
-
-                .icon {
-                    font-size: 80px;
-                    color: $black;
-                }
-            }
-        }
-
-        .search-option-container:hover {
-            background-color: $white;
-            filter: drop-shadow(0 0 8px $shadow);
-        }
+    .prompt-text {
+        background-size: 570px 150px;
+        background-position: center;
+        background-image: url("./assets/images/rainbow.jpg");
+        background-clip: text;
+        color: transparent;
     }
 }
 
-.search-wrapper {
-    width: 100vw;
-    height: 2000vh;
-    background-color: $light;
+.query-selector-container {
+    display: flex;
+    flex-direction: row;
+    width: min-content;
+    max-width: calc(100vw - 20px);
+    padding-left: 20px;
+    margin: auto;
+    margin-top: 20px;
+    overflow-x: scroll;
+
+    .query-option {
+        padding: 10px 20px;
+        margin: 20px;
+        margin-left: 0;
+        border-radius: 10px;
+        box-shadow: 2px -2px 4px $shadow-light, -2px 2px 4px $shadow-dark;
+        transition: box-shadow 400ms, color 400ms;
+    }
+
+    .query-option:hover {
+        box-shadow: none;
+    }
+
+    .active {
+        box-shadow: none;
+        color: $shadow;
+    }
+}
+
+.action-label {
+    margin: 160px 20px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.people-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: calc(100vw - 20px);
+    padding: 20px 10px;
+
+    .person-container {
+        width: calc(min(100vw - 60px, 300px));
+        height: 200px;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 2px -2px 4px $shadow-light, -2px 2px 4px $shadow-dark;
+        transition: box-shadow 400ms, color 400ms;
+    }
+
+    .person-container:hover {
+        box-shadow: 4px -4px 8px $shadow-light, -4px 4px 8px $shadow-dark;
+    }
 }

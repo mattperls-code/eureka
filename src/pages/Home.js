@@ -29,13 +29,13 @@ const HomePage = () => {
                     <div style={{ position: "relative", width: "100vw", height: "50vh" }}>
                         <header className={"header-font large-text"}>Eureka</header>
                     </div>
-                    <div className={"content-font small-text"} style={{ height: "50vh", textAlign: "center" }}> - the greatest minds throughout history - </div>
+                    <div className={"content-font small-text"} style={{ height: "50vh", padding: "0 20px", textAlign: "center" }}> - the greatest minds throughout history - </div>
                     <div className={"rainbow-hr"} />
                 </div>
             </React.Fragment>
         ) : (
             <div style={{ width: "100vw", height: "100vh", overflowY: "scroll" }}>
-                <div style={{ width: "100vw", height: "100vh" }}>
+                <div style={{ width: "100vw", minHeight: "100vh" }}>
                     <FadeIn>
                         <div style={{ marginTop: "20px", marginBottom: "40px" }} className={"home-page-header-container"}>
                             <header style={{ backgroundSize: "600px 130px" }} className={"home-page-header-text header-font medium-text"}>Welcome to Eureka</header>
@@ -116,7 +116,7 @@ const HomePage = () => {
                         <div className={"sticky-content"}>
                             <FadeIn>
                                 <div className={"home-page-header-container"}>
-                                    <header style={{ backgroundSize: "850px 130px" }} className={"home-page-header-text header-font medium-text"}>Explore Subjects</header>
+                                    <header style={{ backgroundSize: "850px 130px" }} className={"home-page-header-text header-font medium-text"}>Explore Disciplines</header>
                                 </div>
                             </FadeIn>
                             <div style={{ display: "display: flex", width: "calc(min(100vw, 1200px))" }} className={"display-container"}>
