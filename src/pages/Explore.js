@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 
+import Tilty from "react-tilty"
+
 import FadeIn from "../components/FadeIn"
 
 const ExplorePage = () => {
@@ -44,11 +46,11 @@ const ExplorePage = () => {
     people.forEach((person, index) => {
         peopleRenders.push(
             <FadeIn key={index}>
-                <div className={"person-container"}>
+                <Tilty reverse max={15} className={"person-container"}>
                     {
                         person
                     }
-                </div>
+                </Tilty>
             </FadeIn>
         )
     })

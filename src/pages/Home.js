@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react"
 
+import Tilty from "react-tilty"
+
 import FadeIn from "../components/FadeIn"
 import ScrollTracker from "../components/ScrollTracker"
 
@@ -56,6 +58,9 @@ const HomePage = () => {
                         </div>
                     </FadeIn>
                 </div>
+                <FadeIn>
+                    <hr />
+                </FadeIn>
                 <ScrollTracker realScrollHeight={1200} TrackingComponent={({ progress }) => {
                     const translateX = -25 * Math.min(Math.floor(progress / 0.25), 3)
 
@@ -69,10 +74,18 @@ const HomePage = () => {
                             <FadeIn>
                                 <div className={"display-container"}>
                                     <div style={{ transform: `translateX(${translateX}%)` }} className={"images"}>
-                                        <div style={{ backgroundImage: "url(/assets/images/previews/gallery1.png)" }} className={"img"} />
-                                        <div style={{ backgroundImage: "url(/assets/images/previews/gallery2.png)" }} className={"img"} />
-                                        <div style={{ backgroundImage: "url(/assets/images/previews/gallery3.png)" }} className={"img"} />
-                                        <div style={{ backgroundImage: "url(/assets/images/previews/gallery4.png)" }} className={"img"} />
+                                        <Tilty reverse max={15}>
+                                            <div style={{ backgroundImage: "url(/assets/images/previews/gallery1.png)" }} className={"img"} />
+                                        </Tilty>
+                                        <Tilty reverse max={15}>
+                                            <div style={{ backgroundImage: "url(/assets/images/previews/gallery2.png)" }} className={"img"} />
+                                        </Tilty>
+                                        <Tilty reverse max={15}>
+                                            <div style={{ backgroundImage: "url(/assets/images/previews/gallery3.png)" }} className={"img"} />
+                                        </Tilty>
+                                        <Tilty reverse max={15}>
+                                            <div style={{ backgroundImage: "url(/assets/images/previews/gallery4.png)" }} className={"img"} />
+                                        </Tilty>
                                     </div>
                                 </div>
                             </FadeIn>
@@ -82,6 +95,9 @@ const HomePage = () => {
                         </div>
                     )
                 }} />
+                <FadeIn>
+                    <hr />
+                </FadeIn>
                 <ScrollTracker realScrollHeight={1200} TrackingComponent={({ progress }) => {
                     const translateX = -100 * (3 / 4) + 25 * Math.min(Math.floor(progress / 0.25), 3)
 
@@ -95,10 +111,18 @@ const HomePage = () => {
                             <FadeIn>
                                 <div className={"display-container"}>
                                     <div style={{ transform: `translateX(${translateX}%)` }} className={"images"}>
-                                        <div style={{ backgroundImage: "url(/assets/images/default.jpg)" }} className={"img"} />
-                                        <div style={{ backgroundImage: "url(/assets/images/default.jpg)" }} className={"img"} />
-                                        <div style={{ backgroundImage: "url(/assets/images/default.jpg)" }} className={"img"} />
-                                        <div style={{ backgroundImage: "url(/assets/images/default.jpg)" }} className={"img"} />
+                                        <Tilty reverse max={15}>
+                                            <div style={{ backgroundImage: "url(/assets/images/default.jpg)" }} className={"img"} />
+                                        </Tilty>
+                                        <Tilty reverse max={15}>
+                                            <div style={{ backgroundImage: "url(/assets/images/default.jpg)" }} className={"img"} />
+                                        </Tilty>
+                                        <Tilty reverse max={15}>
+                                            <div style={{ backgroundImage: "url(/assets/images/default.jpg)" }} className={"img"} />
+                                        </Tilty>
+                                        <Tilty reverse max={15}>
+                                            <div style={{ backgroundImage: "url(/assets/images/default.jpg)" }} className={"img"} />
+                                        </Tilty>
                                     </div>
                                 </div>
                             </FadeIn>
@@ -108,6 +132,9 @@ const HomePage = () => {
                         </div>
                     )
                 }} />
+                <FadeIn>
+                    <hr />
+                </FadeIn>
                 <ScrollTracker realScrollHeight={600} TrackingComponent={({ progress }) => {
                     const offset = -100 * Math.min(Math.floor(progress * 3), 2) / 3
                     const altOffset = -100 * (2 / 3) - offset
@@ -120,7 +147,7 @@ const HomePage = () => {
                                 </div>
                             </FadeIn>
                             <div style={{ display: "display: flex", width: "calc(min(100vw, 1200px))" }} className={"display-container"}>
-                                <div className={"subject-wrapper"}>
+                                <Tilty reverse max={15} className={"subject-wrapper"}>
                                     <FadeIn>
                                         <div className={"subject-container"}>
                                             <div style={{ transform: `translateY(${offset}%)` }} className={"vertical-slide"}>
@@ -131,8 +158,8 @@ const HomePage = () => {
                                             <div className={"subject-name"}>Art</div>
                                         </div>
                                     </FadeIn>
-                                </div>
-                                <div className={"subject-wrapper"}>
+                                </Tilty>
+                                <Tilty reverse max={15} className={"subject-wrapper"}>
                                     <FadeIn>
                                         <div className={"subject-container"}>
                                             <div style={{ transform: `translateX(${offset}%)` }} className={"horizontal-slide"}>
@@ -143,8 +170,8 @@ const HomePage = () => {
                                             <div className={"subject-name"}>Mathematics</div>
                                         </div>
                                     </FadeIn>
-                                </div>
-                                <div className={"subject-wrapper"}>
+                                </Tilty>
+                                <Tilty reverse max={15} className={"subject-wrapper"}>
                                     <FadeIn>
                                         <div className={"subject-container"}>
                                             <div style={{ transform: `translateY(${altOffset}%)` }} className={"vertical-slide"}>
@@ -155,8 +182,8 @@ const HomePage = () => {
                                             <div className={"subject-name"}>Music</div>
                                         </div>
                                     </FadeIn>
-                                </div>
-                                <div className={"subject-wrapper"}>
+                                </Tilty>
+                                <Tilty reverse max={15} className={"subject-wrapper"}>
                                     <FadeIn>
                                         <div className={"subject-container"}>
                                             <div style={{ transform: `translateX(${altOffset}%)` }} className={"horizontal-slide"}>
@@ -167,8 +194,8 @@ const HomePage = () => {
                                             <div className={"subject-name"}>Science</div>
                                         </div>
                                     </FadeIn>
-                                </div>
-                                <div className={"subject-wrapper"}>
+                                </Tilty>
+                                <Tilty reverse max={15} className={"subject-wrapper"}>
                                     <FadeIn>
                                         <div className={"subject-container"}>
                                             <div style={{ transform: `translateY(${offset}%)` }} className={"vertical-slide"}>
@@ -179,8 +206,8 @@ const HomePage = () => {
                                             <div className={"subject-name"}>Philosophy</div>
                                         </div>
                                     </FadeIn>
-                                </div>
-                                <div className={"subject-wrapper"}>
+                                </Tilty>
+                                <Tilty reverse max={15} className={"subject-wrapper"}>
                                     <FadeIn>
                                         <div className={"subject-container"}>
                                             <div style={{ transform: `translateX(${offset}%)` }} className={"horizontal-slide"}>
@@ -191,7 +218,7 @@ const HomePage = () => {
                                             <div className={"subject-name"}>Literature</div>
                                         </div>
                                     </FadeIn>
-                                </div>
+                                </Tilty>
                             </div>
                             <FadeIn threshold={1.0}>
                                 <a href={"/#/explore"} className={"link-container content-font small-text"}>Visit Explore</a>
@@ -202,22 +229,20 @@ const HomePage = () => {
                 <FadeIn threshold={1.0}>
                     <hr />
                 </FadeIn>
-                <div className={"footer-container"}>
-                    <FadeIn threshold={1.0}>
-                        <div style={{ paddingRight: "20px" }} className={"content-font small-text"}>© 2023 Matthew Perlman</div>
-                    </FadeIn>
+                <FadeIn threshold={1.0} delay={"200ms"} className={"footer-container"}>
+                    <div style={{ paddingRight: "20px" }} className={"content-font small-text"}>© 2023 Matthew Perlman</div>
                     <div>
-                        <FadeIn className={"icon"} threshold={1.0}>
+                        <div className={"icon"}>
                             <FontAwesomeIcon icon={faEnvelope} />
-                        </FadeIn>
-                        <FadeIn className={"icon"} threshold={1.0}>
+                        </div>
+                        <div className={"icon"}>
                             <FontAwesomeIcon icon={faGithub} />
-                        </FadeIn>
-                        <FadeIn className={"icon"} threshold={1.0}>
+                        </div>
+                        <div className={"icon"}>
                             <FontAwesomeIcon icon={faInstagram} />
-                        </FadeIn>
+                        </div>
                     </div>
-                </div>
+                </FadeIn>
             </div>
         )
     )
