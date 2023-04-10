@@ -1,0 +1,212 @@
+[
+    {
+        "id": "aristotle",
+        "name": "Aristotle",
+        "era": "BCE",
+        "born": 384,
+        "died": 322,
+        "bio": "Aristotle (384 BC – 322 BC) was a Greek philosopher and scientist who is considered one of the most influential thinkers in Western philosophy. He was born in the city of Stagira, in northern Greece, and was the son of Nicomachus, who was the personal physician to the King of Macedon.\n\nAt the age of 17, Aristotle traveled to Athens and became a student of the famous philosopher, Plato. He studied with Plato for nearly 20 years, until Plato's death in 347 BC. After Plato's death, Aristotle left Athens and traveled to Asia Minor, where he served as a tutor to Alexander the Great.\n\nIn 335 BC, Aristotle returned to Athens and founded his own school, the Lyceum, which became one of the most important philosophical and scientific institutions of its time. He taught a wide range of subjects, including ethics, metaphysics, politics, biology, and physics. His philosophy emphasized the importance of reason and observation in understanding the natural world, and he believed that knowledge could be gained through experience and careful observation.\n\nAristotle's contributions to science were significant, and he made important discoveries in the fields of biology, zoology, and botany. He believed that all living things could be classified into a hierarchical system, based on their characteristics and behaviors. He also studied the behavior of animals and believed that they had souls, which were responsible for their actions.\n\nAristotle's influence on Western philosophy and science cannot be overstated. His ideas have shaped our understanding of the world and continue to influence our thinking today. His works, which include \"Nicomachean Ethics,\" \"Politics,\" and \"Metaphysics,\" are still studied and debated by philosophers and scholars around the world.",
+        "links": ["https://www.britannica.com/biography/Aristotle"],
+        "subjects": ["philosophy"]
+    },
+    {
+        "id": "austen",
+        "name": "Jane Austen",
+        "era": "CE",
+        "born": 1775,
+        "died": 1817,
+        "bio": "Jane Austen (1775-1817) was an English novelist whose works are still widely read and admired today. She was born in the small town of Steventon, in Hampshire, England, to a middle-class family. Her father was a rector and her mother came from a wealthy family.\n\nAusten was educated at home by her father and older brothers, and was an avid reader from a young age. She began writing at an early age, and her early works include \"Lady Susan\" and \"First Impressions,\" which would later be published as \"Sense and Sensibility.\"\n\nAusten's novels are known for their social commentary and keen observation of the social norms and customs of her time. Her works often explore themes of love, marriage, and social class, and her characters are well-developed and complex.\n\nHer most famous works include \"Pride and Prejudice,\" \"Sense and Sensibility,\" \"Emma,\" and \"Mansfield Park.\" Despite the popularity of her novels, Austen remained relatively unknown during her lifetime and published her works anonymously.\n\nAusten's works continue to be celebrated for their wit, humor, and insight into human nature. Her novels have been adapted into numerous films and television shows, and her legacy as one of the most important and influential writers in English literature remains secure.",
+        "links": ["https://www.britannica.com/biography/Jane-Austen"],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "bach",
+        "name": "Sebastian Bach",
+        "era": "CE",
+        "born": 1685,
+        "died": 1750,
+        "bio": "Johann Sebastian Bach (1685-1750) was a German composer and musician who is widely regarded as one of the greatest composers in the history of Western classical music. He was born in Eisenach, Germany, into a family of musicians, and showed a remarkable talent for music from a young age.\n\nBach's music is known for its complexity, precision, and emotional depth, and he is credited with developing many of the forms and structures that are still used in classical music today. He composed music in a wide range of genres, including cantatas, concertos, fugues, and chorales, and his works are celebrated for their technical mastery and profound beauty.\n\nBach spent much of his life working as a musician and composer in various churches and courts throughout Germany. He was highly respected in his time and influenced many other composers who came after him.\n\nBach's legacy as a composer and musician remains secure, and his music continues to be studied, performed, and celebrated by musicians and music lovers around the world. He is considered one of the greatest figures in the history of Western music and his works remain a testament to the power and beauty of classical music.",
+        "links": ["https://www.britannica.com/biography/Johann-Sebastian-Bach"],
+        "subjects": ["music"]
+    },
+    {
+        "id": "beethoven",
+        "name": "Beethoven",
+        "era": "CE",
+        "born": 1770,
+        "died": 1827,
+        "bio": "Ludwig van Beethoven (1770-1827) was a German composer and pianist who is widely regarded as one of the greatest composers in the history of Western classical music. He was born in Bonn, Germany, to a musical family, and showed prodigious talent as a pianist and composer from a young age.\n\nBeethoven's early career was marked by his association with the aristocracy, and he was often commissioned to write music for the courts of Europe. However, as he began to lose his hearing in his mid-twenties, he became increasingly reclusive and focused on composing.\n\nBeethoven's music is characterized by its emotional intensity and expressiveness, and his works span a wide range of genres, including symphonies, sonatas, concertos, and chamber music. Some of his most famous works include his Ninth Symphony, which features the \"Ode to Joy\" choral movement, and his Moonlight Sonata for piano.\n\nDespite his increasing deafness, Beethoven continued to compose and innovate throughout his life, and his later works are often considered some of his most profound and influential. He died in Vienna in 1827, and his funeral was attended by thousands of mourners.\n\nBeethoven's music has had a profound impact on the development of Western classical music, and his legacy as one of the greatest composers of all time remains secure. His works continue to be celebrated and performed by musicians and audiences around the world.",
+        "links": ["https://www.britannica.com/biography/Ludwig-van-Beethoven"],
+        "subjects": ["music"]
+    },
+    {
+        "id": "confucius",
+        "name": "Confucius",
+        "era": "BCE",
+        "born": 551,
+        "died": 479,
+        "bio": "Confucius (551 BCE - 479 BCE) was a Chinese philosopher and teacher whose teachings and ideas have had a profound impact on Chinese culture and society. He was born in the state of Lu, in what is now eastern China, during a time of political turmoil and social unrest.\n\nConfucius believed in the importance of education, personal morality, and social order, and his teachings emphasized the importance of respect for one's elders, adherence to tradition, and the cultivation of virtue. He taught that the ideal ruler was one who was virtuous and just, and that the stability of society depended on the moral behavior of its citizens.\n\nConfucius's ideas were compiled into a book called the Analects, which became one of the most important texts in Chinese philosophy and culture. His teachings had a profound influence on Chinese society and culture, and his ideas continue to be studied and debated by scholars and philosophers today.\n\nConfucius's legacy as one of the most important and influential thinkers in Chinese history remains secure, and his ideas continue to inspire and inform Chinese society and culture to this day.",
+        "links": ["https://www.britannica.com/biography/Confucius"],
+        "subjects": ["philosophy"]
+    },
+    {
+        "id": "dali",
+        "name": "Salvador Dalí",
+        "era": "CE",
+        "born": 1904,
+        "died": 1989,
+        "bio": "Salvador Dalí (1904-1989) was a Spanish artist and one of the most famous and influential surrealists of the 20th century. He was born in Figueres, Spain, and showed an early interest in art, drawing and painting from a young age.\n\nDalí's art is known for its striking imagery and dreamlike quality, and he often incorporated elements of symbolism and psychoanalysis into his works. His most famous works include \"The Persistence of Memory,\" which features melting watches, and \"The Elephants,\" which depicts elephants with impossibly long and spindly legs.\n\nIn addition to his work as a painter, Dalí also dabbled in film, theater, and sculpture, and was known for his eccentric behavior and outlandish public appearances. He was a controversial figure during his lifetime, but his influence on the art world was undeniable.\n\nDalí's legacy as one of the most important and influential artists of the 20th century remains secure, and his works continue to be celebrated and exhibited around the world.",
+        "links": ["https://www.britannica.com/biography/Salvador-Dali"],
+        "subjects": ["art"]
+    },
+    {
+        "id": "darwin",
+        "name": "Charles Darwin",
+        "era": "CE",
+        "born": 1809,
+        "died": 1882,
+        "bio": "Charles Darwin (1809-1882) was an English naturalist and biologist who is best known for his theory of evolution and his book \"On the Origin of Species.\" He was born in Shrewsbury, England, and showed an early interest in natural history.\n\nDarwin's theory of evolution posited that species evolved over time through the process of natural selection, whereby those individuals with advantageous traits were more likely to survive and pass on their genes to their offspring. This theory had a profound impact on the fields of biology and natural history and challenged traditional religious beliefs about the creation of life on Earth.\n\nDarwin's research and observations on his travels around the world, including his famous trip to the Galapagos Islands, provided him with the evidence he needed to support his theory of evolution. His book \"On the Origin of Species,\" published in 1859, caused a sensation and sparked widespread debate and controversy.\n\nDespite facing opposition from religious and scientific circles, Darwin's ideas gained widespread acceptance over time, and his theory of evolution is now considered one of the most important scientific discoveries in history.\n\nDarwin's legacy as one of the most influential thinkers and scientists of all time remains secure, and his ideas continue to inform and inspire scientific research and inquiry today.",
+        "links": ["https://www.britannica.com/biography/Charles-Darwin"],
+        "subjects": ["science"]
+    },
+    {
+        "id": "davinci",
+        "name": "Leonardo da Vinci",
+        "era": "CE",
+        "born": 1452,
+        "died": 1519,
+        "bio": "Leonardo da Vinci (1452-1519) was an Italian artist, inventor, and polymath who is widely considered to be one of the greatest geniuses in history. He was born in the town of Vinci, in Tuscany, Italy, and showed an early talent for art and science.\n\nDa Vinci is best known for his paintings, including the \"Mona Lisa\" and \"The Last Supper,\" which are considered some of the greatest works of art ever created. He was also a prolific inventor and scientist, and made important contributions to fields such as anatomy, engineering, and astronomy.\n\nDa Vinci's curiosity and creativity knew no bounds, and he was constantly exploring new ideas and experimenting with different techniques. He left behind a vast collection of drawings, sketches, and notes, many of which provide insight into his remarkable mind and creative process.\n\nDa Vinci's legacy as one of the most important and influential figures in Western art and science remains secure, and his work continues to inspire and captivate people around the world today.",
+        "links": ["https://www.britannica.com/biography/Leonardo-da-Vinci"],
+        "subjects": ["art", "science"]
+    },
+    {
+        "id": "douglass",
+        "name": "Fredrick Douglass",
+        "era": "CE",
+        "born": 1818,
+        "died": 1895,
+        "bio": "Frederick Douglass (1818-1895) was an American abolitionist, writer, and social reformer who escaped from slavery and became a leading voice in the fight against slavery and racial discrimination. He was born into slavery in Talbot County, Maryland, and was separated from his mother at a young age.\n\nDespite the many obstacles he faced, Douglass taught himself to read and write and became a powerful speaker and writer. He published his first autobiography, \"Narrative of the Life of Frederick Douglass, an American Slave,\" in 1845, which became a bestseller and helped to galvanize the abolitionist movement.\n\nDouglass went on to become a leading advocate for the abolition of slavery and for civil rights for African Americans. He worked closely with other prominent abolitionists, such as William Lloyd Garrison and Harriet Tubman, and was a frequent speaker at abolitionist meetings and rallies.\n\nAfter the Civil War, Douglass continued to fight for civil rights and became involved in politics, serving as a government official and diplomat. He remained a powerful voice for justice and equality until his death in 1895.\n\nDouglass's legacy as a champion of freedom and human rights continues to inspire people around the world today, and his life and work are a testament to the power of courage, determination, and perseverance in the face of injustice.",
+        "links": ["https://www.britannica.com/biography/Frederick-Douglass"],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "einstein",
+        "name": "Albert Einstein",
+        "era": "CE",
+        "born": 1879,
+        "died": 1955,
+        "bio": "Albert Einstein (1879-1955) was a German-born theoretical physicist who is widely considered to be one of the most influential scientists of the 20th century. He was born in Ulm, Germany, and showed an early talent for mathematics and science.\n\nEinstein's groundbreaking work on the nature of space, time, and gravity revolutionized our understanding of the universe. His theory of relativity, first published in 1905, challenged many of the fundamental assumptions of classical physics and laid the foundation for modern physics.\n\nEinstein's work also had important practical applications, including the development of nuclear energy and the invention of the atomic bomb. He was a strong advocate for world peace and was active in political and social causes throughout his life.\n\nEinstein was awarded the Nobel Prize in Physics in 1921 for his work on theoretical physics. He later emigrated to the United States, where he continued to work on physics and became a professor at Princeton University.\n\nEinstein's legacy as a scientist and public figure remains secure, and his work continues to inspire and inform scientific research and discovery today. He is widely regarded as one of the most brilliant minds in human history.",
+        "links": ["https://www.britannica.com/biography/Albert-Einstein"],
+        "subjects": ["science"]
+    },
+    {
+        "id": "euclid",
+        "name": "Euclid",
+        "era": "BCE",
+        "born": 300,
+        "died": "?",
+        "bio": "Euclid (c. 300 BC) was a Greek mathematician who is widely considered to be the father of geometry. He lived in Alexandria, Egypt, and taught at the famous library there.\n\nEuclid's most famous work is his book \"Elements,\" which is a comprehensive treatise on geometry that remains influential today. The book contains 13 volumes and covers a wide range of topics, including points, lines, angles, circles, and solid figures.\n\nEuclid's approach to geometry was based on a set of axioms, or basic assumptions, which he used to prove a series of theorems and corollaries. His work was notable for its logical rigor and clarity, and helped to establish the principles of deductive reasoning that are still used in mathematics today.\n\nEuclid's influence on mathematics and science cannot be overstated. His work on geometry formed the basis for many later developments in mathematics, including algebra and calculus. He also had a profound influence on the study of optics and the use of mirrors and lenses.\n\nEuclid's legacy as a mathematician and scholar remains secure, and his work continues to inspire and inform the study of mathematics and science today.",
+        "links": ["https://www.britannica.com/biography/Euclid-Greek-mathematician"],
+        "subjects": ["mathematics"]
+    },
+    {
+        "id": "euler",
+        "name": "Leonhard Euler",
+        "era": "CE",
+        "born": 1707,
+        "died": 1783,
+        "bio": "Leonhard Euler (1707-1783) was a Swiss mathematician who made significant contributions to many areas of mathematics and physics. He was born in Basel, Switzerland, and showed an early talent for mathematics.\n\nEuler's work spanned a wide range of topics, including calculus, geometry, number theory, and mechanics. He was particularly known for his work on complex analysis, which helped to establish the field of modern mathematics known as analysis.\n\nEuler's work was also important in the field of physics. He made significant contributions to the study of mechanics and optics, and his work on fluid dynamics and the motion of celestial bodies helped to lay the foundations for modern physics.\n\nEuler was a prolific writer and published more than 800 books and papers during his lifetime. He was also a gifted teacher and mentor, and his work inspired many later mathematicians and scientists.\n\nEuler's legacy as a mathematician and physicist remains secure, and his work continues to be studied and applied in many areas of science and technology today. He is widely regarded as one of the greatest mathematicians of all time.",
+        "links": ["https://www.britannica.com/biography/Leonhard-Euler"],
+        "subjects": ["mathematics"]
+    },
+    {
+        "id": "franklin",
+        "name": "Benjamin Franklin",
+        "era": "CE",
+        "born": 1706,
+        "died": 1790,
+        "bio": "Benjamin Franklin (1706-1790) was an American statesman, scientist, inventor, and writer who is widely regarded as one of the Founding Fathers of the United States. He was born in Boston, Massachusetts and was the youngest of 17 children.\n\nFranklin's work as a scientist and inventor was wide-ranging and influential. He conducted important experiments on electricity, including his famous kite experiment in 1752. He also invented the lightning rod, bifocals, and the Franklin stove, among other things.\n\nFranklin was a leading figure in the American Revolution and played an important role in drafting the United States Constitution. He was also a prolific writer, publishing numerous articles and essays on a wide range of topics, including politics, science, and social issues.\n\nIn addition to his political and scientific work, Franklin was also a successful businessman and philanthropist. He established the first public library in the United States and was a strong advocate for education and public works.\n\nFranklin's legacy as a statesman, inventor, and writer remains secure, and his work continues to inspire and inform many areas of American life today. He is widely regarded as one of the most important figures in American history.",
+        "links": ["https://www.britannica.com/biography/Benjamin-Franklin"],
+        "subjects": ["science", "literature"]
+    },
+    {
+        "id": "locke",
+        "name": "John Locke",
+        "era": "CE",
+        "born": 1632,
+        "died": 1704,
+        "bio": "John Locke (1632-1704) was an English philosopher and physician who is widely regarded as one of the most important thinkers of the Enlightenment. He was born in Somerset, England, and studied at Oxford University.\n\nLocke's most famous work is his book \"An Essay Concerning Human Understanding,\" which explored the nature of knowledge and the ways in which people acquire it. He also wrote extensively on political philosophy, arguing that governments should be based on the consent of the governed and that individuals have certain natural rights that should be protected.\n\nLocke's ideas were highly influential and helped to shape many later developments in philosophy, politics, and economics. His work on the nature of knowledge, in particular, had a profound impact on the development of modern science.\n\nLocke's legacy as a philosopher and thinker remains secure, and his ideas continue to inform and inspire many areas of human thought today. He is widely regarded as one of the most important figures in the history of philosophy.",
+        "links": ["https://www.britannica.com/biography/John-Locke"],
+        "subjects": ["philosophy", "literature"]
+    },
+    {
+        "id": "lovelace",
+        "name": "Ada Lovelace",
+        "era": "CE",
+        "born": 1815,
+        "died": 1852,
+        "bio": "Ada Lovelace (1815-1852) was an English mathematician and writer who is widely considered to be the world's first computer programmer. She was born in London, England, and was the daughter of the poet Lord Byron.\n\nLovelace's work on Charles Babbage's Analytical Engine, a prototype for a mechanical computer, led to her development of a series of notes that have become known as the \"first algorithm.\" These notes, which were published in 1843, contained a detailed description of how the machine could be programmed to calculate a series of numbers.\n\nLovelace's work was significant in part because it recognized the potential of computing to extend beyond simple number-crunching tasks. She imagined a future in which machines could be used to create art, music, and even poetry.\n\nDespite her contributions to computing, Lovelace's work was largely overlooked during her lifetime. It wasn't until the 20th century that her ideas were rediscovered and recognized as groundbreaking.\n\nLovelace's legacy as a mathematician and pioneer of computing remains secure, and her work continues to inspire and inform many areas of science and technology today. She is widely regarded as one of the most important figures in the history of computing.",
+        "links": ["https://www.britannica.com/biography/Ada-Lovelace"],
+        "subjects": ["mathematics", "science"]
+    },
+    {
+        "id": "mozart",
+        "name": "Amadeus Mozart",
+        "era": "CE",
+        "born": 1756,
+        "died": 1791,
+        "bio": "Wolfgang Amadeus Mozart (1756-1791) was an Austrian composer and musician who is widely regarded as one of the greatest composers in the history of Western music. He was born in Salzburg, Austria, and showed a prodigious talent for music from a very young age.\n\nMozart began composing at the age of five and went on to produce a vast body of work over the course of his short life. His music spanned a wide range of genres, from operas and symphonies to chamber music and piano sonatas.\n\nMozart's music was known for its innovation and beauty, and his contributions to classical music helped to shape the course of Western music in the centuries that followed. He was a master of melody, harmony, and structure, and his music is celebrated for its emotional depth and technical brilliance.\n\nDespite his musical genius, Mozart struggled to make a living as a composer, and he died in poverty at the age of just 35. Nevertheless, his legacy as a composer and musician remains secure, and his music continues to be beloved by audiences around the world. He is widely regarded as one of the greatest musical geniuses of all time.",
+        "links": ["https://www.britannica.com/biography/Wolfgang-Amadeus-Mozart"],
+        "subjects": ["music"]
+    },
+    {
+        "id": "newton",
+        "name": "Isaac Newton",
+        "era": "CE",
+        "born": 1642,
+        "died": 1727,
+        "bio": "Isaac Newton (1642-1727) was an English physicist, mathematician, and astronomer who is widely considered to be one of the most important scientists in the history of the world. He was born in Woolsthorpe, England, and showed a remarkable aptitude for mathematics and science from a young age.\n\nNewton is best known for his work on the laws of motion and gravity, which laid the foundations for modern physics. He also made significant contributions to the fields of optics, calculus, and astronomy, and his ideas continue to inform and inspire many areas of science and technology today.\n\nNewton's legacy as a scientist and thinker remains secure, and his ideas continue to be studied and applied in a wide range of fields. He is widely regarded as one of the greatest scientists in the history of the world, and his work has had a profound impact on the development of modern science and technology.",
+        "links": [""],
+        "subjects": ["mathematics", "science"]
+    },
+    {
+        "id": "okeeffe",
+        "name": "Georgia O'Keeffe",
+        "era": "CE",
+        "born": 1887,
+        "died": 1986,
+        "bio": "Georgia O'Keeffe (1887-1986) was an American artist who is best known for her paintings of flowers and the American Southwest. She was born in Sun Prairie, Wisconsin, and grew up in Virginia.\n\nO'Keeffe studied art in Chicago and New York City and went on to produce a vast body of work over the course of her long career. Her paintings are characterized by their bold use of color and composition, and they often depict natural forms, such as flowers, shells, and landscapes.\n\nO'Keeffe's work was highly influential in the development of modern art in America, and she was one of the few women artists to achieve recognition and success in a male-dominated field. Her paintings continue to be celebrated for their beauty and originality, and her legacy as an artist and pioneer of modern art remains secure.",
+        "links": ["https://www.britannica.com/biography/Georgia-OKeeffe"],
+        "subjects": ["art"]
+    },
+    {
+        "id": "pasteur",
+        "name": "Louis Pasteur",
+        "era": "CE",
+        "born": 1822,
+        "died": 1895,
+        "bio": "Louis Pasteur (1822-1895) was a French scientist who made significant contributions to the fields of microbiology and immunology. He was born in Dole, France, and showed an early aptitude for science and mathematics.\n\nPasteur is best known for his discoveries about the role of microbes in causing disease and the importance of sterilization in preventing infection. He developed the process of pasteurization, which involves heating food and drink to kill harmful bacteria, and he also developed the first vaccines for rabies and anthrax.\n\nPasteur's work revolutionized the fields of medicine and public health, and his ideas continue to inform and inspire scientific research today. He was one of the most important scientists of the 19th century, and his legacy as a pioneer of modern medicine and biology remains secure.",
+        "links": ["https://www.britannica.com/biography/Louis-Pasteur"],
+        "subjects": ["science"]
+    },
+    {
+        "id": "picasso",
+        "name": "Pablo Picasso",
+        "era": "CE",
+        "born": 1881,
+        "died": 1973,
+        "bio": "Pablo Picasso (1881-1973) was a Spanish artist who is widely regarded as one of the most important figures in the history of modern art. He was born in Malaga, Spain, and showed a prodigious talent for art from a young age.\n\nPicasso was a prolific artist who worked in a wide range of styles and mediums, from painting and sculpture to printmaking and ceramics. He was a co-founder of the Cubist movement, which revolutionized art in the early 20th century, and his work had a profound influence on the development of modern art.\n\nPicasso's art is characterized by its bold use of color and form, and his work often explored themes of politics, love, and death. He was also known for his experiments with different artistic styles and techniques, and his work continues to be studied and admired by artists and art lovers around the world.\n\nPicasso was one of the most influential artists of the 20th century, and his legacy as a pioneer of modern art remains secure.",
+        "links": ["https://www.britannica.com/biography/Pablo-Picasso"],
+        "subjects": ["art"]
+    },
+    {
+        "id": "shakespeare",
+        "name": "William Shakespeare",
+        "era": "CE",
+        "born": 1564,
+        "died": 1616,
+        "bio": "William Shakespeare (1564-1616) was an English playwright, poet, and actor who is widely regarded as one of the greatest writers in the English language. He was born in Stratford-upon-Avon, England, and wrote over 38 plays, 154 sonnets, and numerous other poems and works of literature.\n\nShakespeare's plays are known for their complex characters, intricate plots, and poetic language, and they have been performed and studied around the world for centuries. Some of his most famous works include \"Romeo and Juliet,\" \"Hamlet,\" \"Macbeth,\" and \"Othello.\"\n\nShakespeare was also an accomplished actor and was a member of the Lord Chamberlain's Men, a company of actors who performed his plays. He was highly respected in his time and became a successful businessman and property owner.\n\nShakespeare's legacy as a writer and thinker remains secure, and his influence on literature and culture has been profound. His work continues to be celebrated and studied by scholars and readers around the world, and his contributions to the English language and the art of drama have been immeasurable.",
+        "links": ["https://www.britannica.com/biography/William-Shakespeare"],
+        "subjects": ["literature"]
+    }
+]

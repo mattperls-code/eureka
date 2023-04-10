@@ -1,9 +1,14 @@
-import React, { useState, useMemo, Suspense } from "react"
+import React, { useState, useEffect, useMemo, Suspense } from "react"
 
 import { Canvas, useThree } from "@react-three/fiber"
 import { Vector3 } from "three"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
+import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons"
+
 import GalleryImage from "../components/GalleryImage"
+import FastText3D from "../components/FastText3D"
 
 import { interpolate, SlideAcrossEdge, RotateInPlace } from "../scripts/interpolate"
 
@@ -68,23 +73,10 @@ const GalleryMeshes = React.memo(() => {
             }
 
             <Suspense fallback={null}>
-                <GalleryImage x={5} y={0.1} w={3} h={3} borderWidth={0.5} angle={0} realHeight={6.0} img={"/assets/images/logo/main.jpg"} />
+                <GalleryImage x={5} y={0.1} w={3} h={3} borderWidth={0.5} angle={0} realHeight={6.2} img={"/assets/images/logo/main.jpg"} />
                 
-                {
-                    // TODO: write a label
-                }
-
-                {/* <Text3D position={[ 2.5, 4.25, 0.1 ]} scale={[1, 1, 0.02]} size={0.15} font={"/assets/fonts/content.json"}>
-                    Eureka is a site dedicated to recognize the greatest {"\n"}
-                    minds throughout history. The hope is that our collection {"\n"}
-                    will honor their work as well as inspire the future.
-                    <meshBasicMaterial color={"rgb(40, 40, 40)"} />
-                </Text3D>
-                <Text3D position={[ 2.5, 3.25, 0.1 ]} scale={[1, 1, 0.02]} size={0.15} font={"/assets/fonts/content.json"}>
-                    Keep scrolling to tour our virtual museum or investigate {"\n"}
-                    other pages to learn more.
-                    <meshBasicMaterial color={"rgb(40, 40, 40)"} />
-                </Text3D> */}
+                <FastText3D width={8} position={[5, 4.2, 0.2]} rotation={[0, 0, 0]} scale={[1, 1, 1]} fontSize={42} fontFamily={`'Quicksand', sans-serif`} color={"rgb(40, 40, 40)"} opacity={1}>Welcome To Eureka's Curated Gallery</FastText3D>
+                <FastText3D width={8} position={[5, 3.8, 0.2]} rotation={[0, 0, 0]} scale={[1, 1, 1]} fontSize={42} fontFamily={`'Quicksand', sans-serif`} color={"rgb(40, 40, 40)"} opacity={1}>Scroll Forward And Backward To Move Around</FastText3D>
 
                 <GalleryImage x={10} y={2.2} w={3} h={3} angle={-90} img={"/assets/images/people/mozart.jpg"} caption={"Amadeus Mozart"} redirectTo={"/bio/mozart"} />
                 <GalleryImage x={12} y={4.1} w={3} h={3} angle={0} img={"/assets/images/people/newton.jpg"} caption={"Isaac Newton"} redirectTo={"/bio/newton"} />
@@ -153,12 +145,43 @@ const GalleryScene = ({ position }) => {
 const GalleryPage = () => {
     const [position, setPosition] = useState(1)
 
+    const wheelHandler = (e) => {
+        setPosition(position + 0.002 * e.deltaY)
+    }
+
+    useEffect(() => {
+        addEventListener("wheel", wheelHandler)
+
+        return () => removeEventListener("wheel", wheelHandler)
+    }, [position])
+
     return (
-        <Canvas style={{ width: "100vw", height: "100vh" }} frameloop={"demand"} onWheel={(e) => {
-            setPosition(position + 0.002 * e.deltaY)
-        }}>
-            <GalleryScene position={position} />
-        </Canvas>
+        <React.Fragment>
+            <Canvas style={{ width: "100vw", height: "100vh" }} frameloop={"demand"} onWheel={(e) => {
+                setPosition(position + 0.002 * e.deltaY)
+            }}>
+                <GalleryScene position={position} />
+            </Canvas>
+            <div style={{ position: "absolute", bottom: 0 }}>
+                <div className={Math.abs(position - 1) > 1 ? "fade fade-out" : "fade fade-in"}>
+                    <hr />
+                </div>
+                <div style={{ transitionDelay: "200ms" }} className={Math.abs(position - 1) > 1 ? "fade fade-out footer-container" : "fade fade-in footer-container"}>
+                    <div style={{ paddingRight: "20px" }} className={"content-font small-text"}>© 2023 Matthew Perlman</div>
+                    <div>
+                        <a href={"mailto:mattperls.code@gmail.com"} className={"icon"}>
+                            <FontAwesomeIcon icon={faEnvelope} />
+                        </a>
+                        <a href={"https://github.com/mattperls-code"} className={"icon"}>
+                            <FontAwesomeIcon icon={faGithub} />
+                        </a>
+                        <a href={"https://www.instagram.com/mattperls-code"} className={"icon"}>
+                            <FontAwesomeIcon icon={faInstagram} />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </React.Fragment>
     )
 }
 

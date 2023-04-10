@@ -112,16 +112,16 @@ const HomePage = () => {
                                 <div className={"display-container"}>
                                     <div style={{ transform: `translateX(${translateX}%)` }} className={"images"}>
                                         <Tilty reverse max={15}>
-                                            <div style={{ backgroundImage: "url(/assets/images/default.jpg)" }} className={"img"} />
+                                            <div style={{ backgroundImage: "url(/assets/images/previews/timeline1.png)" }} className={"img"} />
                                         </Tilty>
                                         <Tilty reverse max={15}>
-                                            <div style={{ backgroundImage: "url(/assets/images/default.jpg)" }} className={"img"} />
+                                            <div style={{ backgroundImage: "url(/assets/images/previews/timeline2.png)" }} className={"img"} />
                                         </Tilty>
                                         <Tilty reverse max={15}>
-                                            <div style={{ backgroundImage: "url(/assets/images/default.jpg)" }} className={"img"} />
+                                            <div style={{ backgroundImage: "url(/assets/images/previews/timeline3.png)" }} className={"img"} />
                                         </Tilty>
                                         <Tilty reverse max={15}>
-                                            <div style={{ backgroundImage: "url(/assets/images/default.jpg)" }} className={"img"} />
+                                            <div style={{ backgroundImage: "url(/assets/images/previews/timeline4.png)" }} className={"img"} />
                                         </Tilty>
                                     </div>
                                 </div>
@@ -175,7 +175,7 @@ const HomePage = () => {
                                     <FadeIn>
                                         <div className={"subject-container"}>
                                             <div style={{ transform: `translateY(${altOffset}%)` }} className={"vertical-slide"}>
-                                                <div style={{ backgroundImage: "url(/assets/images/default.jpg)" }} className={"slide"} />
+                                                <div style={{ backgroundImage: "url(/assets/images/people/bach.jpg)" }} className={"slide"} />
                                                 <div style={{ backgroundImage: "url(/assets/images/people/mozart.jpg)" }} className={"slide"} />
                                                 <div style={{ backgroundImage: "url(/assets/images/people/beethoven.jpg)" }} className={"slide"} />
                                             </div>
@@ -232,15 +232,15 @@ const HomePage = () => {
                 <FadeIn threshold={1.0} delay={"200ms"} className={"footer-container"}>
                     <div style={{ paddingRight: "20px" }} className={"content-font small-text"}>© 2023 Matthew Perlman</div>
                     <div>
-                        <div className={"icon"}>
+                        <a href={"mailto:mattperls.code@gmail.com"} className={"icon"}>
                             <FontAwesomeIcon icon={faEnvelope} />
-                        </div>
-                        <div className={"icon"}>
+                        </a>
+                        <a href={"https://github.com/mattperls-code"} className={"icon"}>
                             <FontAwesomeIcon icon={faGithub} />
-                        </div>
-                        <div className={"icon"}>
+                        </a>
+                        <a href={"https://www.instagram.com/mattperls-code"} className={"icon"}>
                             <FontAwesomeIcon icon={faInstagram} />
-                        </div>
+                        </a>
                     </div>
                 </FadeIn>
             </div>

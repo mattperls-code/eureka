@@ -5,6 +5,8 @@ const FadeIn = ({ delay, threshold=0.8, className="", children }) => {
     const fadeElementRef = useRef()
 
     const handleFadeElementEvent = () => {
+        if (fadeElementRef.current == null) return
+
         const box = fadeElementRef.current.getBoundingClientRect()
 
         setApplyAnimation()

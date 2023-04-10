@@ -7,7 +7,7 @@ $shadow-light: rgba(255, 255, 255, 0.7);
 $shadow-dark: rgba(40, 40, 40, 0.5);
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
 
 .fade {
     transition: opacity 800ms, transform 800ms;
@@ -230,11 +230,14 @@ section {
     align-items: center;
     justify-content: space-between;
     width: calc(100vw - 40px);
+    background-color: $white;
     padding: 20px;
 
     .icon {
         display: inline-block;
+        text-decoration: none;
         font-size: 24px;
+        color: $black;
         margin: 6px;
         padding: 8px;
         border-radius: 8px;
@@ -322,6 +325,7 @@ section {
     .display-container {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
         margin: 0 auto;
         text-align: center;
         width: calc(min(100vw - 40px, 800px));
@@ -355,7 +359,9 @@ section {
             .subject-wrapper {
                 display: inline-flex;
                 margin: 10px;
-                height: calc((100% - 60px) / 3);
+                margin-bottom: 20px;
+                margin-top: 0;
+                height: calc((100% - 40px) / 3);
             }
         }
 
@@ -363,7 +369,9 @@ section {
             .subject-wrapper {
                 display: inline-flex;
                 margin: 10px;
-                height: calc((100% - 60px) / 2);
+                margin-bottom: 20px;
+                margin-top: 0;
+                height: calc((100% - 20px) / 2);
             }
         }
 
@@ -414,13 +422,18 @@ section {
 
             .subject-name {
                 position: absolute;
-                left: 0;
-                right: 0;
+                text-align: center;
                 bottom: 0;
+                left: 40px;
+                right: 40px;
+                padding: 2px 16px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
                 background-color: $shadow-light;
                 font-family: 'Quicksand', sans-serif;
+                font-weight: 500;
                 color: $black;
-                font-size: 20px;
+                font-size: 22px;
             }
         }
 
@@ -480,6 +493,7 @@ hr {
     margin: auto;
     margin-top: 20px;
     overflow-x: scroll;
+    overflow-y: hidden;
 
     .query-option {
         padding: 10px 20px;
@@ -516,14 +530,63 @@ hr {
 
     .person-container {
         width: calc(min(100vw - 60px, 300px));
-        height: 200px;
+        height: 320px;
         margin: 10px;
         border-radius: 10px;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
         box-shadow: 2px -2px 4px $shadow-light, -2px 2px 4px $shadow-dark;
         transition: box-shadow 400ms, color 400ms;
+
+        .person-name {
+            position: absolute;
+            bottom: 0;
+            left: 40px;
+            right: 40px;
+            text-align: center;
+            padding: 2px 16px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            background-color: $shadow-light;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 500;
+            font-size: 22px;
+            color: $black;
+        }
     }
 
     .person-container:hover {
         box-shadow: 4px -4px 8px $shadow-light, -4px 4px 8px $shadow-dark;
+    }
+}
+
+.bio-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 75px auto;
+    width: calc(min(1200px, 100% - 40px));
+    height: max-content;
+    text-align: center;
+
+    .model-container {
+        display: block;
+        width: calc(min(500px, 100vw - 40px));
+        height: calc(100vh - 150px);
+    }
+
+    .description-container {
+        width: calc(min(600px, 100vw - 40px) - 40px);
+        padding: 20px;
+
+        .person-name {
+            background-size: 570px 150px;
+            background-position: center;
+            background-image: url("./assets/images/rainbow.jpg");
+            background-clip: text;
+            color: transparent;
+        }
     }
 }
