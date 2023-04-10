@@ -53,7 +53,7 @@ const HomePage = () => {
                     <FadeIn delay={"400ms"}>
                         <div className={"home-page-info-container"}>
                             <div className={"content-font small-text"}>
-                                The project focuses on a variety of academia, covering the best minds both artistically and analytically.
+                                The project focuses on a variety of academia, covering the best minds both creatively and analytically.
                             </div>
                         </div>
                     </FadeIn>
