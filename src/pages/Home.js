@@ -62,7 +62,7 @@ const HomePage = () => {
                     <hr />
                 </FadeIn>
                 <ScrollTracker realScrollHeight={1200} TrackingComponent={({ progress }) => {
-                    const translateX = -25 * Math.min(Math.floor(progress / 0.25), 3)
+                    const translateX = -25 * (progress / 0.33333)
 
                     return (
                         <div className={"sticky-content"}>
@@ -99,7 +99,7 @@ const HomePage = () => {
                     <hr />
                 </FadeIn>
                 <ScrollTracker realScrollHeight={1200} TrackingComponent={({ progress }) => {
-                    const translateX = -100 * (3 / 4) + 25 * Math.min(Math.floor(progress / 0.25), 3)
+                    const translateX = -25 * (progress / 0.3333)
 
                     return (
                         <div className={"sticky-content"}>

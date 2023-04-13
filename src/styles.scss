@@ -337,7 +337,6 @@ section {
             width: min-content;
             flex-direction: row;
             flex-wrap: nowrap;
-            transition: transform 800ms;
 
             .img {
                 width: calc(min(100vw - 40px, 800px) - 1px);
