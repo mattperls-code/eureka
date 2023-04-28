@@ -208,5 +208,755 @@
         "bio": "William Shakespeare (1564-1616) was an English playwright, poet, and actor who is widely regarded as one of the greatest writers in the English language. He was born in Stratford-upon-Avon, England, and wrote over 38 plays, 154 sonnets, and numerous other poems and works of literature.\n\nShakespeare's plays are known for their complex characters, intricate plots, and poetic language, and they have been performed and studied around the world for centuries. Some of his most famous works include \"Romeo and Juliet,\" \"Hamlet,\" \"Macbeth,\" and \"Othello.\"\n\nShakespeare was also an accomplished actor and was a member of the Lord Chamberlain's Men, a company of actors who performed his plays. He was highly respected in his time and became a successful businessman and property owner.\n\nShakespeare's legacy as a writer and thinker remains secure, and his influence on literature and culture has been profound. His work continues to be celebrated and studied by scholars and readers around the world, and his contributions to the English language and the art of drama have been immeasurable.",
         "links": ["https://www.britannica.com/biography/William-Shakespeare"],
         "subjects": ["literature"]
+    },
+    {
+        "id": "homer",
+        "name": "Homer",
+        "era": "BCE",
+        "born": 800,
+        "died": "?",
+        "bio": "Homer is an ancient Greek poet who is traditionally credited with writing two epic poems that have had a lasting impact on Western literature and culture: the Iliad and the Odyssey.\n\nLittle is known about Homer's life, and there is much debate among scholars about whether he was a real person or simply a legendary figure. According to tradition, he was born in the 8th century BCE on the island of Chios in Greece, and he may have been blind.\n\nThe Iliad and the Odyssey are both epic poems that tell the stories of heroes and gods from ancient Greek mythology. The Iliad is the story of the Trojan War, while the Odyssey tells the tale of the Greek hero Odysseus and his long journey home after the war.\n\nBoth poems are characterized by their vivid descriptions, memorable characters, and powerful themes. They have been widely studied and admired for centuries, and have influenced countless works of literature, art, and culture.\n\nDespite the mysteries surrounding his life, Homer's influence on Western literature and culture is undeniable. His epic poems continue to be celebrated for their beauty, complexity, and lasting impact on the human imagination.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "aesop",
+        "name": "Aesop",
+        "era": "BCE",
+        "born": 620,
+        "died": 564,
+        "bio": "Aesop is an ancient Greek storyteller who is famous for his fables, short stories that convey moral lessons through the actions of animals or other characters.\n\nLittle is known about Aesop's life, and many of the stories and legends surrounding him are likely apocryphal. According to tradition, he was born a slave in the 6th century BCE on the island of Samos in Greece, and he was known for his wisdom and cleverness.\n\nAesop is best known for his fables, which are still widely read and enjoyed today. These stories often feature animals as the main characters, and they are designed to teach important moral lessons. Some of Aesop's most famous fables include \"The Tortoise and the Hare,\" \"The Boy Who Cried Wolf,\" and \"The Ant and the Grasshopper.\"\n\nAesop's fables have been translated into many different languages and have been adapted into numerous works of literature, art, and culture. They continue to be admired for their timeless wisdom and enduring appeal.\n\nDespite the many legends surrounding his life, Aesop's legacy as a storyteller and moral philosopher remains strong to this day. His fables have influenced generations of writers and thinkers, and they continue to be celebrated for their simple yet profound insights into the human condition.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "pythagoras",
+        "name": "Pythagoras",
+        "era": "BCE",
+        "born": 570,
+        "died": 490,
+        "bio": "Pythagoras was an ancient Greek philosopher and mathematician who is best known for his famous theorem about right triangles. He is often regarded as one of the most important figures in the development of Western mathematics and philosophy.\n\nPythagoras was born on the island of Samos in Greece around 570 BCE, and he is believed to have studied under a number of different philosophers and mathematicians throughout his life. He eventually founded his own school of philosophy in the city of Croton, in southern Italy.\n\nPythagoras' most famous contribution to mathematics is his theorem, which states that in a right triangle, the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides. This theorem, known as the Pythagorean theorem, has had a profound impact on the development of geometry and algebra.\n\nIn addition to his mathematical work, Pythagoras also believed in the importance of spiritual and ethical teachings. He believed in the concept of metempsychosis, or the transmigration of souls, and he encouraged his followers to live according to strict ethical principles, such as vegetarianism and abstinence from alcohol.\n\nDespite his many accomplishments, Pythagoras' life and work are shrouded in mystery and legend. Nevertheless, his ideas have had a lasting impact on Western thought and culture, and his theorem remains one of the most famous and important concepts in mathematics.",
+        "links": [""],
+        "subjects": ["mathematics"]
+    },
+    {
+        "id": "socrates",
+        "name": "Socrates",
+        "era": "BCE",
+        "born": 469,
+        "died": 399,
+        "bio": "Socrates was a classical Greek philosopher who lived in Athens from 469 BCE to 399 BCE. He is considered one of the most important figures in Western philosophy and is known for his method of questioning, known as the Socratic method, which involved asking probing questions to encourage critical thinking and self-reflection.\n\nSocrates did not leave behind any written works, so much of what is known about him comes from the writings of his students, particularly Plato. Socrates believed that the pursuit of knowledge and truth was the highest goal of human existence, and he spent much of his life engaging in philosophical discussions with his fellow Athenians.\n\nSocrates' teachings often challenged the traditional beliefs and values of Athenian society, and he was eventually put on trial and sentenced to death for his ideas. He famously refused to flee Athens or renounce his beliefs, instead choosing to drink hemlock and die by his own hand.\n\nDespite his tragic end, Socrates' legacy lived on through his teachings and the writings of his followers. His emphasis on self-knowledge, critical thinking, and ethical behavior continues to influence philosophy, education, and the arts to this day.",
+        "links": [""],
+        "subjects": ["philosophy"]
+    },
+    {
+        "id": "plato",
+        "name": "Plato",
+        "era": "BCE",
+        "born": 428,
+        "died": 348,
+        "bio": "Plato was a Greek philosopher who lived from 428/427 BC to 348/347 BC. He was a student of Socrates and later became the teacher of Aristotle. Plato is considered one of the most important figures in Western philosophy, and his writings are still studied and debated today.\n\nPlato's philosophy centered around the idea that there was a world of eternal and unchanging truths, separate from the physical world that we experience with our senses. He believed that the highest form of knowledge was the knowledge of these eternal truths, which he referred to as \"Forms\" or \"Ideas.\"\n\nPlato's most famous work is \"The Republic,\" in which he outlines his vision of an ideal society. In this work, he argues that a just society should be ruled by philosopher-kings who have attained knowledge of the eternal Forms.\n\nPlato's ideas had a profound influence on Western philosophy, particularly in the areas of metaphysics, epistemology, and ethics. His legacy can be seen in the works of later philosophers such as Immanuel Kant, Friedrich Nietzsche, and Martin Heidegger.",
+        "links": [""],
+        "subjects": ["philosophy"]
+    },
+    {
+        "id": "virgil",
+        "name": "Virgil",
+        "era": "BCE",
+        "born": 70,
+        "died": 19,
+        "bio": "Virgil, or Publius Vergilius Maro, was a Roman poet who lived from 70 BC to 19 BC. He is best known for his epic poem, the \"Aeneid,\" which tells the story of the Trojan prince Aeneas and his journey to Italy, where he becomes the ancestor of the Roman people.\n\nVirgil grew up in a small village near Mantua, Italy, and received a good education in rhetoric, philosophy, and literature. He spent much of his life in Rome, where he became known for his poetry and gained the patronage of the emperor Augustus.\n\nThe \"Aeneid\" was Virgil's masterpiece and took him over ten years to complete. It was designed to be a national epic that would celebrate the Roman people and their achievements, while also connecting them to the legendary heroes of the Trojan War.\n\nDespite his success, Virgil never finished revising the \"Aeneid\" to his satisfaction and reportedly asked for it to be burned upon his death. However, his wishes were not carried out, and the poem went on to become one of the most celebrated works of classical literature.\n\nVirgil's poetry had a profound influence on later writers, particularly in the areas of epic poetry, pastoral poetry, and Latin literature in general. His legacy can be seen in the works of later poets such as Dante, Milton, and Tennyson.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "gutenberg",
+        "name": "Johannes Gutenberg",
+        "era": "CE",
+        "born": 1390,
+        "died": 1468,
+        "bio": "Johannes Gutenberg was a German inventor and printer who lived from the 14th to the 15th century. He is best known for developing the printing press with movable type, which revolutionized the way information was produced and disseminated in Europe.\n\nGutenberg was born in Mainz, Germany, and was trained as a goldsmith and a metalworker. He became interested in printing as a means of producing books more efficiently, and began experimenting with various printing techniques.\n\nAround 1440, Gutenberg developed a new printing press with movable type, which allowed printers to assemble letters and characters into words and sentences, and then quickly and easily print multiple copies of a text. This was a major innovation, as earlier printing presses had relied on wooden blocks with fixed text, which were much more time-consuming to produce.\n\nGutenberg's invention quickly caught on, and he printed the first book using movable type, the Gutenberg Bible, in the 1450s. This massive work was printed on high-quality paper and featured elaborate illustrations and decorative elements. The Gutenberg Bible became a cultural phenomenon, and helped to spread literacy and knowledge throughout Europe.\n\nDespite his success, Gutenberg was not able to capitalize on his invention and died in relative obscurity. However, his printing press had a profound impact on the world of books and information, and helped to pave the way for the Scientific Revolution and the Enlightenment.",
+        "links": [""],
+        "subjects": []
+    },
+    {
+        "id": "copernicus",
+        "name": "Nicolaus Copernicus",
+        "era": "CE",
+        "born": 1473,
+        "died": 1543,
+        "bio": "Nicolaus Copernicus was a Polish astronomer and mathematician who lived from 1473 to 1543. He is best known for his revolutionary theory that the Earth and other planets orbit around the Sun, challenging the long-held belief that the Earth was the center of the universe.\n\nCopernicus was born in Torun, Poland, and received a degree in canon law and medicine from the University of Padua in Italy. However, his true passion was astronomy, and he spent many years studying the movements of the planets and the stars.\n\nIn 1543, Copernicus published his landmark work \"De Revolutionibus Orbium Coelestium\" (On the Revolutions of the Celestial Spheres), which laid out his heliocentric model of the solar system. This theory placed the Sun at the center of the universe, with the planets, including Earth, orbiting around it in circular paths.\n\nCopernicus's theory challenged the Ptolemaic system, which had placed the Earth at the center of the universe, and was widely accepted at the time. Despite some initial resistance, Copernicus's work eventually gained acceptance and helped to usher in the scientific revolution.\n\nCopernicus died shortly after the publication of his work, and did not live to see the full impact of his ideas. However, his work paved the way for later scientists such as Galileo and Newton, and helped to change the way we understand the universe.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "michelangelo",
+        "name": "Michelangelo",
+        "era": "CE",
+        "born": 1475,
+        "died": 1564,
+        "bio": "Michelangelo di Lodovico Buonarroti Simoni, commonly known as Michelangelo, was an Italian Renaissance artist born in 1475 in Tuscany, Italy. He is considered one of the greatest artists of all time, known for his sculptures, paintings, and architecture.\n\nMichelangelo began his career as an apprentice to a painter in Florence, but his talent quickly earned him recognition and he was soon commissioned to create works for the wealthy and powerful Medici family. He moved to Rome in his early twenties, where he worked on many important projects, including the Sistine Chapel ceiling, the design of St. Peter's Basilica, and the sculpture of David.\n\nOne of Michelangelo's most famous works is the Sistine Chapel ceiling, which he worked on for four years and completed in 1512. The fresco depicts scenes from the Book of Genesis, including the creation of Adam and Eve and the Flood. The ceiling is considered one of the greatest masterpieces of Western art and a testament to Michelangelo's skill as a painter.\n\nIn addition to his work as a painter, Michelangelo was also a renowned sculptor. One of his most famous sculptures is the David, which he created from a single block of marble. The sculpture stands over 17 feet tall and depicts the Biblical hero in a heroic, confident pose.\n\nMichelangelo continued to work on important projects throughout his life, and his influence on art and architecture can still be seen today. He died in Rome in 1564 at the age of 88, leaving behind a legacy as one of the greatest artists in history.",
+        "links": [""],
+        "subjects": ["art"]
+    },
+    {
+        "id": "galileo",
+        "name": "Galileo Galilei",
+        "era": "CE",
+        "born": 1564,
+        "died": 1642,
+        "bio": "Galileo Galilei was an Italian physicist, mathematician, astronomer, and philosopher who lived from 1564 to 1642. He is often referred to as the \"father of modern physics\" due to his groundbreaking work in the field of astronomy, mechanics, and physics.\n\nGalileo's early life was spent studying medicine at the University of Pisa, but he soon became interested in mathematics and physics. He made many important discoveries, including the law of falling bodies and the principle of inertia.\n\nGalileo is perhaps best known for his astronomical observations, which he made using his own telescope. He discovered four of Jupiter's moons and observed the phases of Venus, which provided evidence to support the heliocentric model of the solar system. This model, which placed the sun at the center of the solar system, challenged the prevailing belief that the Earth was the center of the universe.\n\nGalileo's work was controversial, and he faced opposition from both the Catholic Church and other scientists. He was put on trial by the Inquisition in 1633 and was forced to recant his support for the heliocentric model. Despite this setback, Galileo continued to make important contributions to science until his death in 1642.\n\nGalileo's legacy is significant, and his contributions to physics and astronomy paved the way for future scientific discoveries. He is remembered as one of the most important scientists in history and a symbol of the power of human curiosity and determination.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "voltaire",
+        "name": "Voltaire",
+        "era": "CE",
+        "born": 1694,
+        "died": 1778,
+        "bio": "Voltaire, born François-Marie Arouet, was a French Enlightenment writer, historian, and philosopher who lived from 1694 to 1778. He is best known for his works of satire and his advocacy for freedom of speech and religious tolerance.\n\nVoltaire began his literary career as a playwright, but he soon turned to writing essays, letters, and philosophical treatises. His writings often criticized the French government, the Catholic Church, and other institutions he saw as oppressive. His most famous work is the novel \"Candide\", which satirizes the optimism of his era.\n\nVoltaire was a controversial figure in his time, and his writings often led to censorship and persecution. He was exiled to England for several years, where he became influenced by English writers such as John Locke and Isaac Newton. He returned to France in 1729 and continued to write until his death in 1778.\n\nVoltaire's legacy is significant, and he is considered one of the most influential figures of the Enlightenment. His advocacy for reason, science, and freedom of thought helped pave the way for modern democracy and human rights. He is remembered as a champion of intellectual freedom and a symbol of the power of literature to effect social change.",
+        "links": [""],
+        "subjects": ["literature", "philosophy"]
+    },
+    {
+        "id": "cook",
+        "name": "James Cook",
+        "era": "CE",
+        "born": 1728,
+        "died": 1779,
+        "bio": "James Cook was an 18th century British explorer and navigator who is best known for his voyages to the Pacific Ocean. He was born in 1728 in Yorkshire, England, and grew up in a farming family. As a teenager, he became an apprentice to a shopkeeper and then later joined the British Navy.\n\nCook's first major expedition was in 1768 when he was chosen to lead an expedition to the Pacific Ocean to observe the transit of Venus. He sailed on the HMS Endeavour and charted much of the coastline of New Zealand and Australia during this voyage.\n\nCook made two more voyages to the Pacific, during which he explored Hawaii and many other islands in the region. He also made significant contributions to cartography, natural history, and astronomy.\n\nCook's final voyage was in 1776, during which he attempted to find a northwest passage through the Arctic. However, the expedition was met with severe weather conditions, and Cook was killed by Hawaiian natives in 1779.\n\nCook's legacy is significant, and he is remembered as one of the greatest explorers of all time. His voyages to the Pacific helped advance scientific knowledge and paved the way for further exploration and colonization of the region. He is also remembered for his humane treatment of indigenous peoples and for his commitment to accurate mapping and charting of the seas.",
+        "links": [""],
+        "subjects": []
+    },
+    {
+        "id": "goya",
+        "name": "Francisco Goya",
+        "era": "CE",
+        "born": 1746,
+        "died": 1828,
+        "bio": "Francisco Goya was a Spanish painter and printmaker who lived from 1746 to 1828. He was born in the town of Fuendetodos, near Zaragoza, Spain, and began studying painting at a young age. He later moved to Madrid, where he became the court painter to King Charles III.\n\nGoya's style evolved over time, from his early works, which were influenced by the rococo style, to his later works, which were characterized by darker, more pessimistic themes. He is known for his portraits, which capture the personality of his subjects, and for his depiction of historical events, particularly the Napoleonic Wars.\n\nGoya's most famous works are his series of etchings and aquatints, known as the \"Caprichos\" and the \"Disasters of War,\" which criticize the social and political situation in Spain during his time. He was also a master of the technique of fresco painting and created several large-scale frescoes, including those in the Royal Chapel of San Antonio de la Florida in Madrid.\n\nDespite his success, Goya's life was marked by tragedy. He suffered from a serious illness that left him deaf and increasingly isolated. His later works reflect his sense of disillusionment and despair. Goya died in Bordeaux, France, in 1828, at the age of 82.\n\nGoya's influence on the art world has been profound, and he is considered one of the greatest painters of the 18th and 19th centuries. His use of light and shadow, his ability to capture the emotions of his subjects, and his willingness to tackle difficult subject matter have inspired countless artists throughout history.",
+        "links": [""],
+        "subjects": ["art"]
+    },
+    {
+        "id": "goethe",
+        "name": "von Goethe",
+        "era": "CE",
+        "born": 1749,
+        "died": 1832,
+        "bio": "Johann Wolfgang von Goethe (1749-1832) was a German poet, writer, and polymath who is considered one of the most important figures of German literature. Born in Frankfurt, Goethe showed an early interest in literature and studied law at the University of Leipzig. However, he soon abandoned his legal career to pursue his passion for writing.\n\nGoethe's most famous work is the novel \"The Sorrows of Young Werther,\" which catapulted him to fame at the age of 25. He also wrote plays, poetry, and scientific works. In addition to his literary achievements, Goethe was also a renowned scientist and naturalist. He made important contributions to the fields of optics, anatomy, and botany, and his work on the theory of colors influenced the famous physicist Isaac Newton.\n\nThroughout his life, Goethe maintained close relationships with many of the leading intellectuals of his time, including the philosopher Friedrich Schiller and the writer Johann Gottfried Herder. He served as a statesman in the court of Weimar, where he helped establish a cultural center that attracted many other artists and writers.\n\nGoethe's influence extended far beyond Germany, and he was widely regarded as a leading figure of the European Enlightenment. His legacy continues to be celebrated today, and his works remain an important part of the German literary canon.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "mill",
+        "name": "John Stuart Mill",
+        "era": "CE",
+        "born": 1806,
+        "died": 1873,
+        "bio": "John Stuart Mill was a British philosopher, economist, and political theorist born on May 20, 1806, in London, England. He was the son of James Mill, a prominent philosopher and economist of the time, who heavily influenced his son's education. Mill was a prodigy, learning Greek and Latin by the age of eight, and at 17 began working for the British East India Company.\n\nMill is best known for his works on political philosophy, including \"On Liberty\" and \"Utilitarianism,\" which are still studied today. He believed in individual freedom, stating that \"the only purpose for which power can be rightfully exercised over any member of a civilized community, against his will, is to prevent harm to others.\"\n\nMill was also a strong advocate for women's rights, supporting women's suffrage and arguing for equal education opportunities for both genders. He was a member of Parliament from 1865 to 1868, during which time he focused on issues such as land reform, labor rights, and the prevention of war.\n\nMill died on May 8, 1873, in Avignon, France, at the age of 66. He remains a significant figure in the history of philosophy and political thought, and his ideas continue to shape modern debates about individual liberty and societal responsibility.",
+        "links": [""],
+        "subjects": ["philosophy"]
+    },
+    {
+        "id": "poe",
+        "name": "Edgar Allen Poe",
+        "era": "CE",
+        "born": 1809,
+        "died": 1849,
+        "bio": "Edgar Allan Poe (1809-1849) was an American writer known for his poetry, short stories, and literary criticism. He was born in Boston, Massachusetts, and was orphaned at a young age when his father abandoned the family and his mother died of tuberculosis. He was then taken in by a wealthy merchant and his wife, who raised him in Virginia.\n\nPoe attended the University of Virginia for a short time, but dropped out due to financial difficulties. He then joined the Army and served for two years, during which time he published his first collection of poems, \"Tamerlane and Other Poems.\"\n\nAfter leaving the Army, Poe struggled to make a living as a writer and worked for several magazines and newspapers. He became known for his macabre and Gothic tales, such as \"The Tell-Tale Heart\" and \"The Pit and the Pendulum.\" He also wrote a number of critical essays and reviews.\n\nDespite his literary success, Poe had a difficult personal life. He struggled with alcoholism and had a turbulent relationship with his wife, who suffered from tuberculosis and died at a young age. Poe himself died in 1849 under mysterious circumstances, with the cause of his death remaining unknown.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "wagner",
+        "name": "Richard Wagner",
+        "era": "CE",
+        "born": 1813,
+        "died": 1883,
+        "bio": "Richard Wagner was a German composer, conductor, and theatre director who is widely considered one of the most important figures in Western classical music of the 19th century. He was born on May 22, 1813, in Leipzig, Germany. Wagner's father died when he was just six months old, and he was raised by his mother, who remarried the following year.\n\nAs a young man, Wagner studied music and became interested in opera. He began composing his own works, but struggled to find success until the premiere of his opera, \"Rienzi,\" in 1842. Wagner went on to compose many more operas, including \"Tristan und Isolde,\" \"Die Meistersinger von Nürnberg,\" and \"Der Ring des Nibelungen.\"\n\nWagner was also known for his controversial views on politics and art. He believed in the supremacy of German culture and was critical of Jews, leading to accusations of anti-Semitism. He was also a supporter of the German nationalist movement, which led to his involvement in the failed Dresden Revolution of 1849.\n\nDespite his controversial views, Wagner's music continued to be popular throughout his life and after his death in 1883. His innovative approach to opera composition and orchestration, along with his integration of music, drama, and myth, had a profound impact on the development of music in the 20th century.",
+        "links": [""],
+        "subjects": ["music"]
+    },
+    {
+        "id": "marx",
+        "name": "Karl Marx",
+        "era": "CE",
+        "born": 1818,
+        "died": 1883,
+        "bio": "Karl Marx was a German philosopher, economist, and socialist revolutionary who was born on May 5, 1818, in Trier, Germany. He is best known for his theories on capitalism and communism, which have had a profound influence on modern politics and economics.\n\nMarx was educated at the University of Bonn and later the University of Berlin, where he studied law and philosophy. He became involved in radical politics and soon began writing for various radical newspapers and journals. In 1848, he and Friedrich Engels published the Communist Manifesto, which outlined their theories on the struggle between the proletariat and the bourgeoisie.\n\nMarx spent much of his life in poverty, often relying on financial support from Engels. He continued to write prolifically, publishing works such as Das Kapital, which detailed his theories on economics and the labor theory of value. Marx also spent time organizing and agitating for socialist revolution, and he was active in the First International, a group that aimed to promote workers' rights and socialist ideas.\n\nMarx died on March 14, 1883, in London, England. While he did not live to see the socialist revolution he had hoped for, his ideas and theories have continued to influence political and economic thought to this day.",
+        "links": [""],
+        "subjects": ["literature", "philosophy"]
+    },
+    {
+        "id": "twain",
+        "name": "Mark Twain",
+        "era": "CE",
+        "born": 1835,
+        "died": 1910,
+        "bio": "Mark Twain was an American author and humorist born on November 30, 1835, in Florida, Missouri. His real name was Samuel Langhorne Clemens, but he adopted his pen name, Mark Twain, as a riverboat pilot on the Mississippi River.\n\nTwain is known for his distinctive writing style, which combines humor, satire, and social commentary. Some of his most famous works include \"The Adventures of Tom Sawyer,\" \"Adventures of Huckleberry Finn,\" and \"The Prince and the Pauper.\"\n\nTwain grew up in Hannibal, Missouri, a town on the Mississippi River that served as the inspiration for many of his stories. After working as a printer's apprentice, Twain became a riverboat pilot, a job that gave him material for his writing.\n\nIn 1861, Twain traveled west to Nevada, where he worked as a miner and wrote for local newspapers. He later traveled to San Francisco, where he became a successful journalist and writer. Twain's writing brought him international fame, and he traveled extensively throughout Europe and the Middle East.\n\nTwain was known for his wit and humor, but he also used his writing to criticize social injustices, including racism and poverty. He was a supporter of women's rights and was an advocate for the abolition of slavery.\n\nTwain died on April 21, 1910, in Redding, Connecticut. His legacy as one of America's most beloved writers continues to this day, and his works are still widely read and admired.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "nietzsche",
+        "name": "Friedrich Nietzsche",
+        "era": "CE",
+        "born": 1844,
+        "died": 1900,
+        "bio": "Friedrich Nietzsche was a German philosopher, cultural critic, and poet who lived from 1844 to 1900. He was born in Röcken, Saxony, and began his studies in theology and philology at the University of Bonn, but later transferred to the University of Leipzig, where he became interested in the philosophy of Arthur Schopenhauer.\n\nNietzsche's work focuses on a variety of themes, including the nature of existence, the role of art and creativity, and the importance of individualism. His most famous concept is the \"Übermensch,\" or \"superman,\" which he described as a person who creates his own values and is not bound by traditional moral codes.\n\nNietzsche suffered from health problems throughout his life, including severe migraines and vision problems. In 1889, he suffered a mental breakdown and spent the last years of his life in a state of mental and physical decline. He died in Weimar, Germany, in 1900 at the age of 55.\n\nNietzsche's work has had a profound impact on philosophy, literature, and popular culture. His ideas have been interpreted in many different ways, and his influence can be seen in the work of writers, artists, and thinkers across many different fields.",
+        "links": [""],
+        "subjects": ["philosophy", "literature"]
+    },
+    {
+        "id": "freud",
+        "name": "Sigmund Freud",
+        "era": "CE",
+        "born": 1856,
+        "died": 1939,
+        "bio": "Sigmund Freud (1856-1939) was an Austrian neurologist and the founder of psychoanalysis, a clinical method for treating mental illness and a theory of human behavior. He was born in Freiberg, Moravia, which is now part of the Czech Republic, but his family moved to Vienna when he was a child.\n\nFreud initially studied medicine at the University of Vienna, where he was particularly interested in the work of the physiologist Ernst Brücke. After graduating, Freud worked in various hospitals and clinics, but he eventually established a private practice specializing in nervous disorders.\n\nIn the late 1800s, Freud began developing his theories about the human psyche, drawing on his clinical experience and his own self-analysis. He argued that many mental illnesses were the result of unconscious conflicts, and that psychoanalysis could bring these conflicts to consciousness and help patients resolve them.\n\nFreud's ideas were controversial and often met with resistance from the medical community. However, he became increasingly influential, and by the early 1900s, he had established the International Psychoanalytical Association.\n\nOver the course of his career, Freud published numerous books and articles on psychoanalysis, including \"The Interpretation of Dreams\" (1899), \"Three Essays on the Theory of Sexuality\" (1905), and \"Civilization and Its Discontents\" (1930). Despite his success, Freud's theories have also been widely criticized and debated in the years since his death in 1939.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "planck",
+        "name": "Max Planck",
+        "era": "CE",
+        "born": 1858,
+        "died": 1947,
+        "bio": "Max Planck was a German physicist who is considered one of the founders of quantum mechanics. He was born on April 23, 1858, in Kiel, Germany. Planck was the son of a professor of law and came from a family of academics. He studied physics at the University of Munich, where he received his doctorate in 1879.\n\nPlanck's work in thermodynamics led him to investigate the properties of radiation emitted by hot objects. In 1900, he proposed a new theory of radiation that was based on the idea that energy is quantized in discrete packets, which he called \"quanta.\" This idea laid the foundation for quantum mechanics and won Planck the Nobel Prize in Physics in 1918.\n\nPlanck remained active in physics throughout his life, and he made many other important contributions to the field. He was also a prominent public figure, and he spoke out against the rise of Nazism in Germany in the 1930s.\n\nPlanck died on October 4, 1947, in Göttingen, Germany, at the age of 89. He is remembered as one of the most important physicists of the 20th century and a pioneer in the development of quantum mechanics.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "gorky",
+        "name": "Maksim Gorky",
+        "era": "CE",
+        "born": 1868,
+        "died": 1936,
+        "bio": "Maksim Gorky, also known as Aleksei Maximovich Peshkov, was a Russian writer born on March 28, 1868, in Nizhny Novgorod. His father died when he was five, and his mother sent him to live with his grandparents, who were poor and illiterate. Despite this, Gorky developed a love of literature and began writing as a young man.\n\nGorky's early work was heavily influenced by his experiences growing up in poverty, and he quickly became known for his vivid descriptions of life on the margins of Russian society. His first book, \"Sketches and Stories,\" was published in 1898 and was followed by a series of novels and plays that made him one of Russia's most popular writers.\n\nIn addition to his writing, Gorky was a political activist and a vocal critic of the Russian government. He was often arrested and exiled for his views, but he continued to write and publish throughout his life. He also helped to establish the Bolshevik regime in Russia, although he later became disillusioned with the direction the country was taking under Stalin's leadership.\n\nGorky died on June 14, 1936, while visiting his home town of Nizhny Novgorod. Despite his complicated relationship with the Soviet government, he is widely regarded as one of Russia's greatest writers and a pioneering voice in the development of modern Russian literature.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "ghandi",
+        "name": "Gandhi",
+        "era": "CE",
+        "born": 1869,
+        "died": 1948,
+        "bio": "Mohandas Karamchand Gandhi (1869-1948), also known as Mahatma Gandhi, was an Indian nationalist leader who is best known for his philosophy of nonviolent resistance and civil disobedience. He was born in Porbandar, India, and spent much of his life fighting for Indian independence from British rule.\n\nGandhi's ideas about nonviolent resistance and civil disobedience were influential in the struggle for civil rights around the world. He believed in the power of peaceful protest and the importance of living a simple, austere life in order to achieve spiritual and moral purity.\n\nThroughout his life, Gandhi was a tireless advocate for social justice and equality. He fought for the rights of the poor, the oppressed, and the marginalized, and his message of peace and tolerance inspired millions around the world.\n\nGandhi's legacy as one of the great leaders of the 20th century remains secure, and his ideas and teachings continue to inspire people around the world to work for justice, peace, and equality.",
+        "links": [""],
+        "subjects": ["philosophy"]
+    },
+    {
+        "id": "matisse",
+        "name": "Matisse",
+        "era": "CE",
+        "born": 1869,
+        "died": 1954,
+        "bio": "Henri Matisse (1869-1954) was a French artist known for his pioneering work in the field of modern art. He was born in Le Cateau-Cambrésis, France, and began his career as a painter in the late 1800s.\n\nMatisse is known for his use of bright, bold colors and his innovative approach to composition. He is credited with helping to establish the Fauvism movement, which rejected traditional painting techniques and focused on the use of color and form.\n\nThroughout his long career, Matisse experimented with a variety of mediums, including painting, sculpture, and paper cutouts. He is perhaps best known for his series of \"Blue Nudes\" and his painting \"The Dance.\"\n\nToday, Matisse is regarded as one of the most important artists of the 20th century, and his work continues to inspire and influence artists around the world. His innovative approach to color and composition helped to pave the way for future movements in modern art, and his legacy remains secure as one of the great masters of the art world.",
+        "links": [""],
+        "subjects": ["art"]
+    },
+    {
+        "id": "kafka",
+        "name": "Franz Kafka",
+        "era": "CE",
+        "born": 1883,
+        "died": 1924,
+        "bio": "Franz Kafka (1883-1924) was a German-speaking novelist and short-story writer of Czech-Jewish origin, whose works have become widely acclaimed for their exploration of the themes of alienation, existential anxiety, and bureaucratic absurdity. He was born in Prague, Austria-Hungary (now the Czech Republic), and lived most of his life there.\n\nKafka's writing style is known for its surreal, nightmarish quality and its exploration of the human condition. His best-known works include \"The Metamorphosis,\" \"The Trial,\" and \"The Castle,\" which have become synonymous with Kafka's name and are considered among the most important works of 20th-century literature.\n\nKafka's works were largely unknown during his lifetime, and he was only able to publish a few stories and one novella before his death from tuberculosis at the age of 40. However, his influence on literature and popular culture has been immense, with many authors and filmmakers drawing inspiration from his works.\n\nToday, Kafka's legacy is as strong as ever, with his works continuing to be studied and admired for their unique perspective on the human experience. His name has become a byword for a sense of alienation and disconnection from society, and his influence can be seen in everything from the work of other writers to popular culture and even psychology.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "faulkner",
+        "name": "William Faulkner",
+        "era": "CE",
+        "born": 1897,
+        "died": 1962,
+        "bio": "William Faulkner (1897-1962) was an American novelist and short-story writer who is widely regarded as one of the most important writers of the 20th century. He was born in New Albany, Mississippi, and spent much of his life in Oxford, Mississippi, which served as the inspiration for many of his works.\n\nFaulkner's writing is characterized by his use of stream-of-consciousness narration, non-linear storytelling, and his exploration of the complexities of the human psyche. He is perhaps best known for his novels \"The Sound and the Fury,\" \"As I Lay Dying,\" and \"Absalom, Absalom!\", all of which are considered modern classics.\n\nIn addition to his novels, Faulkner was also a prolific short-story writer, with many of his stories set in the fictional Yoknapatawpha County, which he created as a setting for much of his work.\n\nFaulkner's writing has had a profound impact on American literature, influencing generations of writers who have followed in his footsteps. His work has been recognized with numerous awards, including the Nobel Prize in Literature in 1949, and his legacy as a master of the American literary tradition remains secure today.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "hemmingway",
+        "name": "Ernest Hemmingway",
+        "era": "CE",
+        "born": 1899,
+        "died": 1961,
+        "bio": "Ernest Hemingway (1899-1961) was an American author and journalist who is considered one of the most influential writers of the 20th century. He was born in Oak Park, Illinois, and began his writing career as a journalist for the Kansas City Star before serving as an ambulance driver in World War I.\n\nHemingway's writing style was characterized by his spare and direct prose, which he developed during his time as a journalist. He is perhaps best known for his novels \"The Sun Also Rises,\" \"A Farewell to Arms,\" and \"For Whom the Bell Tolls,\" all of which are considered classics of modern literature.\n\nHemingway's writing was also influenced by his experiences as a war correspondent during World War II and the Spanish Civil War. He reported on the front lines of both conflicts, often putting himself in harm's way to capture the stories of soldiers and civilians caught up in the fighting.\n\nHemingway's legacy as a writer and journalist remains strong today, with his influence felt not only in literature but also in journalism and popular culture. His books continue to be widely read and studied, and his impact on the literary world is still felt today.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "teresa",
+        "name": "Mother Teresa",
+        "era": "CE",
+        "born": 1910,
+        "died": 1997,
+        "bio": "Mother Teresa (1910-1997) was a Catholic nun and humanitarian who dedicated her life to serving the poor and sick in some of the world's most impoverished communities. She was born in Skopje, now the capital of North Macedonia, and joined the Sisters of Loreto at the age of 18, taking the name Sister Teresa.\n\nIn 1948, Mother Teresa left her teaching position in Calcutta and began working in the slums, where she established a hospice and a school for the poor. She went on to found the Missionaries of Charity, an organization dedicated to serving the poorest of the poor around the world.\n\nMother Teresa's work in Calcutta and beyond earned her numerous accolades and awards, including the Nobel Peace Prize in 1979. However, she remained humble and dedicated to her mission throughout her life, often stating that her work was simply \"a drop in the ocean.\"\n\nDespite her passing in 1997, Mother Teresa's legacy of compassion and service continues to inspire people around the world. She is widely regarded as one of the most important humanitarians of the 20th century, and her work with the Missionaries of Charity has touched countless lives and continues to provide hope and assistance to those in need.",
+        "links": [""],
+        "subjects": []
+    },
+    {
+        "id": "feynman",
+        "name": "Richard Feynman",
+        "era": "CE",
+        "born": 1918,
+        "died": 1988,
+        "bio": "Richard Feynman (1918-1988) was an American theoretical physicist and Nobel Laureate who made significant contributions to the development of quantum mechanics and particle physics. He was born in New York City and earned his bachelor's degree from the Massachusetts Institute of Technology before going on to earn his doctorate from Princeton University.\n\nFeynman is best known for his work on quantum electrodynamics, for which he was awarded the Nobel Prize in Physics in 1965. He also made important contributions to the understanding of the behavior of subatomic particles and the development of the atomic bomb during World War II as part of the Manhattan Project.\n\nIn addition to his work in physics, Feynman was also an accomplished teacher and communicator of science, known for his ability to explain complex scientific concepts in simple terms. He authored several popular science books, including \"Surely You're Joking, Mr. Feynman!\" and \"The Feynman Lectures on Physics,\" which are still widely read today.\n\nFeynman's legacy as a physicist and a science communicator continues to inspire and inform scientific research and inquiry today. He is widely regarded as one of the most influential scientists of the 20th century, and his impact on the fields of physics and science communication is immeasurable.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "wiesel",
+        "name": "Elie Wiesel",
+        "era": "CE",
+        "born": 1928,
+        "died": 2016,
+        "bio": "Elie Wiesel (1928-2016) was a Romanian-born Jewish-American writer, Holocaust survivor, and activist who became a prominent voice for human rights and social justice around the world. He was born in Sighet, Romania, and was deported with his family to the Auschwitz concentration camp in 1944 during World War II.\n\nWiesel survived the Holocaust and went on to become a prolific writer, with more than 50 books to his name, including his memoir \"Night,\" which is widely regarded as a masterpiece of Holocaust literature. He was also a vocal advocate for human rights and a passionate opponent of genocide and other forms of violence.\n\nIn addition to his work as a writer and activist, Wiesel was also a respected academic, teaching at a number of universities and receiving numerous honorary degrees and awards for his contributions to literature, human rights, and social justice.\n\nWiesel's legacy as a survivor and a voice for the voiceless remains strong today, and his work continues to inspire and inform social justice movements around the world. He is widely regarded as one of the most important figures of the 20th century, and his impact on the struggle for human rights and social justice will be felt for generations to come.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "mlk",
+        "name": "Martin Luther King Jr.",
+        "era": "CE",
+        "born": 1929,
+        "died": 1968,
+        "bio": "Martin Luther King Jr. (1929-1968) was an American Baptist minister and civil rights activist who became the most prominent leader in the African American civil rights movement in the 1950s and 1960s. He was born in Atlanta, Georgia, and attended Morehouse College, Crozer Theological Seminary, and Boston University.\n\nKing is best known for his nonviolent approach to civil rights activism, including his leadership of the Montgomery Bus Boycott in 1955 and the March on Washington for Jobs and Freedom in 1963, during which he delivered his famous \"I Have a Dream\" speech. He was a strong advocate for racial equality, social justice, and nonviolence, and his work played a key role in the passage of the Civil Rights Act of 1964 and the Voting Rights Act of 1965.\n\nIn addition to his work in civil rights, King was also a vocal opponent of the Vietnam War and a champion of economic justice, advocating for the rights of workers and the poor. He was awarded the Nobel Peace Prize in 1964 for his leadership in the civil rights movement.\n\nKing's legacy as a civil rights leader and a champion of justice and equality remains strong today, and his ideas and methods continue to inspire social justice movements around the world. He is widely regarded as one of the most important figures in American history, and his impact on the struggle for civil rights and social justice is immeasurable.",
+        "links": [""],
+        "subjects": ["philosophy"]
+    },
+    {
+        "id": "j-bernoulli",
+        "name": "Johann Bernoulli",
+        "era": "CE",
+        "born": 1667,
+        "died": 1748,
+        "bio": "Johann Bernoulli (1667-1748) was a Swiss mathematician who made significant contributions to the development of calculus and mathematical physics. He was born in Basel, Switzerland, into a family of mathematicians and studied mathematics at the University of Basel.\n\nOne of Johann Bernoulli's most significant contributions was his work on the calculus of variations, which involved finding the maximum and minimum values of mathematical expressions. He also made important contributions to the development of the theory of probability, including the famous Bernoulli distribution, which describes the probability of a certain number of successes in a fixed number of trials.\n\nIn addition to his work in mathematics, Johann Bernoulli also made contributions to the fields of fluid dynamics and physics. He was one of the first mathematicians to study the motion of fluids and was instrumental in the development of the Bernoulli principle, which explains the behavior of fluids as they move through different environments.\n\nJohann Bernoulli's legacy as one of the great mathematicians of the 18th century remains secure, and his work continues to inspire and inform mathematical research and inquiry today.",
+        "links": [""],
+        "subjects": ["mathematics", "science"]
+    },
+    {
+        "id": "d-bernoulli",
+        "name": "Daniel Bernoulli",
+        "era": "CE",
+        "born": 1700,
+        "died": 1782,
+        "bio": "Daniel Bernoulli (1700-1782) was a Swiss mathematician and physicist who made significant contributions to the fields of fluid dynamics, probability theory, and the kinetic theory of gases. He was born in Groningen, Netherlands, into a family of mathematicians and studied mathematics and medicine at the University of Basel.\n\nOne of Daniel Bernoulli's most important contributions was his work on fluid dynamics, where he derived the famous Bernoulli's principle, which explains the relationship between the pressure and speed of a fluid in motion. This principle has important applications in aerodynamics, hydrodynamics, and the design of aircraft and fluid-based systems.\n\nBernoulli also made important contributions to the theory of probability and statistics, including the development of the law of large numbers and the concept of expected value. He also contributed to the kinetic theory of gases, which explains the behavior of gases in terms of the motion and collisions of individual particles.\n\nIn addition to his work in mathematics and physics, Daniel Bernoulli also made significant contributions to the study of medicine and physiology, including the development of the Bernoulli equation, which explains the relationship between fluid flow and the pressure within blood vessels.\n\nDaniel Bernoulli's legacy as one of the great mathematicians and physicists of the 18th century remains secure, and his work continues to inspire and inform scientific research and inquiry today.",
+        "links": [""],
+        "subjects": ["mathematics", "science"]
+    },
+    {
+        "id": "descartes",
+        "name": "René Descartes",
+        "era": "CE",
+        "born": 1596,
+        "died": 1650,
+        "bio": "René Descartes (1596-1650) was a French philosopher, mathematician, and scientist who is widely regarded as one of the most influential thinkers in Western philosophy. He was born in La Haye en Touraine, France, and received a classical education before studying mathematics and science.\n\nDescartes is best known for his philosophical works, including \"Meditations on First Philosophy\" and \"Discourse on the Method,\" in which he outlined his method of doubt and his belief in the importance of reason and clear thinking. He is credited with developing the concept of analytic geometry, which allowed for the use of algebraic equations to describe geometric shapes.\n\nIn addition to his work in philosophy and mathematics, Descartes made important contributions to the field of optics, including the development of a new theory of light and vision. He also made important contributions to the study of the human body, including the theory of reflexes and the concept of the mind-body dualism.\n\nDescartes' legacy as one of the greatest thinkers in history remains secure, and his ideas and methods continue to influence philosophy, mathematics, and science to this day. His emphasis on reason and clear thinking continues to be a guiding principle in many fields, and his contributions to the development of modern science and technology are immeasurable.",
+        "links": [""],
+        "subjects": ["mathematics", "philosophy"]
+    },
+    {
+        "id": "ramanujan",
+        "name": "Srinivasa Ramanujan",
+        "era": "CE",
+        "born": 1887,
+        "died": 1920,
+        "bio": "Srinivasa Ramanujan (1887-1920) was an Indian mathematician who is widely regarded as one of the greatest mathematicians in history. He was born in Erode, India, and showed an extraordinary talent for mathematics from an early age.\n\nRamanujan's work focused on number theory and the theory of functions. He developed a series of groundbreaking results in areas such as infinite series, continued fractions, and elliptic functions. Ramanujan's work was characterized by his ability to find unexpected and elegant solutions to difficult mathematical problems, often without the use of conventional methods.\n\nDespite having little formal education, Ramanujan's work attracted the attention of some of the greatest mathematicians of his time, including G. H. Hardy, who invited him to Cambridge University to collaborate on research. Together, they produced a number of important results, including a proof of the famous Riemann hypothesis.\n\nRamanujan's legacy as one of the greatest mathematicians in history remains secure, and his work continues to inspire and inform mathematicians and scientists around the world. His discoveries and theories have had a profound impact on the development of modern mathematics and have paved the way for many important scientific discoveries and technological advancements.",
+        "links": [""],
+        "subjects": ["mathematics"]
+    },
+    {
+        "id": "maxwell",
+        "name": "James Clerk Maxwell",
+        "era": "CE",
+        "born": 1831,
+        "died": 1879,
+        "bio": "James Clerk Maxwell (1831-1879) was a Scottish physicist and mathematician who is best known for his work on electromagnetism. He was born in Edinburgh, Scotland, and showed an early aptitude for mathematics and science.\n\nMaxwell's contributions to the field of electromagnetism were groundbreaking. He developed a set of equations, now known as Maxwell's equations, that describe the fundamental laws governing the behavior of electric and magnetic fields. These equations united the previously separate fields of electricity and magnetism and laid the groundwork for the development of modern technology, including radio, television, and the internet.\n\nIn addition to his work on electromagnetism, Maxwell also made important contributions to the field of thermodynamics, developing a theory of heat that explained the behavior of gases and the nature of heat flow.\n\nMaxwell's legacy as one of the greatest physicists in history remains secure, and his work continues to inspire and inform scientists and engineers around the world. His discoveries and theories have had a profound impact on the development of modern science and technology, and his ideas and equations continue to shape our understanding of the physical world.",
+        "links": [""],
+        "subjects": ["mathematics", "science"]
+    },
+    {
+        "id": "hertz",
+        "name": "Heinrich Rudolf Hertz",
+        "era": "CE",
+        "born": 1857,
+        "died": 1894,
+        "bio": "Heinrich Rudolf Hertz (1857-1894) was a German physicist who is best known for his work on electromagnetic waves, which paved the way for the development of wireless communication. He was born in Hamburg, Germany, and studied at the universities of Berlin and Heidelberg.\n\nHertz conducted a series of experiments that demonstrated the existence of electromagnetic waves, which had been predicted by James Clerk Maxwell in his theory of electromagnetism. Hertz was able to demonstrate that these waves could be transmitted through space, and he developed a series of devices that could both generate and detect electromagnetic waves.\n\nHertz's discoveries had a profound impact on the development of modern technology, including the invention of radio, television, and wireless communication. His work also played a key role in the development of quantum mechanics and the understanding of the nature of light.\n\nDespite his short career, Hertz's legacy as one of the greatest physicists in history remains secure, and his work continues to inspire and inform scientists and engineers around the world. The unit of frequency, the hertz (Hz), is named in his honor, and his discoveries continue to shape our understanding of the physical world.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "fermat",
+        "name": "Pierre de Fermat",
+        "era": "CE",
+        "born": 1607,
+        "died": 1665,
+        "bio": "Pierre de Fermat (1607-1665) was a French mathematician and lawyer who is best known for his contributions to number theory. He was born in Beaumont-de-Lomagne, France, and showed a remarkable aptitude for mathematics from an early age.\n\nFermat made several important contributions to the development of modern mathematics, including the discovery of what is now known as Fermat's Last Theorem, which he famously claimed to have proven but left no record of his proof. This theorem, which states that no three positive integers a, b, and c can satisfy the equation an + bn = cn for any integer value of n greater than two, remained unsolved for over 350 years and was finally proven in 1995.\n\nIn addition to his work in number theory, Fermat also made important contributions to the development of calculus and analytic geometry, and he played a key role in the development of probability theory.\n\nFermat's legacy as one of the greatest mathematicians in history remains secure, and his work continues to inspire and inform mathematicians and scientists around the world. His contributions to the field of mathematics have had a profound impact on the development of modern science and technology, and his ideas and discoveries continue to shape our understanding of the natural world.",
+        "links": [""],
+        "subjects": ["mathematics"]
+    },
+    {
+        "id": "archimedes",
+        "name": "Archimedes",
+        "era": "BCE",
+        "born": 287,
+        "died": 212,
+        "bio": "Archimedes (c. 287 BC – c. 212 BC) was a Greek mathematician, physicist, engineer, inventor, and astronomer who is considered one of the greatest scientists of the ancient world. He was born in Syracuse, Sicily, and spent most of his life in the city-state.\n\nArchimedes made significant contributions to mathematics, including the discovery of the principles of buoyancy and the development of the law of the lever. He also developed several important mathematical concepts, including the method of exhaustion, which he used to calculate the areas and volumes of irregular shapes.\n\nArchimedes is also known for his contributions to engineering and physics. He invented several machines, including the Archimedes screw, which is still used today to pump water, and he developed important theories on the mechanics of levers and pulleys.\n\nArchimedes was killed during the Siege of Syracuse, but his legacy as one of the most important scientists and thinkers in history lives on. His work has influenced countless scientists, mathematicians, and engineers over the centuries, and his discoveries and inventions continue to be used and studied today.",
+        "links": [""],
+        "subjects": ["mathematics", "science"]
+    },
+    {
+        "id": "gauss",
+        "name": "Friedrich Guass",
+        "era": "CE",
+        "born": 1777,
+        "died": 1855,
+        "bio": "Johann Carl Friedrich Gauss (1777-1855) was a German mathematician and physicist who is widely regarded as one of the greatest mathematicians of all time. He was born in Braunschweig, Germany, and showed a remarkable aptitude for mathematics from an early age.\n\nGauss made significant contributions to a wide range of mathematical fields, including number theory, algebra, geometry, and statistics. He developed several important theorems and formulas, including the fundamental theorem of algebra and Gauss's law for magnetism.\n\nGauss also played a key role in the development of modern physics, making important contributions to the study of electromagnetism and astronomy. He was one of the first scientists to recognize the potential of the new field of electricity and magnetism, and he made important contributions to the understanding of the behavior of electric charges.\n\nDespite his many achievements, Gauss was known for his modesty and his dedication to his work. He once famously remarked that \"mathematics is the queen of the sciences, and number theory is the queen of mathematics.\" Gauss's legacy as one of the greatest mathematicians and scientists in history remains secure, and his work continues to inspire and inform generations of mathematicians and physicists.",
+        "links": [""],
+        "subjects": ["mathematics", "science"]
+    },
+    {
+        "id": "pascal",
+        "name": "Blaise Pascal",
+        "era": "CE",
+        "born": 1623,
+        "died": 1662,
+        "bio": "Blaise Pascal (1623-1662) was a French mathematician, physicist, inventor, writer, and Christian philosopher. Born in Clermont-Ferrand, France, Pascal showed exceptional mathematical talent from a young age and made significant contributions to mathematics, physics, and philosophy throughout his life.\n\nPascal's most famous contribution to mathematics is the development of probability theory, which he achieved through his correspondence with Pierre de Fermat. He also invented the mechanical calculator, a device used to perform arithmetic calculations mechanically, and contributed to the development of calculus.\n\nIn physics, Pascal is known for his studies of hydrodynamics and the concept of pressure, which led to the invention of the hydraulic press. He is also credited with conducting experiments on atmospheric pressure and the existence of a vacuum.\n\nPascal was a deeply religious person and wrote extensively on the subject of Christian faith and philosophy. His most famous work, Pensées, is a collection of thoughts and fragments on the nature of human existence and the relationship between God and man. Pascal died at the age of 39 due to health complications caused by overwork and poor health. Despite his relatively short life, his contributions to mathematics, physics, and philosophy have had a lasting impact on these fields.",
+        "links": [""],
+        "subjects": ["mathematics", "science", "literature", "philosophy"]
+    },
+    {
+        "id": "reimann",
+        "name": "Bernhard Reimann",
+        "era": "CE",
+        "born": 1826,
+        "died": 1866,
+        "bio": "Georg Friedrich Bernhard Riemann (1826-1866) was a German mathematician who made significant contributions to the fields of analysis, number theory, and differential geometry. He was born in Breselenz, Germany, and showed an early aptitude for mathematics.\n\nRiemann studied under some of the leading mathematicians of his time, including Carl Gauss, and his work on complex analysis and the zeta function is still considered fundamental to modern mathematics. In his 1859 paper \"On the Number of Primes Less Than a Given Magnitude,\" Riemann introduced his famous hypothesis, which states that the distribution of prime numbers follows a certain pattern.\n\nRiemann's work in geometry and topology also had a profound impact on mathematics. He introduced the concept of Riemann surfaces, which are complex manifolds of one complex dimension. This concept played a key role in the development of algebraic geometry and modern physics.\n\nRiemann's contributions to mathematics were cut short by his premature death at the age of 39. Nevertheless, his ideas continue to inspire and inform research in mathematics and related fields today, and he is widely regarded as one of the most important mathematicians in history.",
+        "links": [""],
+        "subjects": ["mathematics"]
+    },
+    {
+        "id": "leibniz",
+        "name": "Gottfried Leibniz",
+        "era": "CE",
+        "born": 1646,
+        "died": 1716,
+        "bio": "Gottfried Wilhelm Leibniz (1646-1716) was a German polymath who made significant contributions to philosophy, mathematics, physics, and law. He was born in Leipzig, Germany, and educated at the universities of Jena and Leipzig. Leibniz is best known for his invention of calculus, which he developed independently of Isaac Newton, and for his ideas on monads and pre-established harmony.\n\nLeibniz's work in calculus was essential to the development of modern mathematics and physics. He was the first to use the term \"integral\" to describe the summation of infinitely small increments, and he developed a notation that is still used today. Leibniz also made significant contributions to philosophy, including his idea of the best possible world and his theory of pre-established harmony, which held that each substance has its own internal principles that govern its behavior.\n\nIn addition to his work in philosophy and mathematics, Leibniz was also a prolific writer and diplomat. He served as the librarian to the Duke of Hanover and corresponded with many of the leading intellectuals of his day. Leibniz's work had a significant impact on the Enlightenment and on subsequent developments in philosophy, mathematics, and science.\n\nDespite his many achievements, Leibniz was a controversial figure in his own time and has continued to be the subject of debate among scholars. However, his legacy as one of the most influential thinkers of the 17th and 18th centuries remains secure.",
+        "links": [""],
+        "subjects": ["science", "mathematics"]
+    },
+    {
+        "id": "vangogh",
+        "name": "Vincent van Gogh",
+        "era": "CE",
+        "born": 1853,
+        "died": 1890,
+        "bio": "Vincent van Gogh (1853-1890) was a Dutch post-impressionist painter known for his bold and colorful paintings that captured the emotional intensity of life. Born in the Netherlands, van Gogh started his career in art as a dealer before deciding to become an artist himself. He moved to Paris in 1886, where he was influenced by the Impressionist movement and the work of Japanese printmakers.\n\nIn 1888, van Gogh moved to the southern French town of Arles, where he produced some of his most famous works, including \"The Starry Night\" and \"Sunflowers.\" He struggled with mental illness throughout his life, which affected his relationships with others and contributed to his eventual suicide in 1890.\n\nDespite his struggles, van Gogh's contributions to the art world have been significant, and his work has had a lasting impact on modern art. His use of vivid colors, thick brushstrokes, and unconventional compositions helped to pave the way for future movements such as Fauvism and Expressionism.\n\nToday, van Gogh's paintings are among the most recognizable and beloved works of art in the world, and his legacy continues to inspire and influence artists and art enthusiasts around the globe.",
+        "links": [""],
+        "subjects": [""]
+    },
+    {
+        "id": "warhol",
+        "name": "Andy Warhol",
+        "era": "CE",
+        "born": 1928,
+        "died": 1987,
+        "bio": "Andy Warhol (1928-1987) was an American artist and cultural icon who played a key role in the Pop Art movement of the 1960s. Born in Pittsburgh, Pennsylvania, Warhol studied art and design at Carnegie Mellon University before moving to New York City in 1949 to begin a career as a commercial artist.\n\nIn the 1950s, Warhol gained recognition for his unique and innovative approach to art, using a variety of techniques including silk-screening, painting, sculpture, and film. He became known for his iconic images of celebrities such as Marilyn Monroe and Elvis Presley, as well as his Campbell's Soup can series, which celebrated everyday consumer products as works of art.\n\nWarhol's work challenged traditional ideas about art and commerce, and he quickly became a central figure in the New York art scene, attracting a wide range of admirers and followers. His studio, known as \"The Factory,\" became a hub of creativity and experimentation, attracting artists, musicians, actors, and other cultural icons.\n\nDespite his success, Warhol's life was marked by tragedy, including a near-fatal shooting in 1968 and the early deaths of several close friends and collaborators. He died in 1987 at the age of 58, leaving behind a legacy as one of the most important and influential artists of the 20th century. His work continues to be celebrated and studied today for its innovative techniques, use of mass media, and commentary on consumer culture and celebrity.",
+        "links": [""],
+        "subjects": ["art"]
+    },
+    {
+        "id": "pollock",
+        "name": "Jackson Pollock",
+        "era": "CE",
+        "born": 1912,
+        "died": 1956,
+        "bio": "Jackson Pollock (1912-1956) was an American artist who is best known for his contributions to the abstract expressionist movement. He was born in Cody, Wyoming, and moved to New York City to study art in the early 1930s. In the late 1940s and early 1950s, Pollock became known for his \"drip paintings,\" which he created by dripping and splashing paint onto large canvases on the floor.\n\nPollock's drip paintings were characterized by their use of unconventional materials and techniques and their emphasis on the physical act of painting itself. They were widely recognized for their groundbreaking approach to abstraction and their influence on subsequent generations of artists.\n\nPollock's personal life was often tumultuous, and he struggled with alcoholism throughout his career. He died in a car accident in 1956 at the age of 44, leaving behind a legacy as one of the most important and influential artists of the 20th century. His work continues to be celebrated for its bold experimentation and its impact on the history of modern art.",
+        "links": [""],
+        "subjects": ["art"]
+    },
+    {
+        "id": "rembrandt",
+        "name": "Rembrandt van Rijn",
+        "era": "CE",
+        "born": 1606,
+        "died": 1669,
+        "bio": "Rembrandt van Rijn (1606-1669) was a Dutch painter and etcher who is widely regarded as one of the greatest artists in European history. He was born in Leiden, Netherlands, and showed an early aptitude for art. He studied with several notable artists before setting up his own studio in Amsterdam in 1624.\n\nRembrandt's early work was characterized by a strong use of light and shadow, which became a hallmark of his style. He often painted historical and biblical scenes, as well as portraits, which were highly prized by his patrons.\n\nOne of his most famous works is \"The Night Watch,\" a painting of a group of city guards that is known for its dramatic use of light and shadow. Despite being highly regarded during his lifetime, Rembrandt experienced financial difficulties later in life and was forced to sell many of his possessions, including his house and studio.\n\nToday, Rembrandt's work is highly prized and is considered among the most important in the history of Western art. His influence can be seen in the work of many later artists, including Vincent van Gogh and Francis Bacon.",
+        "links": [""],
+        "subjects": ["art"]
+    },
+    {
+        "id": "kant",
+        "name": "Immanuel Kant",
+        "era": "CE",
+        "born": 1724,
+        "died": 1804,
+        "bio": "Immanuel Kant (1724-1804) was a German philosopher who is widely regarded as one of the most important thinkers in modern philosophy. He was born in the city of Königsberg, which is now part of Russia, and spent most of his life in that city.\n\nKant's philosophy was deeply concerned with questions about the nature of knowledge, morality, and the human condition. He is particularly famous for his concept of the \"categorical imperative,\" which is a moral principle that requires people to act in ways that could be willed to be universal laws.\n\nKant's works, which include \"Critique of Pure Reason,\" \"Critique of Practical Reason,\" and \"Critique of Judgment,\" had a profound impact on subsequent philosophical thought and continue to be widely studied and debated today.\n\nDespite his immense influence, Kant was a relatively isolated figure during his lifetime and is said to have been deeply introverted. He never traveled more than 10 miles from Königsberg and reportedly followed a strict daily routine that involved taking long walks and working on his philosophy.",
+        "links": [""],
+        "subjects": ["philosophy"]
+    },
+    {
+        "id": "rousseau",
+        "name": "Rousseau",
+        "era": "CE",
+        "born": 1712,
+        "died": 1778,
+        "bio": "Jean-Jacques Rousseau (1712-1778) was a Swiss-born philosopher, writer, and composer who is best known for his political philosophy and contributions to the Enlightenment. His ideas about the social contract, democracy, and the nature of man were highly influential and shaped political and social thought during the French Revolution and beyond.\n\nRousseau believed that man is naturally good but is corrupted by society and civilization. He argued that individuals should enter into a social contract in which they surrender some of their individual rights in exchange for the protection and security provided by the state. He also championed the idea of direct democracy, in which the people directly participate in making decisions about their government.\n\nIn addition to his political writings, Rousseau was also a prominent literary figure and composer. His novel \"Julie, or the New Heloise\" and his autobiographical work \"Confessions\" were both highly popular and influential in their time.\n\nDespite his contributions to philosophy and literature, Rousseau faced criticism and controversy during his lifetime, particularly for his views on education and the role of women in society. Nevertheless, his ideas have had a lasting impact on political theory and social thought, and he is considered one of the most important thinkers of the Enlightenment.",
+        "links": [""],
+        "subjects": ["philosophy", "literature", "music"]
+    },
+    {
+        "id": "hume",
+        "name": "David Hume",
+        "era": "CE",
+        "born": 1711,
+        "died": 1776,
+        "bio": "David Hume (1711-1776) was a Scottish philosopher, historian, and economist, known for his skeptical and empiricist views. He is considered one of the most important figures in the history of Western philosophy and was a major influence on later thinkers such as Immanuel Kant and Adam Smith.\n\nHume's philosophy emphasized the role of experience in shaping our beliefs and knowledge. He argued that we cannot know anything with certainty beyond our immediate sense experience, and that many of our beliefs are based on habit rather than reason. Hume also famously challenged the notion of causation, arguing that we cannot observe a necessary connection between cause and effect but rather only a regularity in their occurrence.\n\nIn addition to his philosophical work, Hume was also a historian and wrote extensively on politics and economics. He believed in the importance of free markets and argued for a limited role of government in economic affairs.\n\nDespite facing criticism during his lifetime for his controversial views, Hume's ideas have had a lasting impact on philosophy, economics, and political theory. His emphasis on the importance of experience and empirical observation has influenced many fields, and his skepticism and critique of traditional metaphysical concepts continues to be studied and debated today.",
+        "links": [""],
+        "subjects": ["philosophy"]
+    },
+    {
+        "id": "epicurus",
+        "name": "Epicurus",
+        "era": "BCE",
+        "born": 341,
+        "died": 270,
+        "bio": "Epicurus (341-270 BC) was a Greek philosopher who founded the school of philosophy known as Epicureanism. He taught that pleasure and the avoidance of pain were the ultimate goals of life, and that happiness could be achieved through a simple and virtuous existence.\n\nEpicurus believed that the gods did not interfere in human affairs, and that death was nothing to be feared because the soul simply dissipated into the void. He also believed in the importance of friendship and community, and his school was known for its emphasis on social interaction and communal living.\n\nEpicurus' ideas were controversial in his time and have continued to be debated throughout history. His emphasis on pleasure and the avoidance of pain has been criticized as hedonistic, and his rejection of divine intervention has been seen as undermining traditional religious beliefs.\n\nDespite this controversy, Epicurus' influence on philosophy has been significant, and his ideas continue to be studied and debated by scholars today. His emphasis on simplicity, community, and the pursuit of happiness has resonated with many people throughout history and continues to inspire new generations of thinkers.",
+        "links": [""],
+        "subjects": ["philosophy"]
+    },
+    {
+        "id": "machiavelli",
+        "name": "Niccolò Machiavelli",
+        "era": "CE",
+        "born": 1469,
+        "died": 1527,
+        "bio": "Niccolò Machiavelli (1469-1527) was an Italian Renaissance philosopher, writer, and statesman who is best known for his book \"The Prince.\" In this work, Machiavelli argues that rulers must sometimes use immoral or unethical means to maintain their power and achieve their goals.\n\nMachiavelli's political philosophy is often described as \"Machiavellian,\" and his ideas have been both praised and condemned throughout history. Some view his ideas as practical and necessary in the world of politics, while others see them as morally bankrupt and Machiavelli himself as a cynical and amoral figure.\n\nIn addition to \"The Prince,\" Machiavelli also wrote numerous other works on politics, history, and philosophy. He served as a diplomat and adviser to the Florentine government for many years, but was eventually exiled and forced to retire from public life.\n\nMachiavelli's ideas continue to be studied and debated today, and his legacy as a provocative and controversial thinker remains secure.",
+        "links": [""],
+        "subjects": ["philosophy", "literature"]
+    },
+    {
+        "id": "bohr",
+        "name": "Niels Bohr",
+        "era": "CE",
+        "born": 1885,
+        "died": 1962,
+        "bio": "Niels Bohr (1885-1962) was a Danish physicist who made fundamental contributions to our understanding of the atom and the nature of matter. He is best known for his model of the atom, which posits that electrons orbit the nucleus in discrete energy levels.\n\nBohr studied at the University of Copenhagen and later worked with Ernest Rutherford in Manchester, where he conducted experiments on atomic structure. He later developed his own model of the atom, which was based on the idea of quantized energy levels and the emission and absorption of photons.\n\nBohr's work had a profound impact on the development of quantum mechanics and atomic physics, and he was awarded the Nobel Prize in Physics in 1922 for his contributions. He later played a key role in the development of nuclear physics and the Manhattan Project, which led to the development of the atomic bomb.\n\nBohr's legacy as one of the most influential physicists of the 20th century remains secure, and his ideas continue to inform and inspire scientific research and inquiry today.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "rutherford",
+        "name": "Ernest Rutherford",
+        "era": "CE",
+        "born": 1871,
+        "died": 1937,
+        "bio": "Ernest Rutherford (1871-1937) was a New Zealand-born physicist who is considered one of the most important scientists of the 20th century. He is known for his groundbreaking work in nuclear physics and his contributions to the development of the atomic bomb.\n\nRutherford was educated at the University of Cambridge, where he conducted experiments that led to the discovery of the concept of radioactive half-life and the identification of alpha and beta radiation. He later conducted experiments on the scattering of alpha particles, which led to the discovery of the atomic nucleus and the development of the Rutherford model of the atom.\n\nDuring World War I, Rutherford played a key role in the development of sonar and other naval technologies. He also served as a scientific advisor to the British government during World War II, where he contributed to the development of the atomic bomb.\n\nRutherford's contributions to science have had a profound impact on our understanding of the fundamental nature of matter and energy. His work laid the groundwork for the development of nuclear physics and atomic energy, and his discoveries continue to inform and inspire scientific research today.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "curie",
+        "name": "Marie Curie",
+        "era": "CE",
+        "born": 1867,
+        "died": 1934,
+        "bio": "Marie Curie (1867-1934) was a Polish-born physicist and chemist who is best known for her pioneering work in the field of radioactivity. She was the first woman to win a Nobel Prize, and the first person to win two Nobel Prizes in different scientific fields.\n\nCurie was born in Warsaw, Poland and studied physics and mathematics at the Sorbonne in Paris. Along with her husband, Pierre Curie, she discovered the elements polonium and radium, and developed techniques for isolating radioactive isotopes.\n\nCurie's work had a profound impact on the field of physics and chemistry, and her discoveries paved the way for new fields of research in nuclear physics and medicine. She was also a pioneer in the use of X-rays in medical diagnosis and treatment.\n\nDespite facing discrimination as a woman in the male-dominated scientific community, Curie continued to pursue her research and made significant contributions to science. She received numerous awards and honors for her work, including two Nobel Prizes.\n\nCurie's legacy as a trailblazer for women in science continues to inspire future generations of scientists and researchers. Her work in the field of radioactivity continues to have important applications in medicine, industry, and scientific research.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "faraday",
+        "name": "Michael Faraday",
+        "era": "CE",
+        "born": 1791,
+        "died": 1867,
+        "bio": "Michael Faraday (1791-1867) was an English scientist who is best known for his groundbreaking work in the field of electromagnetism. He was born in Newington Butts, South London, and was the son of a blacksmith. Despite his lack of formal education, Faraday was a gifted self-taught scientist who made significant contributions to our understanding of electricity and magnetism.\n\nFaraday's experiments with electromagnetic induction led to the development of the first electrical generator, which revolutionized the way electricity was produced and used. He also discovered the laws of electrolysis, which laid the foundation for the development of modern electrochemistry.\n\nFaraday's work had a profound impact on the fields of physics and chemistry, and he was widely regarded as one of the greatest experimental scientists of his time. He received numerous awards and honors for his work, including the Copley Medal from the Royal Society.\n\nFaraday's legacy as a pioneer in the field of electromagnetism continues to influence scientific research and development to this day. His work paved the way for the development of modern electrical power systems and electronics, and his discoveries continue to inspire scientists and researchers around the world.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "hawking",
+        "name": "Stephen Hawking",
+        "era": "CE",
+        "born": 1942,
+        "died": 2018,
+        "bio": "Stephen Hawking (1942-2018) was a British theoretical physicist and cosmologist who made significant contributions to our understanding of black holes, the origins of the universe, and the nature of space and time. He is perhaps best known for his popular science book \"A Brief History of Time,\" which sold millions of copies worldwide and made him a household name.\n\nHawking was born in Oxford, England, and studied physics at University College, Oxford, and later at Trinity College, Cambridge. It was at Cambridge where he made his groundbreaking contributions to cosmology and theoretical physics, including the discovery of the phenomenon known as Hawking radiation, which describes the emission of particles from black holes.\n\nDespite being diagnosed with a form of motor neuron disease at a young age, Hawking continued to work in the field of physics and became one of the most influential scientists of his generation. He received numerous awards and honors for his work, including the Albert Einstein Medal and the Presidential Medal of Freedom.\n\nHawking's work helped to advance our understanding of the universe and inspired countless scientists and researchers around the world. He passed away in 2018, leaving behind a legacy of scientific discovery and popularization that continues to inspire new generations of physicists and cosmologists.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "dirac",
+        "name": "Paul Dirac",
+        "era": "CE",
+        "born": 1902,
+        "died": 1984,
+        "bio": "Paul Dirac (1902-1984) was a British physicist who made significant contributions to the fields of quantum mechanics and theoretical physics. He is best known for his formulation of the Dirac equation, which describes the behavior of relativistic electrons.\n\nBorn in Bristol, England, Dirac studied at the University of Bristol before receiving a scholarship to attend Cambridge University, where he would later become a professor. It was during his time at Cambridge that he made his groundbreaking contributions to physics.\n\nDirac's work in quantum mechanics revolutionized the field and helped to establish the principles of wave-particle duality, superposition, and antimatter. He also made significant contributions to the development of quantum electrodynamics, which describes the interactions between electrons and electromagnetic radiation.\n\nThroughout his career, Dirac was recognized for his groundbreaking contributions to physics and was awarded numerous honors and awards, including the Nobel Prize in Physics in 1933. He continued to work in the field until his death in 1984, leaving behind a legacy of scientific discovery and innovation that continues to inspire physicists and scientists around the world.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "schrodinger",
+        "name": "Erwin Schrödinger",
+        "era": "CE",
+        "born": 1887,
+        "died": 1961,
+        "bio": "Erwin Schrödinger (1887-1961) was an Austrian physicist who made significant contributions to the fields of quantum mechanics and theoretical physics. He is best known for his formulation of the Schrödinger equation, which describes the behavior of quantum mechanical systems.\n\nBorn in Vienna, Schrödinger studied physics at several universities throughout Europe before accepting a position at the University of Zurich in Switzerland. While there, he made significant contributions to the field of wave mechanics and developed the mathematical framework for his famous equation.\n\nSchrödinger's work in quantum mechanics revolutionized the field and helped to establish the principles of wave-particle duality and superposition. He also proposed the concept of entanglement, which describes the phenomenon where the properties of two or more particles are interdependent, even when they are physically separated from one another.\n\nThroughout his career, Schrödinger was recognized for his groundbreaking contributions to physics and was awarded numerous honors and awards, including the Nobel Prize in Physics in 1933. He continued to work in the field until his death in 1961, leaving behind a legacy of scientific discovery and innovation that continues to inspire physicists and scientists around the world.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "tesla",
+        "name": "Nikola Tesla",
+        "era": "CE",
+        "born": 1856,
+        "died": 1943,
+        "bio": "Nikola Tesla (1856-1943) was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist who is best known for his contributions to the design of the modern alternating current (AC) electricity supply system.\n\nBorn in Smiljan, Croatia, Tesla showed an early aptitude for engineering and invention. He moved to the United States in 1884, where he began working for the inventor Thomas Edison. However, the two had different ideas about how to transmit electricity, and Tesla eventually left Edison's company to pursue his own work.\n\nTesla's greatest contribution to science and engineering was his development of the alternating current (AC) electrical system, which allowed for the efficient transmission of electrical power over long distances. He also made significant contributions to the design of electric motors, generators, and transformers, and his work paved the way for many modern technological advancements.\n\nDespite facing numerous setbacks and challenges, including financial difficulties and disputes over patents, Tesla's impact on science and technology has been profound. His inventions and discoveries have had a lasting impact on the world, and his contributions to the development of electrical engineering and other fields continue to be studied and celebrated today.\n\nTesla's legacy as one of the greatest inventors in history remains secure, and his ideas and innovations continue to inspire and influence scientists and engineers around the world.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "chopin",
+        "name": "Frederic Chopin",
+        "era": "CE",
+        "born": 1810,
+        "died": 1849,
+        "bio": "Frederic Chopin (1810-1849) was a Polish composer and pianist who is widely regarded as one of the greatest composers of the Romantic era. Born in Żelazowa Wola, Poland, Chopin began studying music at a young age and went on to attend the Warsaw Conservatory, where he studied piano under the renowned pianist and composer Johann Nepomuk Hummel.\n\nChopin's music is known for its lyricism, sensitivity, and technical virtuosity, particularly in his piano works. He wrote over 200 works, including preludes, nocturnes, waltzes, mazurkas, and polonaises, and his music is often characterized by its beautiful melodies, delicate phrasing, and complex harmonies.\n\nDespite his relatively short life, Chopin's impact on classical music has been profound. His music continues to be widely performed and recorded today, and his contributions to the development of Romantic music have been widely studied and celebrated.\n\nChopin's legacy as one of the greatest composers of the Romantic era remains secure, and his influence on classical music continues to be felt to this day. His music remains beloved by audiences around the world, and his contributions to the development of classical piano music continue to inspire and captivate pianists and music lovers alike.",
+        "links": [""],
+        "subjects": ["music"]
+    },
+    {
+        "id": "tchaikovsky",
+        "name": "Pyotr Llyich Tchaikovsky",
+        "era": "CE",
+        "born": 1840,
+        "died": 1893,
+        "bio": "Pyotr Ilyich Tchaikovsky (1840-1893) was a Russian composer who is widely regarded as one of the greatest composers of the Romantic era. Born in Votkinsk, Russia, Tchaikovsky began studying music at a young age and went on to attend the St. Petersburg Conservatory, where he studied composition under the renowned composer Anton Rubinstein.\n\nTchaikovsky's music is known for its emotional intensity, melodic beauty, and technical virtuosity. He is particularly famous for his ballets, including \"Swan Lake,\" \"The Nutcracker,\" and \"Sleeping Beauty,\" which have become some of the most popular and beloved works in the classical repertoire.\n\nIn addition to his ballets, Tchaikovsky also wrote symphonies, concertos, chamber music, and operas, and his works continue to be widely performed and recorded today. He was a master of orchestration and harmonic color, and his music often explored themes of love, passion, and tragedy.\n\nTchaikovsky's legacy as one of the greatest composers of the Romantic era remains secure, and his influence on classical music continues to be felt to this day. His music remains beloved by audiences around the world, and his contributions to the development of classical music continue to be celebrated and studied by musicians and scholars alike.",
+        "links": [""],
+        "subjects": ["music"]
+    },
+    {
+        "id": "vivaldi",
+        "name": "Antonio Vivaldi",
+        "era": "CE",
+        "born": 1678,
+        "died": 1741,
+        "bio": "Antonio Vivaldi (1678-1741) was an Italian Baroque composer and violinist known for his virtuosic performances and innovative approach to musical composition. Born in Venice, Italy, Vivaldi was ordained as a Catholic priest and spent much of his career working at the Ospedale della Pietà, a charitable institution for orphaned and abandoned girls.\n\nVivaldi's music is known for its technical brilliance, expressive melodies, and intricate harmonic structure. He is particularly famous for his concertos, including the \"Four Seasons,\" which is one of the most popular and frequently performed works in the classical repertoire.\n\nIn addition to his work as a composer, Vivaldi was also a prolific music teacher and conductor, and his influence on the development of Baroque music was profound. His works continue to be widely performed and recorded today, and his contributions to the development of classical music continue to be celebrated around the world.\n\nVivaldi's legacy as one of the greatest composers of the Baroque era remains secure, and his influence on classical music continues to be felt to this day. His contributions to the development of the concerto form and the use of programmatic music were particularly innovative, and his works continue to inspire and captivate audiences around the world.",
+        "links": [""],
+        "subjects": ["music"]
+    },
+    {
+        "id": "orwell",
+        "name": "George Orwell",
+        "era": "CE",
+        "born": 1903,
+        "died": 1950,
+        "bio": "George Orwell (1903-1950) was an English novelist, essayist, and journalist best known for his political and social commentary, particularly in his two most famous works, \"Animal Farm\" and \"Nineteen Eighty-Four.\" Born in Motihari, India, Orwell spent most of his life in England and was a staunch critic of totalitarianism, imperialism, and social injustice.\n\nOrwell's writing is characterized by its clarity, precision, and commitment to truth and honesty. His works often focused on the experiences of the working class and the underprivileged, and he used his writing to shed light on the injustices and inequalities of his time.\n\n\"Animal Farm,\" published in 1945, is a satirical fable that uses animals to illustrate the events leading up to the Russian Revolution and the rise of Stalinism. \"Nineteen Eighty-Four,\" published in 1949, is a dystopian novel that imagines a future totalitarian society in which every aspect of citizens' lives is controlled by the government.\n\nOrwell's legacy as a writer and social critic remains strong, and his works continue to be widely read and studied around the world. His commitment to truth, justice, and honesty has inspired generations of readers and writers, and his works continue to be a powerful force in shaping our understanding of politics, society, and human nature.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "dickens",
+        "name": "Charles Dickens",
+        "era": "CE",
+        "born": 1812,
+        "died": 1870,
+        "bio": "Charles Dickens (1812-1870) was an English writer and social critic who is widely regarded as one of the greatest novelists of the Victorian era. Born in Portsmouth, England, Dickens began his career as a journalist before turning to fiction, where he quickly became a popular and successful author.\n\nDickens's most famous works include \"Oliver Twist,\" \"Great Expectations,\" \"David Copperfield,\" and \"A Tale of Two Cities.\" His novels are known for their vivid characters, social commentary, and emotional depth, and they continue to be widely read and adapted to this day.\n\nIn addition to his work as a writer, Dickens was also a prominent social activist, advocating for reform in areas such as education and working conditions. His works often focused on issues of poverty and injustice, and he used his platform as a writer to shed light on these important social issues.\n\nDickens's legacy as one of the greatest writers in the English language remains secure, and his works continue to inspire and entertain readers around the world. His contributions to literature, social activism, and popular culture have had a lasting impact and continue to be celebrated today.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "joyce",
+        "name": "James Joyce",
+        "era": "CE",
+        "born": 1882,
+        "died": 1941,
+        "bio": "James Joyce (1882-1941) was an Irish novelist and poet known for his innovative and experimental writing style, which helped to redefine the modernist movement in literature. Born in Dublin, Ireland, Joyce was educated at Catholic schools and later attended university in Dublin and Paris.\n\nJoyce's most famous works include the novels \"Ulysses\" and \"Finnegans Wake,\" as well as the short story collection \"Dubliners.\" His writing is characterized by its stream-of-consciousness narration, use of interior monologue, and incorporation of myth, language, and symbolism.\n\nDespite his challenging and often controversial works, Joyce has been widely recognized as one of the most influential writers of the 20th century. His influence can be seen in the works of countless other writers, and his contributions to the modernist movement have had a lasting impact on the development of literature and art.\n\nJoyce's legacy as a groundbreaking and innovative author remains secure, and his works continue to be studied and celebrated by readers, scholars, and artists around the world.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "woolf",
+        "name": "Virginia Woolf",
+        "era": "CE",
+        "born": 1882,
+        "died": 1941,
+        "bio": "Virginia Woolf (1882-1941) was a British author and feminist known for her contributions to modernist literature. Born in London, England, Woolf was part of the Bloomsbury Group, a collective of artists, writers, and intellectuals who were influential in shaping British culture in the early 20th century.\n\nWoolf's writing is characterized by its experimental style and themes of gender, identity, and the human condition. Her most famous works include the novels \"Mrs. Dalloway,\" \"To the Lighthouse,\" and \"Orlando,\" as well as the essay collection \"A Room of One's Own,\" which explores the obstacles faced by women in the arts.\n\nIn addition to her contributions to literature, Woolf was a vocal advocate for women's rights and social justice, and her work as a feminist thinker continues to be celebrated and studied today. Her life and career were marked by struggles with mental illness, and she ultimately took her own life in 1941.\n\nWoolf's legacy as one of the most important writers of the 20th century remains secure, and her works continue to inspire and influence writers, thinkers, and artists around the world.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "christie",
+        "name": "Agatha Christie",
+        "era": "CE",
+        "born": 1890,
+        "died": 1976,
+        "bio": "Agatha Christie (1890-1976) was a British author and playwright known for her detective novels and plays. Born in Devon, England, Christie began writing in the 1920s and went on to become one of the best-selling authors of all time, with over 2 billion copies of her books sold worldwide.\n\nChristie's most famous characters are the detectives Hercule Poirot and Miss Marple, who appear in many of her novels and short stories. Her works are characterized by their intricate plots, cleverly concealed clues, and unexpected twists and turns.\n\nIn addition to her work as a novelist, Christie also wrote plays, including the long-running play \"The Mousetrap,\" which is the longest-running play in history. Her works have been adapted for film, television, and stage, and continue to be enjoyed by audiences around the world.\n\nChristie was made a Dame Commander of the Order of the British Empire in 1971 in recognition of her contribution to literature. She is remembered as one of the most successful and influential authors of the 20th century, and her legacy continues to inspire and entertain readers and audiences today.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "lewis",
+        "name": "CS Lewis",
+        "era": "CE",
+        "born": 1898,
+        "died": 1963,
+        "bio": "C.S. Lewis (1898-1963) was a British author and academic known for his influential works of fiction and non-fiction. Born in Belfast, Northern Ireland, Lewis attended Oxford University, where he later became a professor of English literature.\n\nLewis is best known for his series of children's books, \"The Chronicles of Narnia,\" which have become beloved classics of children's literature. The series, which consists of seven books, follows the adventures of a group of children in a magical world called Narnia.\n\nIn addition to his work as a writer of fiction, Lewis was also a noted Christian apologist, and his books on Christianity, including \"Mere Christianity\" and \"The Problem of Pain,\" have had a profound impact on Christian thought and theology.\n\nLewis's writing is characterized by its clarity, wit, and profound insight into human nature and the human experience. He is remembered as one of the most important and influential writers of the 20th century, and his work continues to be read and studied by readers of all ages and backgrounds.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "tolkien",
+        "name": "J.R.R. Tolkien",
+        "era": "CE",
+        "born": 1892,
+        "died": 1973,
+        "bio": "J.R.R. Tolkien (1892-1973) was an English author and professor of philology best known for his epic fantasy novels \"The Hobbit\" and \"The Lord of the Rings.\" Born in South Africa, Tolkien spent much of his childhood in England and developed a deep love for language and mythology.\n\nTolkien began writing \"The Hobbit\" in the 1930s and went on to write \"The Lord of the Rings,\" a trilogy set in a richly detailed and fully realized fantasy world called Middle-earth. The novels were hugely popular and have become modern classics of the fantasy genre, inspiring generations of readers and writers.\n\nIn addition to his work as a writer, Tolkien was also a respected scholar of Anglo-Saxon and Norse mythology, and his academic work influenced his writing in many ways. He was a professor of English language and literature at the University of Oxford for many years, where he mentored and inspired generations of students.\n\nTolkien's influence on modern fantasy literature and popular culture is incalculable. His works have inspired countless adaptations and imitations, and his richly detailed world-building and use of invented languages have set a high standard for fantasy authors to follow. He is remembered as one of the greatest and most influential writers of the 20th century.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "dostoyevsky",
+        "name": "Fyodor Dostoyevsky",
+        "era": "CE",
+        "born": 1821,
+        "died": 1881,
+        "bio": "",
+        "links": ["Fyodor Dostoevsky (1821-1881) was a Russian novelist and philosopher known for his profound and complex exploration of the human condition. Born in Moscow, Dostoevsky began his writing career in the 1840s, publishing several short stories and novels before being arrested and imprisoned for his participation in a liberal intellectual group.\n\nDuring his imprisonment, Dostoevsky became interested in philosophical and spiritual questions, and his experiences in prison deeply influenced his later writing. His most famous works include \"Crime and Punishment,\" \"The Brothers Karamazov,\" and \"Notes from Underground,\" all of which explore the themes of morality, guilt, and redemption.\n\nDostoevsky's novels are known for their psychological depth and their ability to capture the complexities of human emotion and motivation. He is often considered one of the greatest novelists of all time and a pioneer of modern literature.\n\nIn addition to his literary work, Dostoevsky was also a political activist and social critic, and his writings on politics and society continue to be studied and debated today.\n\nDostoevsky's legacy as a writer and thinker continues to inspire readers and scholars around the world, and his works remain among the most widely read and influential in the history of literature."],
+        "subjects": ["literature", "philosophy"]
+    },
+    {
+        "id": "dahl",
+        "name": "Roald Dahl",
+        "era": "CE",
+        "born": 1916,
+        "died": 1990,
+        "bio": "Roald Dahl (1916-1990) was a British author and screenwriter known for his imaginative and often darkly humorous children's books. Born in Wales to Norwegian parents, Dahl was educated in England and served in the Royal Air Force during World War II.\n\nDahl began his writing career in the 1940s, publishing his first short story in The Saturday Evening Post. He went on to write a series of successful children's books, including \"Charlie and the Chocolate Factory,\" \"Matilda,\" and \"The BFG.\" His books were known for their inventive plots, memorable characters, and often subversive themes.\n\nIn addition to his work as an author, Dahl also wrote screenplays for several successful films, including the James Bond movie \"You Only Live Twice\" and the children's classic \"Chitty Chitty Bang Bang.\"\n\nDahl's contributions to children's literature have had a lasting impact, and his books continue to be popular with readers of all ages. He is remembered as one of the most beloved and influential authors of the 20th century, and his legacy continues to inspire new generations of writers and readers.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "hippocrates",
+        "name": "Hippocrates",
+        "era": "BCE",
+        "born": 460,
+        "died": 370,
+        "bio": "Hippocrates (c. 460 BCE - c. 370 BCE) was a Greek physician who is often referred to as the \"Father of Medicine.\" He was born on the island of Kos and is believed to have studied medicine under his father and other prominent physicians of his time.\n\nHippocrates is famous for his development of the Hippocratic Oath, a code of ethics that physicians still abide by today. He also developed the Hippocratic Corpus, a collection of medical texts that included detailed observations of symptoms and diseases.\n\nOne of Hippocrates' most important contributions to medicine was his emphasis on the importance of observation and careful diagnosis. He believed that the body had an innate ability to heal itself and that physicians should work to support this natural healing process.\n\nHippocrates also rejected many of the traditional beliefs about disease and illness that were common in his time, instead advocating for a more scientific approach to medicine. His ideas were highly influential and helped to establish medicine as a distinct and respected field of study.\n\nToday, Hippocrates is remembered as one of the most important figures in the history of medicine. His contributions to the field helped to lay the groundwork for modern medical practices, and his ideas about ethics and professionalism continue to influence physicians around the world.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "jenner",
+        "name": "Edward Jenner",
+        "era": "CE",
+        "born": 1749,
+        "died": 1823,
+        "bio": "Edward Jenner (1749-1823) was an English physician and scientist who is best known for developing the smallpox vaccine. Born in Berkeley, Gloucestershire, Jenner showed an interest in medicine from a young age and went on to study at St. George's Hospital in London.\n\nJenner's work on smallpox began in the 18th century when he observed that milkmaids who had contracted cowpox, a less severe disease, were immune to smallpox. He hypothesized that cowpox could be used to protect against smallpox and tested this theory by inoculating an eight-year-old boy with cowpox. The boy did not develop smallpox, and Jenner continued to refine his technique over the years.\n\nJenner's discovery revolutionized medicine and led to the eventual eradication of smallpox. His work also laid the groundwork for the development of other vaccines and helped establish the field of immunology.\n\nDespite facing some initial skepticism and opposition, Jenner's vaccine eventually gained widespread acceptance and was adopted by governments around the world. Today, Jenner is remembered as a pioneer of modern medicine, and his legacy continues to inspire researchers and healthcare professionals around the world.",
+        "links": [""],
+        "subjects": ["science"]
     }
 ]
