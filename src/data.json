@@ -120,7 +120,7 @@
         "subjects": ["mathematics"]
     },
     {
-        "id": "franklin",
+        "id": "b-franklin",
         "name": "Benjamin Franklin",
         "era": "CE",
         "born": 1706,
@@ -490,16 +490,6 @@
         "subjects": ["literature"]
     },
     {
-        "id": "teresa",
-        "name": "Mother Teresa",
-        "era": "CE",
-        "born": 1910,
-        "died": 1997,
-        "bio": "Mother Teresa (1910-1997) was a Catholic nun and humanitarian who dedicated her life to serving the poor and sick in some of the world's most impoverished communities. She was born in Skopje, now the capital of North Macedonia, and joined the Sisters of Loreto at the age of 18, taking the name Sister Teresa.\n\nIn 1948, Mother Teresa left her teaching position in Calcutta and began working in the slums, where she established a hospice and a school for the poor. She went on to found the Missionaries of Charity, an organization dedicated to serving the poorest of the poor around the world.\n\nMother Teresa's work in Calcutta and beyond earned her numerous accolades and awards, including the Nobel Peace Prize in 1979. However, she remained humble and dedicated to her mission throughout her life, often stating that her work was simply \"a drop in the ocean.\"\n\nDespite her passing in 1997, Mother Teresa's legacy of compassion and service continues to inspire people around the world. She is widely regarded as one of the most important humanitarians of the 20th century, and her work with the Missionaries of Charity has touched countless lives and continues to provide hope and assistance to those in need.",
-        "links": [""],
-        "subjects": []
-    },
-    {
         "id": "feynman",
         "name": "Richard Feynman",
         "era": "CE",
@@ -518,16 +508,6 @@
         "bio": "Elie Wiesel (1928-2016) was a Romanian-born Jewish-American writer, Holocaust survivor, and activist who became a prominent voice for human rights and social justice around the world. He was born in Sighet, Romania, and was deported with his family to the Auschwitz concentration camp in 1944 during World War II.\n\nWiesel survived the Holocaust and went on to become a prolific writer, with more than 50 books to his name, including his memoir \"Night,\" which is widely regarded as a masterpiece of Holocaust literature. He was also a vocal advocate for human rights and a passionate opponent of genocide and other forms of violence.\n\nIn addition to his work as a writer and activist, Wiesel was also a respected academic, teaching at a number of universities and receiving numerous honorary degrees and awards for his contributions to literature, human rights, and social justice.\n\nWiesel's legacy as a survivor and a voice for the voiceless remains strong today, and his work continues to inspire and inform social justice movements around the world. He is widely regarded as one of the most important figures of the 20th century, and his impact on the struggle for human rights and social justice will be felt for generations to come.",
         "links": [""],
         "subjects": ["literature"]
-    },
-    {
-        "id": "mlk",
-        "name": "Martin Luther King Jr.",
-        "era": "CE",
-        "born": 1929,
-        "died": 1968,
-        "bio": "Martin Luther King Jr. (1929-1968) was an American Baptist minister and civil rights activist who became the most prominent leader in the African American civil rights movement in the 1950s and 1960s. He was born in Atlanta, Georgia, and attended Morehouse College, Crozer Theological Seminary, and Boston University.\n\nKing is best known for his nonviolent approach to civil rights activism, including his leadership of the Montgomery Bus Boycott in 1955 and the March on Washington for Jobs and Freedom in 1963, during which he delivered his famous \"I Have a Dream\" speech. He was a strong advocate for racial equality, social justice, and nonviolence, and his work played a key role in the passage of the Civil Rights Act of 1964 and the Voting Rights Act of 1965.\n\nIn addition to his work in civil rights, King was also a vocal opponent of the Vietnam War and a champion of economic justice, advocating for the rights of workers and the poor. He was awarded the Nobel Peace Prize in 1964 for his leadership in the civil rights movement.\n\nKing's legacy as a civil rights leader and a champion of justice and equality remains strong today, and his ideas and methods continue to inspire social justice movements around the world. He is widely regarded as one of the most important figures in American history, and his impact on the struggle for civil rights and social justice is immeasurable.",
-        "links": [""],
-        "subjects": ["philosophy"]
     },
     {
         "id": "j-bernoulli",
@@ -925,8 +905,8 @@
         "era": "CE",
         "born": 1821,
         "died": 1881,
-        "bio": "",
-        "links": ["Fyodor Dostoevsky (1821-1881) was a Russian novelist and philosopher known for his profound and complex exploration of the human condition. Born in Moscow, Dostoevsky began his writing career in the 1840s, publishing several short stories and novels before being arrested and imprisoned for his participation in a liberal intellectual group.\n\nDuring his imprisonment, Dostoevsky became interested in philosophical and spiritual questions, and his experiences in prison deeply influenced his later writing. His most famous works include \"Crime and Punishment,\" \"The Brothers Karamazov,\" and \"Notes from Underground,\" all of which explore the themes of morality, guilt, and redemption.\n\nDostoevsky's novels are known for their psychological depth and their ability to capture the complexities of human emotion and motivation. He is often considered one of the greatest novelists of all time and a pioneer of modern literature.\n\nIn addition to his literary work, Dostoevsky was also a political activist and social critic, and his writings on politics and society continue to be studied and debated today.\n\nDostoevsky's legacy as a writer and thinker continues to inspire readers and scholars around the world, and his works remain among the most widely read and influential in the history of literature."],
+        "bio": "Fyodor Dostoevsky (1821-1881) was a Russian novelist and philosopher known for his profound and complex exploration of the human condition. Born in Moscow, Dostoevsky began his writing career in the 1840s, publishing several short stories and novels before being arrested and imprisoned for his participation in a liberal intellectual group.\n\nDuring his imprisonment, Dostoevsky became interested in philosophical and spiritual questions, and his experiences in prison deeply influenced his later writing. His most famous works include \"Crime and Punishment,\" \"The Brothers Karamazov,\" and \"Notes from Underground,\" all of which explore the themes of morality, guilt, and redemption.\n\nDostoevsky's novels are known for their psychological depth and their ability to capture the complexities of human emotion and motivation. He is often considered one of the greatest novelists of all time and a pioneer of modern literature.\n\nIn addition to his literary work, Dostoevsky was also a political activist and social critic, and his writings on politics and society continue to be studied and debated today.\n\nDostoevsky's legacy as a writer and thinker continues to inspire readers and scholars around the world, and his works remain among the most widely read and influential in the history of literature.",
+        "links": [""],
         "subjects": ["literature", "philosophy"]
     },
     {
@@ -958,5 +938,295 @@
         "bio": "Edward Jenner (1749-1823) was an English physician and scientist who is best known for developing the smallpox vaccine. Born in Berkeley, Gloucestershire, Jenner showed an interest in medicine from a young age and went on to study at St. George's Hospital in London.\n\nJenner's work on smallpox began in the 18th century when he observed that milkmaids who had contracted cowpox, a less severe disease, were immune to smallpox. He hypothesized that cowpox could be used to protect against smallpox and tested this theory by inoculating an eight-year-old boy with cowpox. The boy did not develop smallpox, and Jenner continued to refine his technique over the years.\n\nJenner's discovery revolutionized medicine and led to the eventual eradication of smallpox. His work also laid the groundwork for the development of other vaccines and helped establish the field of immunology.\n\nDespite facing some initial skepticism and opposition, Jenner's vaccine eventually gained widespread acceptance and was adopted by governments around the world. Today, Jenner is remembered as a pioneer of modern medicine, and his legacy continues to inspire researchers and healthcare professionals around the world.",
         "links": [""],
         "subjects": ["science"]
+    },
+    {
+        "id": "kahlo",
+        "name": "Frida Kahlo",
+        "era": "CE",
+        "born": 1907,
+        "died": 1954,
+        "bio": "Frida Kahlo was a Mexican artist born on July 6, 1907, in Coyoacán, Mexico. At the age of six, Kahlo contracted polio, which left her right leg thinner than the other. She was interested in art from a young age and began to paint after a bus accident left her with severe injuries. She spent much of her life in pain due to her injuries and later, a diagnosis of spina bifida.\nKahlo's paintings were known for their vibrant colors, striking imagery, and exploration of Mexican culture and identity. Her artwork often depicted her own experiences, emotions, and physical pain. Kahlo also explored themes such as feminism, politics, and the human condition.\nDespite her talent and unique style, Kahlo's artwork was not recognized until the end of her life. She passed away at the age of 47 on July 13, 1954. However, her legacy has continued to grow, and she has become an iconic figure in Mexican and feminist art. Today, Kahlo is widely regarded as one of the most influential and important artists of the 20th century.",
+        "links": [""],
+        "subjects": ["art"]
+    },
+    {
+        "id": "frank",
+        "name": "Anne Frank",
+        "era": "CE",
+        "born": 1929,
+        "died": 1945,
+        "bio": "Anne Frank was a Jewish girl born on June 12, 1929, in Frankfurt, Germany. Her family fled to Amsterdam, the Netherlands, in 1933 to escape the rise of the Nazi Party in Germany. In July 1942, Anne and her family went into hiding in a secret annex of a building in Amsterdam to avoid being captured and sent to a concentration camp.\n\nDuring the two years she spent in hiding, Anne wrote in her diary about her life, thoughts, and feelings. Her diary has since become one of the most widely read books in the world and has given millions of people insight into the life of a young Jewish girl during the Holocaust.\n\nSadly, in August 1944, the secret annex was discovered, and Anne and her family were arrested and sent to concentration camps. Anne died in March 1945 at the Bergen-Belsen concentration camp at the age of 15, just a few weeks before the camp was liberated by British forces. Her father, Otto Frank, was the only member of her family to survive the war and later published Anne's diary, which has been translated into over 70 languages.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "shelley",
+        "name": "Mary Shelley",
+        "era": "CE",
+        "born": 1797,
+        "died": 1851,
+        "bio": "Mary Shelley (1797-1851) was an English writer and novelist best known for her Gothic novel \"Frankenstein; or, The Modern Prometheus,\" published in 1818. Shelley was born to political philosopher William Godwin and feminist writer Mary Wollstonecraft. Unfortunately, Wollstonecraft died shortly after Shelley's birth, and she was raised by her father and stepmother.\n\nIn 1814, at the age of 17, Shelley eloped with the poet Percy Bysshe Shelley, and they later married after Percy's first wife died. Together they traveled extensively throughout Europe and became part of a circle of writers that included Lord Byron. During one particularly rainy summer, the group decided to write ghost stories, and it was then that Shelley began writing \"Frankenstein.\"\n\n\"Frankenstein\" tells the story of Victor Frankenstein, a young scientist who creates a monster out of reanimated body parts. The novel explores themes of science, morality, and the dangers of ambition. It was a critical and popular success, and has since become a classic of Gothic literature.\n\nShelley continued to write and publish novels and short stories throughout her life, and was also an advocate for social and political reform. She died at the age of 53 from a suspected brain tumor. Today, Mary Shelley is remembered as one of the most important and influential writers of the Romantic period.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "nightingale",
+        "name": "Florence Nightingale",
+        "era": "CE",
+        "born": 1820,
+        "died": 1920,
+        "bio": "Florence Nightingale was born on May 12, 1820 in Florence, Italy. She was a British social reformer and statistician who became famous for her pioneering work as a nurse during the Crimean War. Nightingale was the second daughter of wealthy English parents, and was educated at home, receiving a classical education which was unusual for girls of her time.\n\nAt the age of 24, Nightingale felt a calling to become a nurse, much to her parents' dismay. She received some basic training in Germany before returning to England, where she took up the position of superintendent of a hospital for women in London. In 1854, she was appointed to lead a group of nurses to the military hospital in Scutari, Turkey, where British soldiers wounded in the Crimean War were being treated.\n\nNightingale found the conditions in the hospital to be deplorable, with overcrowding, poor hygiene, and a lack of basic supplies. She implemented strict hygiene practices, which dramatically reduced the death rate among the soldiers. Nightingale's work earned her the nickname \"the Lady with the Lamp,\" as she made her rounds at night to check on the wounded soldiers.\n\nAfter the war, Nightingale returned to England and continued to advocate for healthcare reform. She used her knowledge of statistics to demonstrate the need for better public health measures, and played a key role in the establishment of the world's first secular nursing school, which opened in 1860.\n\nFlorence Nightingale died on August 13, 1910, at the age of 90. She is widely regarded as a pioneer in the field of nursing, and her work helped to establish nursing as a respectable profession for women. Her legacy continues to inspire nurses and healthcare workers around the world.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "anthony",
+        "name": "Susan B. Anthony",
+        "era": "CE",
+        "born": 1820,
+        "died": 1906,
+        "bio": "Susan B. Anthony (1820-1906) was an American suffragist, abolitionist, and women's rights activist. She was born in Massachusetts and raised in a Quaker family that believed in equality for all people. As a young woman, Anthony became involved in the abolitionist movement and worked with leaders such as Frederick Douglass.\n\nIn the 1860s, Anthony became active in the women's suffrage movement, advocating for women's right to vote and equal rights. She traveled the country giving speeches and organizing women's rights conventions. Anthony also played a key role in organizing the National Woman Suffrage Association and publishing the newspaper, The Revolution.\n\nDespite facing significant opposition and ridicule, Anthony continued to fight for women's rights throughout her life. She was arrested in 1872 for voting in a presidential election, which was illegal for women at the time. Anthony's tireless activism helped pave the way for the 19th Amendment to the U.S. Constitution, which granted women the right to vote in 1920, fourteen years after her death.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "keller",
+        "name": "Hellen Keller",
+        "era": "CE",
+        "born": 1880,
+        "died": 1968,
+        "bio": "Helen Keller was an American author, activist, and lecturer who was born on June 27, 1880, in Tuscumbia, Alabama. When she was 19 months old, she contracted an illness that left her deaf and blind. Despite these obstacles, she became a prominent advocate for the deaf and blind and an inspiration to people with disabilities around the world.\n\nKeller was fortunate to have a devoted teacher, Anne Sullivan, who helped her to communicate through a tactile method of finger-spelling words into her hand. Sullivan also taught her to read braille and raised letters. With her teacher's help, Keller learned to read, write, and speak several languages, including English, French, and German.\n\nKeller became a prominent figure in the American disability rights movement and was a strong advocate for women's suffrage. She wrote several books, including her autobiography, \"The Story of My Life,\" and traveled the world, giving lectures and inspiring others with her message of perseverance and hope.\n\nKeller passed away on June 1, 1968, at the age of 87, but her legacy lives on as a symbol of the strength and resilience of the human spirit.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "grandin",
+        "name": "Temple Grandin",
+        "era": "CE",
+        "born": 1947,
+        "died": "present",
+        "bio": "Temple Grandin is an American professor of animal science and autism activist. She was born on August 29, 1947, in Boston, Massachusetts, and was diagnosed with autism at an early age. Despite this, she went on to earn a Bachelor of Science degree in psychology and both a Master's and a Ph.D. in animal science.\n\nGrandin is known for her contributions to the field of animal welfare and for her innovations in the design of livestock handling facilities. She has authored numerous books on animal behavior and welfare, including \"Animals in Translation\" and \"The Autistic Brain,\" which discuss her personal experiences with autism and her insights on the condition.\n\nAs an autism activist, Grandin has worked to raise awareness about the condition and to promote the use of alternative educational methods for autistic children. She has been recognized for her contributions to animal science and welfare, as well as for her advocacy for those with autism, receiving numerous awards and honors for her work.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "johnson",
+        "name": "Katherine Johnson",
+        "era": "CE",
+        "born": 1918,
+        "died": 2020,
+        "bio": "Katherine Johnson (1918-2020) was an African American mathematician and NASA pioneer who made significant contributions to space exploration. Born in West Virginia, Johnson was a gifted student from an early age, showing a particular talent for mathematics. She graduated summa cum laude with degrees in mathematics and French from West Virginia State College in 1937.\n\nAfter several years teaching, Johnson began working at the National Advisory Committee for Aeronautics (NACA), which later became NASA, in 1953. There, she calculated flight trajectories for the first American manned space flights and later worked on the Apollo program. She was known for her accuracy and attention to detail, and her calculations were critical in ensuring the success of these missions.\n\nJohnson was also a trailblazer for women and people of color in science and technology. Despite facing discrimination and segregation in her personal and professional life, she persevered and became a role model for generations of young people interested in science and engineering. In 2015, Johnson was awarded the Presidential Medal of Freedom, the highest civilian honor in the United States. She passed away in 2020 at the age of 101.",
+        "links": [""],
+        "subjects": ["mathematics", "science"]
+    },
+    {
+        "id": "jackson",
+        "name": "Mary Jackson",
+        "era": "CE",
+        "born": 1921,
+        "died": 2005,
+        "bio": "Mary Jackson (1921-2005) was an American mathematician and aerospace engineer who worked for NASA. She was born and raised in Hampton, Virginia, and graduated from high school with honors. She then went on to attend Hampton Institute (now Hampton University), where she studied math and physical science.\n\nAfter graduating, Jackson began working as a math teacher, but in 1951 she joined the National Advisory Committee for Aeronautics (NACA), the precursor to NASA. She initially worked as a mathematician in a segregated section of NACA, where she performed calculations and analysis for aircraft design.\n\nOver time, Jackson became interested in the new field of supersonic flight, and she enrolled in a graduate program in math and physics at the University of Virginia. In 1958, she became the first African-American woman to earn an engineering degree from the school.\n\nJackson continued to work at NASA for several decades, and she made significant contributions to the development of new aircraft and space vehicles. She was a strong advocate for the hiring and promotion of women and minorities at the agency, and she helped to break down many of the racial and gender barriers that had previously existed.\n\nIn recognition of her contributions, Jackson received numerous awards and honors throughout her career. She retired from NASA in 1985, and in 2019, she was posthumously awarded the Congressional Gold Medal, one of the highest civilian honors in the United States.",
+        "links": [""],
+        "subjects": ["mathematics", "science"]
+    },
+    {
+        "id": "vaughan",
+        "name": "Dorothy Vaughan",
+        "era": "CE",
+        "born": 1910,
+        "died": 2008,
+        "bio": "Dorothy Vaughan was an American mathematician and computer programmer who played a crucial role in the early days of NASA's space program. She was born in Kansas City, Missouri, in 1910, and later moved to Virginia, where she attended high school and college.\n\nAfter working as a math teacher for several years, Vaughan joined the National Advisory Committee for Aeronautics (NACA) in 1943 as one of the agency's first African-American \"human computers.\" She became an expert in programming the agency's early IBM computers and was eventually promoted to lead the West Area Computing Unit, making her NACA's first African-American supervisor.\n\nVaughan's unit provided critical mathematical and computational support for the Mercury, Gemini, and Apollo missions, and her work helped ensure the success of many of NASA's early space missions. She also fought for equal pay and opportunities for women and minorities at NASA.\n\nVaughan retired from NASA in 1971 and went on to work as a mathematics professor at historically black colleges in Virginia. She passed away in 2008, but her legacy as a pioneering mathematician and computer scientist lives on.",
+        "links": [""],
+        "subjects": [""]
+    },
+    {
+        "id": "west",
+        "name": "Gladys West",
+        "era": "CE",
+        "born": 1930,
+        "died": "present",
+        "bio": "Gladys West is an American mathematician and one of the key developers of the Global Positioning System (GPS). She was born on September 27, 1930, in Sutherland, Virginia. West earned her bachelor's degree in mathematics from Virginia State University in 1952 and went on to receive a master's degree in mathematics from the same university. In 1978, she completed her Ph.D. in Mathematics Education at Virginia Polytechnic Institute and State University.\n\nWest began her career as a teacher in Sussex County, Virginia, and later worked as a computer programmer at the Naval Proving Ground in Dahlgren, Virginia. It was during her time at the Naval Proving Ground that she began working on the development of GPS. She used complex algorithms to model and analyze the Earth's shape and was one of the first to use satellites to track the position of objects on Earth.\n\nWest's work on GPS was initially classified, but in 2018 she was inducted into the Air Force Space and Missile Pioneers Hall of Fame for her contributions to the development of the system. She is also a member of the Alpha Kappa Alpha sorority and has been recognized for her contributions to STEM education and her advocacy for women and minorities in the field. West's work continues to have a significant impact on modern technology and has revolutionized navigation and geolocation around the world.",
+        "links": [""],
+        "subjects": ["mathematics", "science"]
+    },
+    {
+        "id": "hopper",
+        "name": "Grace Hopper",
+        "era": "CE",
+        "born": 1906,
+        "died": 1992,
+        "bio": "Grace Hopper (1906-1992) was an American computer scientist and naval officer who played a pioneering role in the development of computer programming languages. She was born in New York City and earned a Ph.D. in mathematics from Yale University in 1934. During World War II, she joined the U.S. Navy and was assigned to the Bureau of Ordnance Computation Project at Harvard University, where she worked on the Harvard Mark I computer.\n\nIn the 1950s, Hopper worked on the UNIVAC I computer and developed the first compiler, a program that translates instructions written in a high-level programming language into machine code that can be executed by a computer. She is also credited with coining the term \"debugging\" to describe the process of fixing errors in computer code.\n\nHopper continued to work in the computer industry throughout her career, and was a strong advocate for the use of standardized programming languages. In 1983, she became the first woman to receive the National Medal of Technology, and in 1991 she was awarded the prestigious Computer Sciences Man of the Year award. She died in 1992 at the age of 85, but her legacy as a pioneer in computer science continues to inspire and influence the field today.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "goodall",
+        "name": "Jane Goodall",
+        "era": "CE",
+        "born": 1934,
+        "died": 1980,
+        "bio": "Jane Goodall is a British primatologist and anthropologist who is known for her extensive studies of chimpanzees in Tanzania. Born on April 3, 1934, in London, Goodall was fascinated with animals from an early age, and by her twenties, she was already working as a secretary for a naturalist in Kenya.\n\nIn 1960, Goodall began studying chimpanzees in Tanzania's Gombe Stream National Park, and she quickly made several groundbreaking discoveries. She observed chimpanzees using tools, something that was previously thought to be unique to humans, and she documented a complex social structure among chimpanzees.\n\nOver the years, Goodall became one of the world's leading experts on chimpanzees, and she has authored numerous books and scientific papers on the subject. She also founded the Jane Goodall Institute, which works to protect chimpanzees and their habitats, and she has been an outspoken advocate for animal welfare and conservation.\n\nIn addition to her work with chimpanzees, Goodall has also been a vocal advocate for environmental conservation and has received numerous honors and awards for her contributions to science and conservation.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "meitner",
+        "name": "Lise Meitner",
+        "era": "CE",
+        "born": 1878,
+        "died": 1968,
+        "bio": "Lise Meitner was an Austrian physicist who made significant contributions to the field of nuclear physics. She was born in Vienna, Austria in 1878, and showed an early interest in science and mathematics. Meitner was one of the few women in her time to pursue higher education in physics and earned her doctorate from the University of Vienna in 1906.\n\nAfter completing her education, Meitner worked at several universities in Germany and Austria, including the Kaiser Wilhelm Institute for Chemistry in Berlin. It was there that she collaborated with chemist Otto Hahn, and together they discovered the process of nuclear fission, which led to the development of the atomic bomb.\n\nDespite her contributions to the discovery, Meitner was not recognized by the Nobel Committee for her work, and Hahn was awarded the Nobel Prize in Chemistry in 1944. Meitner continued her work in nuclear physics and was a pioneer in the study of radioactive decay. She died in 1968 in Cambridge, England, and her contributions to nuclear physics have been widely recognized in the years since her death.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "r-franklin",
+        "name": "Rosalind Franklin",
+        "era": "CE",
+        "born": 1920,
+        "died": 1958,
+        "bio": "Rosalind Franklin was a British chemist and X-ray crystallographer who played a key role in the discovery of the structure of DNA. She was born on July 25, 1920, in London, England. She attended Newnham College, Cambridge, where she studied physics and chemistry. She later moved to King's College London, where she worked with Maurice Wilkins on X-ray diffraction studies of DNA.\n\nFranklin's work on X-ray crystallography was instrumental in the discovery of the double helix structure of DNA. However, her contribution to the discovery was not fully acknowledged during her lifetime, and she did not receive the Nobel Prize that was awarded to James Watson, Francis Crick, and Maurice Wilkins for the discovery.\n\nFranklin continued to work in the field of X-ray crystallography after her work on DNA, and made significant contributions to the study of viruses and the structure of coal. She died on April 16, 1958, at the age of 37, from ovarian cancer. Her work has been recognized posthumously, and she is now regarded as one of the most important scientists of the 20th century.",
+        "links": [""],
+        "subjects": ["science"]
+    },
+    {
+        "id": "beauvoir",
+        "name": "Simone de Beauvoir",
+        "era": "CE",
+        "born": 1908,
+        "died": 1986,
+        "bio": "Simone de Beauvoir was a French writer, philosopher, and feminist who lived from 1908 to 1986. She is widely regarded as one of the most important figures in modern feminism and existentialism.\n\nDe Beauvoir was born in Paris, France and grew up in a bourgeois family. She studied philosophy at the Sorbonne, where she met and formed a life-long romantic and intellectual partnership with Jean-Paul Sartre, another prominent existentialist philosopher.\n\nIn 1949, de Beauvoir published her most famous work, \"The Second Sex,\" which is widely regarded as a foundational text of modern feminism. The book examines the cultural and social construction of gender roles and argues that women have historically been oppressed and marginalized by male-dominated societies.\n\nDe Beauvoir continued to write and lecture on feminist and existentialist themes throughout her life, publishing a number of other influential books and essays, including \"The Ethics of Ambiguity,\" \"The Prime of Life,\" and \"The Coming of Age.\" She also played an active role in the French feminist movement, advocating for women's reproductive rights and other social and political issues.\n\nDe Beauvoir died in 1986 in Paris, leaving behind a legacy as a pioneering feminist thinker and writer.",
+        "links": [""],
+        "subjects": ["literature", "philosophy"]
+    },
+    {
+        "id": "savant",
+        "name": "Marilyn vos Savant",
+        "era": "CE",
+        "born": 1946,
+        "died": "present",
+        "bio": "Marilyn vos Savant is an American magazine columnist, author, and lecturer known for her extraordinary intelligence and her ability to solve complex mathematical problems. She was born on August 11, 1946, in St. Louis, Missouri.\n\nAt the age of ten, vos Savant demonstrated an exceptional aptitude for math and began taking college-level courses in the subject. She continued her education at Washington University in St. Louis, where she earned a degree in mathematics at the age of 19.\n\nIn 1985, vos Savant gained national attention when she correctly answered a difficult probability question in her \"Ask Marilyn\" column in Parade magazine. The solution, which seemed counterintuitive to many readers, sparked a national debate about the nature of intelligence and the limitations of human reasoning.\n\nSince then, vos Savant has continued to write her \"Ask Marilyn\" column, as well as several books on topics ranging from philosophy and psychology to mathematics and science. She has also made numerous television and radio appearances, and has been a keynote speaker at conferences and events around the world.\n\nToday, vos Savant is recognized as one of the most intelligent people in the world, and has been inducted into the Guinness Book of World Records for having the highest IQ ever recorded. She continues to inspire others with her unique insights into the mysteries of the universe, and her unwavering dedication to the pursuit of knowledge.",
+        "links": [""],
+        "subjects": ["literature", "mathematics", "science", "philosophy"]
+    },
+    {
+        "id": "angelou",
+        "name": "Maya Angelou",
+        "era": "CE",
+        "born": 1928,
+        "died": 2014,
+        "bio": "Maya Angelou was an American author, poet, and civil rights activist. She was born on April 4, 1928, in St. Louis, Missouri, and spent much of her childhood in Arkansas. Despite facing racism and discrimination, Angelou excelled academically and eventually became the first Black streetcar conductor in San Francisco.\n\nIn the 1950s, Angelou moved to New York City and became involved in the civil rights movement. She worked with leaders such as Malcolm X and Dr. Martin Luther King Jr. and served as the northern coordinator for the Southern Christian Leadership Conference.\n\nAngelou also began writing during this time and published her first autobiography, \"I Know Why the Caged Bird Sings,\" in 1969. The book is a powerful exploration of her experiences growing up in the Jim Crow South and dealing with trauma.\n\nAngelou continued to write and publish throughout her life, becoming a prominent voice in literature and poetry. Her other works include \"Gather Together in My Name,\" \"The Heart of a Woman,\" and \"On the Pulse of Morning,\" which she wrote for the inauguration of President Bill Clinton in 1993.\n\nIn addition to her literary accomplishments, Angelou was a respected speaker and performer. She toured the world giving speeches and poetry readings, and also acted in movies and television shows.\n\nMaya Angelou passed away on May 28, 2014, but her legacy lives on through her writing, activism, and influence on future generations.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "maimonides",
+        "name": "Maimonides",
+        "era": "CE",
+        "born": 1135,
+        "died": 1204,
+        "bio": "Maimonides, also known as Moses ben Maimon, was a Jewish philosopher and scholar who lived from 1135 to 1204. He was born in Cordoba, Spain, during the Islamic rule of Andalusia. Maimonides is widely regarded as one of the greatest Jewish scholars of all time and is known for his work in the fields of philosophy, ethics, and Jewish law.\n\nMaimonides grew up in a family of distinguished scholars and received an extensive education in both Jewish and secular studies. In 1148, his family was forced to flee Spain due to the persecution of Jews by the Almohads, a Muslim dynasty. They settled in Morocco, and Maimonides continued his studies there.\n\nIn 1165, Maimonides and his family emigrated to Egypt, where he became the physician of the sultan Saladin. In addition to practicing medicine, Maimonides also continued his scholarly work and wrote many influential works, including \"The Guide for the Perplexed,\" a philosophical treatise that explores the relationship between religion and reason.\n\nMaimonides was also an important figure in Jewish law and served as the leader of the Jewish community in Cairo. He is known for his \"Mishneh Torah,\" a comprehensive code of Jewish law that is still studied and followed today.\n\nMaimonides' works had a significant impact on both Jewish and non-Jewish thinkers, and his ideas continue to be studied and debated today. He died in 1204 in Fustat, Egypt.",
+        "links": [""],
+        "subjects": ["philosophy"]
+    },
+    {
+        "id": "dante",
+        "name": "Dante Alighieri",
+        "era": "CE",
+        "born": 1265,
+        "died": 1321,
+        "bio": "Dante Alighieri was an Italian poet and philosopher born in Florence in 1265. He is best known for his epic poem \"The Divine Comedy,\" which is widely considered one of the greatest works of world literature. Dante's early life was marked by political upheaval in Florence, and he became involved in the political struggles of his day, ultimately being exiled from Florence. During his exile, he wrote \"The Divine Comedy,\" which tells the story of a journey through Hell, Purgatory, and Heaven, and reflects Dante's Christian faith and his understanding of medieval cosmology. The poem is a masterpiece of allegory and symbolism and has had a profound influence on Western literature and culture. Dante died in Ravenna, Italy, in 1321, and his legacy continues to inspire readers and scholars to this day.",
+        "links": [""],
+        "subjects": ["literature", "philosophy"]
+    },
+    {
+        "id": "pizan",
+        "name": "Christine de Pizan",
+        "era": "CE",
+        "born": 1364,
+        "died": 1430,
+        "bio": "Christine de Pizan was a medieval writer and thinker who lived from 1364 to c.1430. She was born in Venice, Italy, but spent most of her life in France. Her father was a court astrologer and physician, and he gave her an education that was unusual for a girl at that time.\n\nAfter she was widowed at a young age, Christine began writing to support herself and her children. Her most famous work is \"The Book of the City of Ladies,\" which was published in 1405. In this book, she argues against the negative stereotypes of women that were prevalent in her time, and she creates a \"city of ladies\" where women are respected and valued.\n\nChristine was also a prolific writer of poetry, letters, and other works, and she was known for her wit and intelligence. She was one of the first women in Europe to earn a living as a writer, and her work paved the way for other women to follow in her footsteps. She is considered one of the most important writers of the Middle Ages and an early feminist thinker.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "boethius",
+        "name": "Boethius",
+        "era": "CE",
+        "born": 480,
+        "died": 524,
+        "bio": "Boethius was a Roman statesman, philosopher, and writer born in 480 CE in Rome, Italy. He was from an aristocratic family and received an exceptional education in philosophy, mathematics, and music. He became a prominent figure in the court of the Ostrogoth king Theodoric and served as his consul. However, his fortunes changed when he was accused of treason and imprisoned in Pavia.\n\nWhile in prison, Boethius wrote his most famous work, \"The Consolation of Philosophy,\" in which he reflects on the nature of happiness, fate, and the human condition. The book became a widely influential philosophical and literary work in the Middle Ages and Renaissance.\n\nBoethius was eventually executed in 524 CE, but his works continued to be studied and admired for their philosophical and literary merit. He is considered one of the last important philosophers of the classical era and a key figure in the transmission of Greek thought to the medieval world.",
+        "links": [""],
+        "subjects": ["philosophy", "literature"]
+    },
+    {
+        "id": "libai",
+        "name": "Li Bai",
+        "era": "CE",
+        "born": 701,
+        "died": 762,
+        "bio": "Li Bai (also known as Li Po) was a famous Chinese poet who lived during the Tang Dynasty. He was born in 701 AD in Suyab, which is now modern-day Kyrgyzstan, but grew up in Sichuan Province in southwestern China. He began writing poetry as a child and developed a love for nature, which is reflected in many of his works.\n\nLi Bai was known for his romantic, lyrical style and his ability to capture the beauty of the natural world in his poetry. He wrote about a wide range of subjects, including love, nature, and the joys and sorrows of life. Some of his most famous works include \"Drinking Alone by Moonlight,\" \"Quiet Night Thought,\" and \"Thoughts on a Quiet Night.\"\n\nLi Bai was known to be a heavy drinker, and many of his poems reflect his love of wine and his bohemian lifestyle. Despite this, he was highly respected by his contemporaries and later generations of Chinese poets. He is considered one of the greatest poets in Chinese history and his works continue to be widely read and admired today.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "dufu",
+        "name": "Du Fu",
+        "era": "CE",
+        "born": 712,
+        "died": 770,
+        "bio": "Du Fu (712-770) was a Chinese poet and politician who is widely considered one of the greatest poets in Chinese history. He was born in Gongyi, Henan province, during the Tang dynasty, and grew up in a scholarly family.\n\nDespite his literary talent, Du Fu struggled to find success in the imperial court and was often forced to travel around China to escape political turmoil. During his travels, he witnessed the suffering of the common people, which deeply influenced his poetry. His works often criticized the government and the ruling class, and he wrote about social injustice, poverty, and the struggles of ordinary people.\n\nDu Fu's poetry is characterized by its emotional depth, vivid imagery, and musical language. His most famous works include \"Ballad of the Army Carts,\" \"Spring View,\" and \"Moonlit Night.\" He is also known for his philosophical and historical writings, including \"A New Account of the Tales of the World\" and \"The Great Summing-Up.\"\n\nDu Fu's influence on Chinese poetry is immense, and his works continue to be studied and admired to this day.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "tzu",
+        "name": "Sun Tzu",
+        "era": "BCE",
+        "born": 544,
+        "died": 496,
+        "bio": "Sun Tzu was an ancient Chinese general, military strategist, and philosopher who lived during the Eastern Zhou period. He is believed to have been born in 544 BCE, though little is known about his early life. He served as a general in the Wu kingdom before becoming a military advisor to King Helü of Wu.\n\nSun Tzu is best known for his book \"The Art of War,\" which is still widely read and studied today. This treatise on military strategy and tactics is considered a classic of Chinese literature and has influenced military thought and practice around the world.\n\nSun Tzu's approach to warfare emphasized the importance of careful planning, strategic thinking, and deception. He believed that the most effective way to win a battle was to outmaneuver the enemy rather than engaging in direct conflict. He also stressed the importance of knowing oneself as well as the enemy in order to achieve victory.\n\nDespite the enduring popularity of \"The Art of War,\" little is known about Sun Tzu's life beyond his military career and writings. It is believed that he died sometime around 496 BCE, though the exact date is uncertain.",
+        "links": [""],
+        "subjects": ["philosophy"]
+    },
+    {
+        "id": "ferdowsi",
+        "name": "Ferdowsi",
+        "era": "CE",
+        "born": 940,
+        "died": 1020,
+        "bio": "Ferdowsi, also known as Abu al-Qasim Ferdowsi Tusi, was a Persian poet and the author of the epic poem \"Shahnameh\" (Book of Kings). He was born in 940 AD in the city of Tus in Iran, and he spent much of his life researching, writing, and reciting the Shahnameh.\n\nThe Shahnameh is a masterpiece of Persian literature that chronicles the history of Persia from its mythical beginnings to the Islamic conquest in the 7th century. Ferdowsi spent over 30 years composing the epic poem, which contains over 60,000 couplets and is considered one of the world's longest epic poems.\n\nFerdowsi's work had a significant impact on Persian culture and identity, as it helped to preserve and promote the Persian language and history during a time of political and cultural change in Iran. His poetry has been studied and celebrated for centuries, and his legacy continues to inspire and influence writers and scholars around the world. Ferdowsi died in 1020 AD in Tus, Iran, but his works continue to live on and inspire generations.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "qingzhao",
+        "name": "Li Qingzhao",
+        "era": "CE",
+        "born": 1084,
+        "died": 1155,
+        "bio": "Li Qingzhao (1084 – ca. 1155) was a Chinese writer and poet from the Song dynasty. She is considered one of the greatest poets of the dynasty and is known for her unique style and literary innovations.\n\nLi was born into a family of scholars and grew up in a time of political and social upheaval. Despite this, she received a good education and developed a passion for poetry. She married the poet Zhao Mingcheng, and together they became famous for their collaborative poetry. However, their happy marriage was cut short when Zhao died at a young age.\n\nAfter her husband's death, Li's life became increasingly difficult. She was forced to flee her home due to the Mongol invasion and lost many of her possessions. Despite these hardships, she continued to write and her poetry became even more powerful and emotional.\n\nLi's poetry often deals with the themes of love, loss, and nostalgia. Her style is known for its vivid imagery and use of complex metaphors. She was also one of the first poets to write in the ci form, which was a new style of poetry that used a fixed number of syllables per line.\n\nLi Qingzhao's legacy as one of China's greatest poets continues to this day, with her work being studied and celebrated by scholars and poetry enthusiasts around the world.",
+        "links": [""],
+        "subjects": ["literature"]
+    },
+    {
+        "id": "aquinas",
+        "name": "Thomas Aquinas",
+        "era": "CE",
+        "born": 1225,
+        "died": 1274,
+        "bio": "Thomas Aquinas was a 13th-century Italian Dominican friar, philosopher, and theologian. Born into a noble family in Roccasecca, Italy, he was educated at the University of Naples, where he studied Aristotelian philosophy and developed his own ideas on natural law and the role of reason in theological studies.\n\nHe joined the Dominican Order in 1244, much to the dismay of his family, who had planned for him to become an abbot. He went on to study in Cologne, Germany, under Albertus Magnus, a noted philosopher and theologian.\n\nAquinas' most famous work is the Summa Theologica, a comprehensive guide to Catholic theology that he began writing in 1265. It covers topics such as the nature of God, the human soul, and ethics, and is still widely studied and influential today.\n\nAquinas is also known for his emphasis on the importance of reason and natural law in theological studies, as opposed to relying solely on faith and divine revelation. He died in 1274 at the age of 49 and was canonized as a saint by the Catholic Church in 1323.",
+        "links": [""],
+        "subjects": ["literature", "philosophy"]
+    },
+    {
+        "id": "chaucer",
+        "name": "Geoffrey Chaucer",
+        "era": "CE",
+        "born": 1343,
+        "died": 1400,
+        "bio": "Geoffrey Chaucer was an English poet and author who is widely regarded as one of the greatest poets of the Middle Ages. He was born in London in the early 1340s, and little is known about his early life. Chaucer is best known for his work \"The Canterbury Tales\", which is a collection of stories told by a group of pilgrims on their way to Canterbury Cathedral. The tales are varied and often satirical, and they provide a vivid picture of life in medieval England. Chaucer also wrote a number of other works, including \"Troilus and Criseyde\" and \"The Book of the Duchess\". Chaucer died in 1400, and he was buried in Westminster Abbey. His work had a significant influence on English literature, and his contributions to the English language earned him the title \"the father of English poetry\".",
+        "links": [""],
+        "subjects": ["literature"]
     }
 ]
