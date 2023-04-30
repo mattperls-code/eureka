@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 
 import Tilty from "react-tilty"
 
@@ -9,9 +9,10 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
 import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 import { getAll, getFromSubject } from "../scripts/data"
+import { useParams } from "react-router-dom"
 
 const ExplorePage = () => {
-    const [selectedDiscipline, setSelectedDiscipline] = useState(null)
+    let urlSubject = useParams().subject
 
     const inactiveClasses = "query-option content-font small-text"
     const activeClasses = "query-option content-font small-text active"
@@ -25,15 +26,18 @@ const ExplorePage = () => {
         "philosophy",
         "literature"
     ]
+
+    const selectedDiscipline = disciplines.includes(urlSubject) ? urlSubject : "all"
+
     const queryRenders = []
     disciplines.forEach((discipline, index) => {
         queryRenders.push(
             <FadeIn key={index} delay={`${(100 * (Math.abs(0.5 * disciplines.length - index) + 12))}ms`}>
-                <div className={selectedDiscipline == discipline ? activeClasses : inactiveClasses} onClick={() => setSelectedDiscipline(discipline)}>
+                <a href={"/#/explore/" + discipline} className={selectedDiscipline == discipline ? activeClasses : inactiveClasses}>
                     {
                         discipline.slice(0, 1).toUpperCase() + discipline.slice(1)
                     }
-                </div>
+                </a>
             </FadeIn>
         )
     })
@@ -41,7 +45,7 @@ const ExplorePage = () => {
     const people = selectedDiscipline == null ? [] : selectedDiscipline == "all" ? getAll() : getFromSubject(selectedDiscipline)
 
     const peopleRenders = []
-    people.forEach(({ id, name }, index) => {
+    people.forEach(({ id, name }) => {
         peopleRenders.push(
             <FadeIn key={name + "-" + selectedDiscipline}>
                 <Tilty reverse max={15} className={"person-container"} style={{ backgroundImage: `url(/assets/images/people/${id}.jpg)` }}>
@@ -70,17 +74,13 @@ const ExplorePage = () => {
             <FadeIn delay={"1750ms"}>
                 <hr />
             </FadeIn>
-            {
-                selectedDiscipline == null ? (
-                    <FadeIn delay={"2250ms"} className={"content-font action-label"}>Select A Topic Above</FadeIn>
-                ) : (
-                    <div className={"people-container"}>
-                        {
-                            peopleRenders
-                        }
-                    </div>
-                )
-            }
+            <FadeIn delay={"2200ms"}>
+                <div className={"people-container"}>
+                    {
+                        peopleRenders
+                    }
+                </div>
+            </FadeIn>
             {
                 selectedDiscipline != null && (
                     <React.Fragment>

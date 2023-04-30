@@ -1,6 +1,7 @@
 import React, { Suspense, useState } from "react"
 
-import { Canvas } from "@react-three/fiber"
+import { Canvas, useLoader } from "@react-three/fiber"
+import * as THREE from "three"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
@@ -33,6 +34,17 @@ const TimelineNode = ({ position, offset, img, name, dob, dod, era, redirectTo }
     )
 }
 
+const ScrollIndicator = ({ instructionsOpacity }) => {
+    const mouseTexture = useLoader(THREE.TextureLoader, "/assets/images/mouse/scroll.png")
+
+    return (
+        <mesh position={[0, -28, -50]} rotation={[0, 0, 0]}>
+            <boxGeometry args={[10, 10, 0.01]} />
+            <meshPhongMaterial transparent opacity={instructionsOpacity} map={mouseTexture} />
+        </mesh>
+    )
+}
+
 const TimelinePage = () => {
     const [position, setPosition] = useState(5)
 
@@ -59,15 +71,13 @@ const TimelinePage = () => {
             }}>
                 <perspectiveCamera fov={180} />
                 <ambientLight color={"white"} intensity={2} />
-                <mesh position={[0, 0, -400]}>
-                    <planeGeometry args={[10000, 10000]} />
-                    <meshStandardMaterial color={"rgb(240, 240, 240)"} />
-                </mesh>
                 {
                     position > 0 ? (
                         <Suspense fallback={null}>
-                            <FastText3D width={100} position={[0, 0, -50]} rotation={[0, 0, 0]} scale={[1, 1, 0.02]} fontSize={56} fontFamily={`'Quicksand', sans-serif`} color={"rgb(40, 40, 40)"} opacity={instructionsOpacity}>Keep scrolling to move forward in time</FastText3D>
-                            <FastText3D width={100} position={[0, -10, -50]} rotation={[0, 0, 0]} scale={[1, 1, 0.02]} fontSize={32} fontFamily={`'Quicksand', sans-serif`} color={"rgb(40, 40, 40)"} opacity={instructionsOpacity}>To learn more, click on an image</FastText3D>
+                            <FastText3D width={100} position={[0, 4, -50]} rotation={[0, 0, 0]} scale={[1, 1, 0.02]} fontSize={48} fontFamily={`'Quicksand', sans-serif`} color={"rgb(40, 40, 40)"} opacity={instructionsOpacity}>Scroll Backward Through Time!</FastText3D>
+                            <FastText3D width={100} position={[0, -2, -50]} rotation={[0, 0, 0]} scale={[1, 1, 0.02]} fontSize={48} fontFamily={`'Quicksand', sans-serif`} color={"rgb(40, 40, 40)"} opacity={instructionsOpacity}>Click On Anyone To View Their Biography</FastText3D>
+                            <FastText3D width={100} position={[0, -20, -50]} rotation={[0, 0, 0]} scale={[1, 1, 0.02]} fontSize={32} fontFamily={`'Quicksand', sans-serif`} color={"rgb(40, 40, 40)"} opacity={instructionsOpacity}>Learn More</FastText3D>
+                            <ScrollIndicator instructionsOpacity={instructionsOpacity} />
                         </Suspense>
                     ) : (
                         <Suspense fallback={null}>

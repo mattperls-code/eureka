@@ -38,31 +38,37 @@ const HomePage = () => {
         ) : (
             <div style={{ width: "100vw", height: "100vh", overflowY: "scroll" }}>
                 <div style={{ width: "100vw", minHeight: "100vh" }}>
-                    <FadeIn>
-                        <div style={{ marginTop: "20px", marginBottom: "40px" }} className={"home-page-header-container"}>
+                    <FadeIn threshold={1.0}>
+                        <div className={"home-page-header-container"}>
                             <header style={{ backgroundSize: "600px 130px" }} className={"home-page-header-text header-font medium-text"}>Welcome to Eureka</header>
                         </div>
                     </FadeIn>
-                    <FadeIn delay={"200ms"}>
+                    <FadeIn delay={"200ms"} threshold={1.0}>
                         <div className={"home-page-info-container"}>
                             <div className={"content-font small-text"}>
                                 Eureka aims to recognize, celebrate, and draw inspiration from the greatest minds throughout history.
                             </div>
                         </div>
                     </FadeIn>
-                    <FadeIn delay={"400ms"}>
+                    <FadeIn delay={"400ms"} threshold={1.0}>
                         <div className={"home-page-info-container"}>
                             <div className={"content-font small-text"}>
                                 The project focuses on a variety of academia, covering the best minds both creatively and analytically.
                             </div>
                         </div>
                     </FadeIn>
+                    <FadeIn delay={"600ms"} threshold={1.0}>
+                        <div style={{ fontSize: "18px",  marginTop: "56px", textAlign: "center" }} className={"content-font"}>Learn More</div>
+                    </FadeIn>
+                    <FadeIn delay={"800ms"} threshold={1.0}>
+                        <img className={"scroll-indicator"} src={"/assets/images/mouse/scroll.svg"} />
+                    </FadeIn>
                 </div>
                 <FadeIn>
                     <hr />
                 </FadeIn>
-                <ScrollTracker realScrollHeight={1200} TrackingComponent={({ progress }) => {
-                    const translateX = -25 * (progress / 0.33333)
+                <ScrollTracker realScrollHeight={800} TrackingComponent={({ progress }) => {
+                    const translateX = -25 * (3 * progress)
 
                     return (
                         <div className={"sticky-content"}>
@@ -98,8 +104,8 @@ const HomePage = () => {
                 <FadeIn>
                     <hr />
                 </FadeIn>
-                <ScrollTracker realScrollHeight={1200} TrackingComponent={({ progress }) => {
-                    const translateX = -25 * (progress / 0.3333)
+                <ScrollTracker realScrollHeight={800} TrackingComponent={({ progress }) => {
+                    const translateX = -25 * (3 * progress)
 
                     return (
                         <div className={"sticky-content"}>
@@ -135,10 +141,10 @@ const HomePage = () => {
                 <FadeIn>
                     <hr />
                 </FadeIn>
-                <ScrollTracker realScrollHeight={600} TrackingComponent={({ progress }) => {
-                    const offset = -100 * Math.min(Math.floor(progress * 3), 2) / 3
-                    const altOffset = -100 * (2 / 3) - offset
-
+                <ScrollTracker realScrollHeight={400} TrackingComponent={({ progress }) => {
+                    const increasingSlideOffset = -progress * 100 * (3 / 4)
+                    const decreasingSlideOffset = -(100 * 3 / 4) - increasingSlideOffset
+                    
                     return (
                         <div className={"sticky-content"}>
                             <FadeIn>
@@ -149,79 +155,85 @@ const HomePage = () => {
                             <div style={{ display: "display: flex", width: "calc(min(100vw, 1200px))" }} className={"display-container"}>
                                 <Tilty reverse max={15} className={"subject-wrapper"}>
                                     <FadeIn>
-                                        <div className={"subject-container"}>
-                                            <div style={{ transform: `translateY(${offset}%)` }} className={"vertical-slide"}>
+                                        <a href={"/#/explore/art"} className={"subject-container"}>
+                                            <div style={{ transform: `translateY(${decreasingSlideOffset}%)` }} className={"vertical-slide"}>
                                                 <div style={{ backgroundImage: "url(/assets/images/people/picasso.jpg)" }} className={"slide"} />
+                                                <div style={{ backgroundImage: "url(/assets/images/people/kahlo.jpg)" }} className={"slide"} />
                                                 <div style={{ backgroundImage: "url(/assets/images/people/davinci.jpg)" }} className={"slide"} />
                                                 <div style={{ backgroundImage: "url(/assets/images/people/dali.jpg)" }} className={"slide"} />
                                             </div>
                                             <div className={"subject-name"}>Art</div>
-                                        </div>
+                                        </a>
                                     </FadeIn>
                                 </Tilty>
                                 <Tilty reverse max={15} className={"subject-wrapper"}>
                                     <FadeIn>
-                                        <div className={"subject-container"}>
-                                            <div style={{ transform: `translateX(${offset}%)` }} className={"horizontal-slide"}>
+                                        <a href={"/#/explore/mathematics"} className={"subject-container"}>
+                                            <div style={{ transform: `translateX(${increasingSlideOffset}%)` }} className={"horizontal-slide"}>
                                                 <div style={{ backgroundImage: "url(/assets/images/people/euler.jpg)" }} className={"slide"} />
                                                 <div style={{ backgroundImage: "url(/assets/images/people/newton.jpg)" }} className={"slide"} />
                                                 <div style={{ backgroundImage: "url(/assets/images/people/lovelace.jpg)" }} className={"slide"} />
+                                                <div style={{ backgroundImage: "url(/assets/images/people/jackson.jpg)" }} className={"slide"} />
                                             </div>
                                             <div className={"subject-name"}>Mathematics</div>
-                                        </div>
+                                        </a>
                                     </FadeIn>
                                 </Tilty>
                                 <Tilty reverse max={15} className={"subject-wrapper"}>
                                     <FadeIn>
-                                        <div className={"subject-container"}>
-                                            <div style={{ transform: `translateY(${altOffset}%)` }} className={"vertical-slide"}>
+                                        <a href={"/#/explore/music"} className={"subject-container"}>
+                                            <div style={{ transform: `translateY(${increasingSlideOffset}%)` }} className={"vertical-slide"}>
                                                 <div style={{ backgroundImage: "url(/assets/images/people/bach.jpg)" }} className={"slide"} />
+                                                <div style={{ backgroundImage: "url(/assets/images/people/strozzi.jpg)" }} className={"slide"} />
                                                 <div style={{ backgroundImage: "url(/assets/images/people/mozart.jpg)" }} className={"slide"} />
                                                 <div style={{ backgroundImage: "url(/assets/images/people/beethoven.jpg)" }} className={"slide"} />
                                             </div>
                                             <div className={"subject-name"}>Music</div>
-                                        </div>
+                                        </a>
                                     </FadeIn>
                                 </Tilty>
                                 <Tilty reverse max={15} className={"subject-wrapper"}>
                                     <FadeIn>
-                                        <div className={"subject-container"}>
-                                            <div style={{ transform: `translateX(${altOffset}%)` }} className={"horizontal-slide"}>
+                                        <a href={"/#/explore/science"} className={"subject-container"}>
+                                            <div style={{ transform: `translateX(${decreasingSlideOffset}%)` }} className={"horizontal-slide"}>
                                                 <div style={{ backgroundImage: "url(/assets/images/people/darwin.jpg)" }} className={"slide"} />
                                                 <div style={{ backgroundImage: "url(/assets/images/people/einstein.jpg)" }} className={"slide"} />
+                                                <div style={{ backgroundImage: "url(/assets/images/people/curie.jpg)" }} className={"slide"} />
                                                 <div style={{ backgroundImage: "url(/assets/images/people/pasteur.jpg)" }} className={"slide"} />
                                             </div>
                                             <div className={"subject-name"}>Science</div>
-                                        </div>
+                                        </a>
                                     </FadeIn>
                                 </Tilty>
                                 <Tilty reverse max={15} className={"subject-wrapper"}>
                                     <FadeIn>
-                                        <div className={"subject-container"}>
-                                            <div style={{ transform: `translateY(${offset}%)` }} className={"vertical-slide"}>
+                                        <a href={"/#/explore/philosophy"} className={"subject-container"}>
+                                            <div style={{ transform: `translateY(${decreasingSlideOffset}%)` }} className={"vertical-slide"}>
+                                                <div style={{ backgroundImage: "url(/assets/images/people/hypatia.jpg)" }} className={"slide"} />
                                                 <div style={{ backgroundImage: "url(/assets/images/people/aristotle.jpg)" }} className={"slide"} />
                                                 <div style={{ backgroundImage: "url(/assets/images/people/confucius.jpg)" }} className={"slide"} />
                                                 <div style={{ backgroundImage: "url(/assets/images/people/locke.jpg)" }} className={"slide"} />
                                             </div>
                                             <div className={"subject-name"}>Philosophy</div>
-                                        </div>
+                                        </a>
                                     </FadeIn>
                                 </Tilty>
                                 <Tilty reverse max={15} className={"subject-wrapper"}>
                                     <FadeIn>
-                                        <div className={"subject-container"}>
-                                            <div style={{ transform: `translateX(${offset}%)` }} className={"horizontal-slide"}>
+                                        <a href={"/#/explore/literature"} className={"subject-container"}>
+                                            <div style={{ transform: `translateX(${increasingSlideOffset}%)` }} className={"horizontal-slide"}>
+                                                <div style={{ backgroundImage: "url(/assets/images/people/qingzhao.jpg)" }} className={"slide"} />
                                                 <div style={{ backgroundImage: "url(/assets/images/people/shakespeare.jpg)" }} className={"slide"} />
                                                 <div style={{ backgroundImage: "url(/assets/images/people/austen.jpg)" }} className={"slide"} />
                                                 <div style={{ backgroundImage: "url(/assets/images/people/douglass.jpg)" }} className={"slide"} />
                                             </div>
                                             <div className={"subject-name"}>Literature</div>
-                                        </div>
+                                        </a>
                                     </FadeIn>
                                 </Tilty>
                             </div>
                             <FadeIn threshold={1.0}>
-                                <a href={"/#/explore"} className={"link-container content-font small-text"}>Visit Explore</a>
+                                <a href={"/#/explore/all"} className={"link-container content-font small-text"}>Visit Explore</a>
                             </FadeIn>
                         </div>
                     )

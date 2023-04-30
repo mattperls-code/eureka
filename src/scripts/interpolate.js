@@ -49,7 +49,7 @@ class RotateInPlace extends InterpolationNode {
         const direction1 = [ Math.cos(angle1 * Math.PI / 180), Math.sin(angle1 * Math.PI / 180) ]
         const direction2 = [ Math.cos(angle2 * Math.PI / 180), Math.sin(angle2 * Math.PI / 180) ]
 
-        super(position, position, direction1, direction2, 4 * Math.abs(angle1 - angle2) / 90)
+        super(position, position, direction1, direction2, Math.abs(angle1 - angle2) / 30)
     }
 }
 
@@ -63,9 +63,7 @@ const getPathLength = (path) => {
     return sum
 }
 
-const interpolate = (path, position) => {
-    const pathLength = getPathLength(path)
-
+const interpolate = (path, pathLength, position) => {
     while(position < 0){
         position += pathLength
     }
@@ -90,6 +88,7 @@ const interpolate = (path, position) => {
 }
 
 export {
+    getPathLength,
     interpolate,
     SlideAcrossEdge,
     RotateInPlace

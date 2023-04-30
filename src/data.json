@@ -1228,5 +1228,85 @@
         "bio": "Geoffrey Chaucer was an English poet and author who is widely regarded as one of the greatest poets of the Middle Ages. He was born in London in the early 1340s, and little is known about his early life. Chaucer is best known for his work \"The Canterbury Tales\", which is a collection of stories told by a group of pilgrims on their way to Canterbury Cathedral. The tales are varied and often satirical, and they provide a vivid picture of life in medieval England. Chaucer also wrote a number of other works, including \"Troilus and Criseyde\" and \"The Book of the Duchess\". Chaucer died in 1400, and he was buried in Westminster Abbey. His work had a significant influence on English literature, and his contributions to the English language earned him the title \"the father of English poetry\".",
         "links": [""],
         "subjects": ["literature"]
+    },
+    {
+        "id": "caccini",
+        "name": "Francesca Caccini",
+        "era": "CE",
+        "born": 1587,
+        "died": 1641,
+        "bio": "Francesca Caccini (1587-1641) was an Italian composer, singer, and teacher of the early Baroque era. She was born into a musical family and received her education from her father, Giulio Caccini, who was a prominent composer and singer of the time. Francesca made her debut as a singer at the age of 16 and soon gained a reputation as one of the finest sopranos in Italy.\n\nIn addition to her career as a singer, Caccini also composed music for both secular and sacred settings. She is best known for her opera, La liberazione di Ruggiero, which was the first opera written by a woman to be performed in public. Caccini also wrote several other operas, cantatas, and madrigals, which were highly regarded by her contemporaries.\n\nIn addition to her musical activities, Caccini was also a teacher and taught music to several members of the Medici family. She also served as the music teacher to the grand duchess of Tuscany. Despite her success and reputation, Caccini faced discrimination and was paid less than her male counterparts for her work. However, her contributions to the field of music have since been recognized and celebrated.",
+        "links": [""],
+        "subjects": ["music"]
+    },
+    {
+        "id": "chaminade",
+        "name": "Cécile Chaminade",
+        "era": "CE",
+        "born": 1857,
+        "died": 1944,
+        "bio": "Cécile Chaminade (1857-1944) was a French composer and pianist who gained international recognition for her piano pieces and songs. She was born in Paris and began playing the piano at a young age, quickly showing exceptional talent. At the age of 18, she began studying composition with Benjamin Godard.\n\nChaminade's compositions were praised for their charm and lyricism, and she was particularly popular in the United States, where she toured frequently. She composed over 400 works, including solo piano pieces, songs, and chamber music. Some of her most famous pieces include \"Scarfs,\" \"Automne,\" and \"Concertino for Flute and Piano.\"\n\nDespite her success, Chaminade faced discrimination as a female composer and was often dismissed by critics who viewed her music as lightweight and lacking in depth. Nevertheless, she continued to compose and perform throughout her life and was celebrated by audiences around the world. She died in Monte Carlo in 1944 at the age of 87.",
+        "links": [""],
+        "subjects": ["music"]
+    },
+    {
+        "id": "mayer",
+        "name": "Emilie Mayer",
+        "era": "CE",
+        "born": 1812,
+        "died": 1883,
+        "bio": "Emilie Mayer (1812-1883) was a German composer and conductor. She was born in Friedland and began her musical career as a pianist, but later shifted her focus to composition. Mayer was particularly interested in chamber music, and wrote a number of works for string quartet, as well as symphonies and overtures.\n\nDespite her talent, Mayer faced significant obstacles as a female composer in the male-dominated world of 19th-century classical music. She struggled to gain recognition for her work and was often dismissed or overlooked by critics and other composers. Nonetheless, she persisted in her creative pursuits and continued to write music throughout her life.\n\nIn addition to her work as a composer, Mayer was also a conductor. She led performances of her own music as well as works by other composers, and was the first woman to conduct the Berlin Philharmonic Orchestra. She was also a supporter of women's rights and played an active role in the women's movement in Germany.\n\nToday, Mayer's music is being rediscovered and performed more frequently, and she is recognized as an important figure in the history of classical music, particularly in the area of chamber music.",
+        "links": [""],
+        "subjects": ["music"]
+    },
+    {
+        "id": "cozzolani",
+        "name": "Chiara Margarita Cozzolani",
+        "era": "CE",
+        "born": 1602,
+        "died": 1678,
+        "bio": "Chiara Margarita Cozzolani (1602–1678) was an Italian Baroque composer and singer. She was born into a wealthy family in Milan and entered the Santa Radegonda convent as a young girl. Cozzolani became a nun there in 1620 and soon began composing sacred music for the convent's services.\n\nCozzolani's music was highly regarded in her time and she was one of the most prolific and well-known female composers of the Baroque era. She published four volumes of music during her lifetime, which included motets, psalms, hymns, and Masses. Her music is notable for its lush harmonies, expressive melodies, and use of polyphony.\n\nDespite her success, little is known about Cozzolani's personal life, and her music was largely forgotten after her death. It wasn't until the 20th century that her work was rediscovered and performed again, helping to establish her as an important figure in the history of music.",
+        "links": [""],
+        "subjects": ["music"]
+    },
+    {
+        "id": "strozzi",
+        "name": "Barbara Strozzi",
+        "era": "CE",
+        "born": 1619,
+        "died": 1677,
+        "bio": "Barbara Strozzi was a prominent Italian composer and singer of the Baroque period. She was born in Venice, Italy in 1619, the daughter of Giulio Strozzi, a wealthy poet and librettist.\n\nBarbara was a talented singer and musician, and her father encouraged her to pursue her musical interests. She studied with some of the finest teachers of her time and began performing publicly in her early twenties.\n\nBarbara became well-known throughout Italy as a singer and composer, and she was particularly celebrated for her vocal works, including cantatas, madrigals, and arias. Her music was characterized by its expressive melodies and virtuosic vocal writing.\n\nDespite facing significant barriers as a woman in a male-dominated field, Barbara continued to compose and perform throughout her life. She published several collections of her music, including \"Il primo libro de madrigali\" and \"Cantate, ariette e duetti,\" which were well-received by audiences and critics alike.\n\nBarbara Strozzi died in Venice in 1677, leaving behind a legacy as one of the most talented and accomplished composers of her time. Her music continues to be performed and celebrated by musicians around the world.",
+        "links": [""],
+        "subjects": ["music"]
+    },
+    {
+        "id": "hypatia",
+        "name": "Hypatia",
+        "era": "CE",
+        "born": 355,
+        "died": 415,
+        "bio": "Hypatia was a renowned mathematician, philosopher, and astronomer who lived in Alexandria, Egypt during the 4th century CE. She was the daughter of Theon, a mathematician, and was educated by him in mathematics and philosophy. She became a respected scholar and teacher in her own right, and was known for her lectures on mathematics, astronomy, and philosophy.\n\nHypatia was also known for her expertise in engineering and invented several scientific instruments, including the hydrometer. Her contributions to mathematics and astronomy were significant, as she made important contributions to the development of algebra and the study of conic sections.\n\nDespite her considerable talents and contributions to the field, Hypatia faced discrimination as a woman in a male-dominated society. She was eventually murdered by a mob of Christian zealots who saw her as a threat to their beliefs. However, her legacy has endured, and she is remembered as a pioneer for women in the fields of mathematics, philosophy, and science.",
+        "links": [""],
+        "subjects": ["mathematics", "philosophy", "science"]
+    },
+    {
+        "id": "langer",
+        "name": "Susanne Langer",
+        "era": "CE",
+        "born": 1895,
+        "died": 1985,
+        "bio": "Susanne Langer (1895-1985) was an American philosopher and educator, known for her contributions to the philosophy of art and the study of human consciousness. She was born in New York City and grew up in Manhattan's Upper West Side, where her father was a lawyer and her mother was a pianist.\n\nLanger attended Radcliffe College, where she earned a Bachelor's degree in 1919 and a Master's degree in 1920, both in philosophy. She then studied with the philosopher Alfred North Whitehead at Harvard University, where she completed her Ph.D. in 1926.\n\nLanger's most famous work is her book \"Philosophy in a New Key,\" published in 1942. In it, she argued that symbols, such as those found in art, are the basis of human thought and that they are central to our understanding of the world. Langer also wrote extensively on the philosophy of music, including her 1941 book \"Feeling and Form,\" which examined the emotional and aesthetic qualities of music.\n\nLanger was a professor of philosophy at Columbia University from 1945 until her retirement in 1962. She was the first woman to be appointed to a chaired professorship in philosophy at Columbia. Langer was also a fellow of the American Academy of Arts and Sciences and the American Philosophical Society. She died in Old Lyme, Connecticut, in 1985.",
+        "links": [""],
+        "subjects": ["philosophy"]
+    },
+    {
+        "id": "davis",
+        "name": "Angela Davis",
+        "era": "CE",
+        "born": 1944,
+        "died": "present",
+        "bio": "Angela Davis is an American scholar, activist, and author. She was born on January 26, 1944, in Birmingham, Alabama. Davis attended Brandeis University in Massachusetts, where she studied philosophy and French literature. Later, she earned her master's degree from the University of California, San Diego, and her doctorate from Humboldt University in East Berlin.\n\nDavis became involved in civil rights activism during her college years and joined the Communist Party USA in the 1960s. She became a prominent figure in the Black Power movement and was involved in the campaign to free the Soledad Brothers, three Black prisoners who were accused of killing a guard in 1970.\n\nIn 1971, Davis was arrested and charged with conspiracy, kidnapping, and murder in connection with a courtroom shootout that resulted in the deaths of four people. Davis was eventually acquitted of all charges.\n\nThroughout her career, Davis has been a vocal advocate for social justice and has focused on issues related to race, gender, and the prison-industrial complex. She has written several books, including \"Women, Race, and Class\" and \"Are Prisons Obsolete?\" and has been a professor at several universities, including the University of California, Santa Cruz. Today, Davis remains an influential figure in progressive politics and continues to advocate for social justice and civil rights.",
+        "links": [""],
+        "subjects": ["literature", "philosophy"]
     }
 ]

@@ -31,7 +31,7 @@ const App = () => {
         return () => mounted = false
     }, [navMenuFadeOut])
     
-    const [currentPage, setCurrentPage] = useState(location.hash.slice(2))
+    const [currentPage, setCurrentPage] = useState(location.hash.slice(2).split("/")[0])
 
     useEffect(() => {
         let mounted = true
@@ -41,7 +41,7 @@ const App = () => {
         }
 
         const navigationHandler = () => {
-            setCurrentPage(location.hash.slice(2))
+            setCurrentPage(location.hash.slice(2).split("/")[0])
             
             setTimeout(() => {
                 if(mounted){
@@ -66,7 +66,7 @@ const App = () => {
         "": <HomePage />,
         "gallery": <GalleryPage />,
         "timeline": <TimelinePage />,
-        "explore": <ExplorePage />,
+        "explore/:subject": <ExplorePage />,
         "bio/:id": <BioPage />
     }
 
@@ -101,7 +101,7 @@ const App = () => {
                                     <a href={"/#/timeline"} className={"nav-link-container"}>
                                         <label className={currentPage == "timeline" ? activePageClasses : inactivePageClasses}>Timeline</label>
                                     </a>
-                                    <a href={"/#/explore"} className={"nav-link-container"}>
+                                    <a href={"/#/explore/all"} className={"nav-link-container"}>
                                         <label className={currentPage == "explore" ? activePageClasses : inactivePageClasses}>Explore</label>
                                     </a>
                                 </div>

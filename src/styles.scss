@@ -36,10 +36,6 @@ html body {
     background-color: $light;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
 a {
     text-decoration: none;
 }
@@ -314,6 +310,13 @@ section {
     box-shadow: 4px -4px 8px $shadow-light, -4px 4px 8px $shadow-dark;
 }
 
+.scroll-indicator {
+    margin-top: 10px;
+    width: 48px;
+    height: 48px;
+    transform: translateX(calc(50vw - 24px));
+}
+
 .sticky-content {
     position: sticky;
     top: 0;
@@ -390,13 +393,12 @@ section {
                 position: absolute;
                 top: 0;
                 left: 0;
-                width: 300%;
+                width: 400%;
                 height: 100%;
-                transition: transform 400ms;
 
                 .slide {
                     display: inline-block;
-                    width: calc(100% / 3);
+                    width: calc(100% / 4);
                     height: 100%;
                     background-size: cover;
                     background-position: center;
@@ -408,12 +410,11 @@ section {
                 top: 0;
                 left: 0;
                 width: 100%;
-                height: 300%;
-                transition: transform 400ms;
+                height: 400%;
 
                 .slide {
                     width: 100%;
-                    height: calc(100% / 3);
+                    height: calc(100% / 4);
                     background-size: cover;
                     background-position: center;
                 }
@@ -495,6 +496,7 @@ hr {
     overflow-y: hidden;
 
     .query-option {
+        display: flex;
         padding: 10px 20px;
         margin: 20px;
         margin-left: 0;
@@ -511,12 +513,6 @@ hr {
         box-shadow: none;
         color: $shadow;
     }
-}
-
-.action-label {
-    margin: 160px 20px;
-    font-size: 36px;
-    text-align: center;
 }
 
 .people-container {
