@@ -1,3 +1,4 @@
+// abstraction class for interpolation, allows the camera to interpolate between positions and rotations over an arbitrary amount of scroll distance
 class InterpolationNode {
     constructor(startPosition, endPosition, startDirection, endDirection, length){
         this.startPosition = startPosition
@@ -34,6 +35,7 @@ class InterpolationNode {
     }
 }
 
+// camera interpolation along a line maintaining same rotation
 class SlideAcrossEdge extends InterpolationNode {
     constructor(position1, position2, angle){
         const direction = [ Math.cos(angle * Math.PI / 180), Math.sin(angle * Math.PI / 180) ]
@@ -44,6 +46,7 @@ class SlideAcrossEdge extends InterpolationNode {
     }
 }
 
+// camera interpolation in same position along an arc
 class RotateInPlace extends InterpolationNode {
     constructor(position, angle1, angle2){
         const direction1 = [ Math.cos(angle1 * Math.PI / 180), Math.sin(angle1 * Math.PI / 180) ]
@@ -53,6 +56,7 @@ class RotateInPlace extends InterpolationNode {
     }
 }
 
+// helper math for interpolation
 const getPathLength = (path) => {
     let sum = 0
 
@@ -63,6 +67,7 @@ const getPathLength = (path) => {
     return sum
 }
 
+// given a sequence of interpolation nodes, the total distance to be interpolated along, and the current position, calculate the cameras position and rotation
 const interpolate = (path, pathLength, position) => {
     while(position < 0){
         position += pathLength

@@ -5,6 +5,7 @@ import * as THREE from "three"
 
 import FastText3D from "./FastText3D"
 
+// abstraction of several r3f components to create a framed image with the desired transforms
 const GalleryImage = React.memo(({ x, y, w, h, borderWidth=0.125, angle, pitch=0, opacity=1, realHeight=5.5, img, caption, redirectTo=null }) => {
     const texture1 = useLoader(THREE.TextureLoader, img)
     const texture2 = useLoader(THREE.TextureLoader, "/assets/images/textures/frame.jpg")

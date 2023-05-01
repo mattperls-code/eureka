@@ -12,6 +12,7 @@ import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons"
 const HomePage = () => {
     const [showInitialWrapper, setShowInitialWrapper] = useState(true)
 
+    // have overlay mounted until animation finishes
     useEffect(() => {
         let mounted = true
 
@@ -68,6 +69,7 @@ const HomePage = () => {
                     <hr />
                 </FadeIn>
                 <ScrollTracker realScrollHeight={800} TrackingComponent={({ progress }) => {
+                    // translate the content of this section to add a horizontal parallax scroll effect
                     const translateX = -25 * (3 * progress)
 
                     return (
@@ -105,6 +107,7 @@ const HomePage = () => {
                     <hr />
                 </FadeIn>
                 <ScrollTracker realScrollHeight={800} TrackingComponent={({ progress }) => {
+                    // translate the content of this section to add a horizontal parallax scroll effect
                     const translateX = -25 * (3 * progress)
 
                     return (
@@ -142,6 +145,7 @@ const HomePage = () => {
                     <hr />
                 </FadeIn>
                 <ScrollTracker realScrollHeight={400} TrackingComponent={({ progress }) => {
+                    // individual horizontal parallax effect on each subject
                     const increasingSlideOffset = -progress * 100 * (3 / 4)
                     const decreasingSlideOffset = -(100 * 3 / 4) - increasingSlideOffset
                     

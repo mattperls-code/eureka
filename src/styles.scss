@@ -1,3 +1,5 @@
+// main color scheme
+
 $white: rgb(240, 240, 240);
 $light: rgb(225, 225, 225);
 $black: rgb(40, 40, 40);
@@ -6,8 +8,12 @@ $shadow: rgba(40, 40, 40, 0.4);
 $shadow-light: rgba(255, 255, 255, 0.7);
 $shadow-dark: rgba(40, 40, 40, 0.5);
 
+// main fonts
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+// some general styling and helpers
 
 .fade {
     transition: opacity 800ms, transform 800ms;
@@ -245,6 +251,8 @@ section {
         box-shadow: none;
     }
 }
+
+// home page
 
 .initial-fading-wrapper {
     width: 100vw;
@@ -484,6 +492,8 @@ hr {
     }
 }
 
+// explore page
+
 .query-selector-container {
     display: flex;
     flex-direction: row;
@@ -555,6 +565,8 @@ hr {
         box-shadow: 4px -4px 8px $shadow-light, -4px 4px 8px $shadow-dark;
     }
 }
+
+// bio page
 
 .bio-container {
     display: flex;

@@ -12,11 +12,13 @@ import { getAll, getFromSubject } from "../scripts/data"
 import { useParams } from "react-router-dom"
 
 const ExplorePage = () => {
+    // pull selected subject from url, this allows for better link architecture and navigation flow
     let urlSubject = useParams().subject
 
     const inactiveClasses = "query-option content-font small-text"
     const activeClasses = "query-option content-font small-text active"
 
+    // effectively an enum, which the url component must match to or default and redirect to all
     const disciplines = [
         "all",
         "art",
@@ -42,6 +44,7 @@ const ExplorePage = () => {
         )
     })
     
+    // query people to show based on selected subject
     const people = selectedDiscipline == null ? [] : selectedDiscipline == "all" ? getAll() : getFromSubject(selectedDiscipline)
 
     const peopleRenders = []

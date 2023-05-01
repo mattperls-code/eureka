@@ -14,12 +14,15 @@ import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons"
 import { getFromId } from "../scripts/data"
 
 const BioPage = () => {
+    // pull id of person from url
     const { id } = useParams()
 
+    // query from json data
     const person = getFromId(id)
 
     const bioSections = []
     
+    // manipulate plain text bio from data into formatted and styled DOM
     person.bio.split("\n\n").forEach((part, index) => {
         if(index == 0){
             bioSections.push(

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 
-import { createHashRouter, RouterProvider } from "react-router-dom"
+import { createHashRouter, redirect, RouterProvider } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars, faChevronLeft } from "@fortawesome/free-solid-svg-icons"
 
@@ -16,6 +16,7 @@ const App = () => {
     const [showNavMenu, setShowNavMenu] = useState(false)
     const [navMenuFadeOut, setNavMenuFadeOut] = useState(false)
 
+    // unmount menu after animation
     useEffect(() => {
         let mounted = true
 
@@ -31,8 +32,10 @@ const App = () => {
         return () => mounted = false
     }, [navMenuFadeOut])
     
+    // pull current page from hash
     const [currentPage, setCurrentPage] = useState(location.hash.slice(2).split("/")[0])
 
+    // actively update rendered page on url change if necessary
     useEffect(() => {
         let mounted = true
         
@@ -62,12 +65,18 @@ const App = () => {
     const inactivePageClasses = "content-font small-text inactive"
     const activePageClasses = "content-font small-text active"
 
+    // key based hash router
     const routeScheme = {
         "": <HomePage />,
         "gallery": <GalleryPage />,
         "timeline": <TimelinePage />,
         "explore/:subject": <ExplorePage />,
-        "bio/:id": <BioPage />
+        "bio/:id": <BioPage />,
+        "*": () => {
+            redirect("/#/")
+
+            return null
+        }
     }
 
     const router = createHashRouter(Object.entries(routeScheme).map(route => ({ path: route[0], element: route[1] })))
@@ -83,6 +92,7 @@ const App = () => {
                 </div>
             </div>
             {
+                // overlay menu on user open
                 showNavMenu && (
                     <div className={"nav-menu-wrapper"}>
                         <div className={navMenuFadeOut ? "slide-out" : ""}>

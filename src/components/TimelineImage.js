@@ -5,6 +5,8 @@ import * as THREE from "three"
 
 import FastText3D from "./FastText3D"
 
+// memoized to avoid costly rerender of this component in a scene with 100+ children
+// abstracts the process of displaying a timeline image
 const TimelineImage = React.memo(({ x, z, opacity, img, name, dob, dod, era, redirectTo="" }) => {
     const texture1 = useLoader(THREE.TextureLoader, img)
     const texture2 = useLoader(THREE.TextureLoader, "/assets/images/textures/frame.jpg")

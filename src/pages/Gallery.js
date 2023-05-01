@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, Suspense } from "react"
+import React, { useState, useEffect, Suspense } from "react"
 
 import { Canvas, useThree } from "@react-three/fiber"
 import { Vector3 } from "three"
@@ -12,6 +12,7 @@ import FastText3D from "../components/FastText3D"
 
 import { getPathLength, interpolate, SlideAcrossEdge, RotateInPlace } from "../scripts/interpolate"
 
+// memoize the walls in the scene to increase scene render efficiency
 const GalleryMeshes = React.memo(() => {
     const segmentVertices = [
         [0, 0],
@@ -31,6 +32,7 @@ const GalleryMeshes = React.memo(() => {
 
     const wallRenders = []
 
+    // dynamically create geometries
     for(let i = 0;i<segmentVertices.length - 1;i++){
         const x = Math.min(segmentVertices[i][0], segmentVertices[i + 1][0])
         const y = Math.min(segmentVertices[i][1], segmentVertices[i + 1][1])
@@ -74,6 +76,9 @@ const GalleryMeshes = React.memo(() => {
                 <FastText3D width={8} position={[5, 4.2, 0.2]} rotation={[0, 0, 0]} scale={[1, 1, 1]} fontSize={42} fontFamily={`'Quicksand', sans-serif`} color={"rgb(40, 40, 40)"} opacity={1}>Welcome To Eureka's Curated Gallery</FastText3D>
                 <FastText3D width={8} position={[5, 3.8, 0.2]} rotation={[0, 0, 0]} scale={[1, 1, 1]} fontSize={42} fontFamily={`'Quicksand', sans-serif`} color={"rgb(40, 40, 40)"} opacity={1}>Scroll Up And Down To Move Around</FastText3D>
 
+                {
+                    // images are hard coded since the offset makes it necessary to hand adjust these anyway
+                }
                 <GalleryImage x={10} y={2.2} w={3} h={3} angle={-90} img={"/assets/images/people/mozart.jpg"} caption={"Amadeus Mozart"} redirectTo={"/bio/mozart"} />
                 <GalleryImage x={12} y={4.1} w={3} h={3} angle={0} img={"/assets/images/people/newton.jpg"} caption={"Isaac Newton"} redirectTo={"/bio/newton"} />
                 <GalleryImage x={15.5} y={4.1} w={3} h={3} angle={0} img={"/assets/images/people/picasso.jpg"} caption={"Pablo Picasso"} redirectTo={"/bio/picasso"} />
@@ -99,6 +104,7 @@ const GalleryMeshes = React.memo(() => {
     )
 })
 
+// generate entire interpolation path one time to increase memory efficiency
 const path = [
     new SlideAcrossEdge([4, 4], [6, 4], 0),
     new RotateInPlace([6, 4], 0, -90),
@@ -125,8 +131,10 @@ const path = [
     new RotateInPlace([4, 4], 90, 0)
 ]
 
+// also calculated one time for efficiency
 const pathLength = getPathLength(path)
 
+// separate component because that allows it to use the use three hook inside a three js canvas
 const GalleryScene = ({ position }) => {
     const interpolated = interpolate(path, pathLength, position)
 
@@ -153,9 +161,11 @@ const GalleryPage = () => {
         return () => removeEventListener("wheel", wheelHandler)
     }, [position])
 
+    // make sure footer is still shown at the start of gallery even if they make complete trips around forward or backwards
     let wrappedPosition = ((position % pathLength) + pathLength) % pathLength
     if (wrappedPosition > 0.5 * pathLength) wrappedPosition -= pathLength
 
+    // only show the footer at the beginning of the content
     const hideFooter = Math.abs(wrappedPosition - 1) > 1
 
     return (

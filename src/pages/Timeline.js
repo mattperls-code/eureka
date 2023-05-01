@@ -12,6 +12,7 @@ import FastText3D from "../components/FastText3D"
 
 import { getTimeline } from "../scripts/data"
 
+// make the 3D "coming toward you" effect with the timeline images
 const positionFunction = (x) => {
     const scalar = Math.sqrt(Math.abs(x))
     const num = 3 * x ** 4 + x ** 2
@@ -20,9 +21,11 @@ const positionFunction = (x) => {
     return scalar * num / den + 7
 }
 
+// abstraction of timeline image to incorporate the 3D interactive movement
 const TimelineNode = ({ position, offset, img, name, dob, dod, era, redirectTo }) => {
     const x = position + 5.5 * offset
     
+    // clip to prevent lag
     if (Math.abs(x) > 30) return null
 
     const z = -positionFunction(x)
@@ -34,6 +37,7 @@ const TimelineNode = ({ position, offset, img, name, dob, dod, era, redirectTo }
     )
 }
 
+// separate component to fix issues synchronization issues with use loader call
 const ScrollIndicator = ({ instructionsOpacity }) => {
     const mouseTexture = useLoader(THREE.TextureLoader, "/assets/images/mouse/scroll.png")
 
@@ -58,6 +62,7 @@ const TimelinePage = () => {
 
     const timelineNodeRenders = []
 
+    // dynamically create all the timeline nodes from the json data
     timelineNodes.forEach((node, index) => {
         timelineNodeRenders.push(
             <TimelineNode key={index} position={position} offset={node.offset} img={`/assets/images/people/${node.id}.jpg`} name={node.name} dob={node.born} dod={node.died} era={node.era} redirectTo={`/bio/${node.id}`} />
