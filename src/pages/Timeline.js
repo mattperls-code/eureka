@@ -74,7 +74,7 @@ const TimelinePage = () => {
                 {
                     position > 0 ? (
                         <Suspense fallback={null}>
-                            <FastText3D width={100} position={[0, 4, -50]} rotation={[0, 0, 0]} scale={[1, 1, 0.02]} fontSize={48} fontFamily={`'Quicksand', sans-serif`} color={"rgb(40, 40, 40)"} opacity={instructionsOpacity}>Scroll Backward Through Time!</FastText3D>
+                            <FastText3D width={100} position={[0, 4, -50]} rotation={[0, 0, 0]} scale={[1, 1, 0.02]} fontSize={48} fontFamily={`'Quicksand', sans-serif`} color={"rgb(40, 40, 40)"} opacity={instructionsOpacity}>Scroll Forward To Move Backward Through Time!</FastText3D>
                             <FastText3D width={100} position={[0, -2, -50]} rotation={[0, 0, 0]} scale={[1, 1, 0.02]} fontSize={48} fontFamily={`'Quicksand', sans-serif`} color={"rgb(40, 40, 40)"} opacity={instructionsOpacity}>Click On Anyone To View Their Biography</FastText3D>
                             <FastText3D width={100} position={[0, -20, -50]} rotation={[0, 0, 0]} scale={[1, 1, 0.02]} fontSize={32} fontFamily={`'Quicksand', sans-serif`} color={"rgb(40, 40, 40)"} opacity={instructionsOpacity}>Learn More</FastText3D>
                             <ScrollIndicator instructionsOpacity={instructionsOpacity} />
