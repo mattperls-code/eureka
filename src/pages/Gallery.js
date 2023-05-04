@@ -86,7 +86,7 @@ const GalleryMeshes = React.memo(() => {
                 <GalleryImage x={22.5} y={4.1} w={3} h={3} angle={0} img={"/assets/images/people/shakespeare.jpg"} caption={"William Shakespeare"} redirectTo={"/bio/shakespeare"} />
                 <GalleryImage x={26} y={4.1} w={3} h={3} angle={0} img={"/assets/images/people/aristotle.jpg"} caption={"Aristotle"} redirectTo={"/bio/aristotle"} />
                 <GalleryImage x={28} y={6.25} w={3} h={3} angle={-90} img={"/assets/images/people/b-franklin.jpg"} caption={"Benjamin Franklin"} redirectTo={"/bio/b-franklin"} />
-                <GalleryImage x={28} y={9.95} w={3} h={3} angle={-90} img={"/assets/images/people/okeeffe.jpg"} caption={"Georgia O'Keeffe"} redirectTo={"/bio/keeffe"} />
+                <GalleryImage x={28} y={9.95} w={3} h={3} angle={-90} img={"/assets/images/people/okeeffe.jpg"} caption={"Georgia O'Keeffe"} redirectTo={"/bio/okeeffe"} />
                 <GalleryImage x={26} y={12} w={3} h={3} angle={180} img={"/assets/images/people/euler.jpg"} caption={"Leonhard Euler"} redirectTo={"/bio/euler"} />
                 <GalleryImage x={24} y={14} w={3} h={3} angle={-90} img={"/assets/images/people/darwin.jpg"} caption={"Charles Darwin"} redirectTo={"/bio/darwin"} />
                 <GalleryImage x={21.75} y={16} w={3} h={3} angle={180} img={"/assets/images/people/pasteur.jpg"} caption={"Louis Pasteur"} redirectTo={"/bio/pasteur"} />
